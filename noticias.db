@@ -1,0 +1,15 @@
+CREATE DATABASE portal_noticias;
+
+USE portal_noticias;
+
+CREATE TABLE noticias (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    titulo VARCHAR(255),
+    subtitulo VARCHAR(255),
+    descripcion TEXT,
+    categoria VARCHAR(100),
+    fuente VARCHAR(50),
+    url_noticia VARCHAR(500),
+    url_imagen VARCHAR(500),
+    fecha TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

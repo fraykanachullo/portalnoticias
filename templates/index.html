@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Noticias</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            color: white;
+        }
+
+        .header h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        /* Filtros */
+        .filters {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 40px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+
+        .filter-section {
+            margin-bottom: 25px;
+        }
+
+        .filter-section:last-child {
+            margin-bottom: 0;
+        }
+
+        .filter-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .filter-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 12px;
+        }
+
+        .btn {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            transition: left 0.5s;
+        }
+
+        .btn:hover:before {
+            left: 100%;
+        }
+
+        .fuente-btn {
+            background: linear-gradient(45deg, #ff6b6b, #ee5a24);
+            color: white;
+            box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+        }
+
+        .fuente-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(255, 107, 107, 0.4);
+        }
+
+        .fuente-btn.active {
+            background: linear-gradient(45deg, #ee5a24, #ff6b6b);
+            transform: scale(1.05);
+        }
+
+        .categoria-btn {
+            background: linear-gradient(45deg, #10ac84, #1dd1a1);
+            color: white;
+            box-shadow: 0 4px 15px rgba(16, 172, 132, 0.3);
+        }
+
+        .categoria-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(16, 172, 132, 0.4);
+        }
+
+        .categoria-btn.active {
+            background: linear-gradient(45deg, #1dd1a1, #10ac84);
+            transform: scale(1.05);
+        }
+
+        /* Categorías ocultas inicialmente */
+        .categorias-section {
+            display: none;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.3s ease;
+        }
+
+        .categorias-section.show {
+            display: block;
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Noticias */
+        .noticias-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 25px;
+            margin-top: 40px;
+        }
+
+        .noticia {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 25px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            display: none;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .noticia:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: linear-gradient(90deg, #ff6b6b, #10ac84, #667eea);
+        }
+
+        .noticia:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+        }
+
+        .noticia.show {
+            display: block;
+            animation: slideIn 0.5s ease forwards;
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .noticia h3 {
+            color: #2c3e50;
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+            line-height: 1.4;
+        }
+
+        .noticia h4 {
+            color: #34495e;
+            font-size: 1.1rem;
+            font-weight: 500;
+            margin-bottom: 15px;
+            opacity: 0.8;
+        }
+
+        .noticia p {
+            color: #555;
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        .noticia img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 12px;
+            margin: 15px 0;
+            transition: transform 0.3s ease;
+        }
+
+        .noticia img:hover {
+            transform: scale(1.02);
+        }
+
+        .noticia-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+            border-top: 1px solid #eee;
+            margin-top: 15px;
+            font-size: 0.9rem;
+            color: #7f8c8d;
+        }
+
+        .fuente-badge {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+
+        .fecha {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .leer-mas {
+            display: inline-block;
+            background: linear-gradient(45deg, #ff6b6b, #ee5a24);
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            margin-top: 10px;
+        }
+
+        .leer-mas:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(255, 107, 107, 0.4);
+        }
+
+        /* Loading spinner */
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 40px;
+        }
+
+        .spinner {
+            width: 50px;
+            height: 50px;
+            border: 4px solid rgba(255, 255, 255, 0.3);
+            border-top: 4px solid white;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+            }
+
+            .header h1 {
+                font-size: 2.2rem;
+            }
+
+            .filters {
+                padding: 20px;
+            }
+
+            .noticias-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+
+            .filter-buttons {
+                gap: 8px;
+            }
+
+            .btn {
+                padding: 10px 18px;
+                font-size: 13px;
+            }
+
+            .noticia-meta {
+                flex-direction: column;
+                gap: 8px;
+                align-items: flex-start;
+            }
+        }
+
+        /* Animación de entrada */
+        .fade-in {
+            animation: fadeIn 0.6s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header fade-in">
+            <h1><i class="fas fa-newspaper"></i> Portal de Noticias</h1>
+            <p>Tu fuente confiable de información actualizada</p>
+        </div>
+
+        <!-- Filtros -->
+        <div class="filters fade-in">
+            <!-- Selección de Fuente -->
+            <div class="filter-section">
+                <div class="filter-title">
+                    <i class="fas fa-building"></i> Selecciona una Fuente
+                </div>
+                <div class="filter-buttons">
+                    <button class="btn fuente-btn" onclick="seleccionarFuente('RPP')">
+                        <i class="fas fa-radio"></i> RPP
+                    </button>
+                    <button class="btn fuente-btn" onclick="seleccionarFuente('America TV')">
+                        <i class="fas fa-tv"></i> América TV
+                    </button>
+                </div>
+            </div>
+
+            <!-- Selección de Categoría -->
+            <div class="filter-section categorias-section" id="categorias-container">
+                <div class="filter-title">
+                    <i class="fas fa-tags"></i> Selecciona una Categoría
+                </div>
+                <div class="filter-buttons" id="categorias-buttons"></div>
+            </div>
+        </div>
+
+        <!-- Loading -->
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p style="color: white;">Cargando noticias...</p>
+        </div>
+
+        <!-- Contenedor de Noticias -->
+        <div class="noticias-grid" id="noticias-container">
+            {% for categoria, noticias in noticias_por_categoria.items() %}
+                {% for noticia in noticias %}
+                    <div class="noticia" 
+                         data-fuente="{{ noticia['fuente'] }}" 
+                         data-categoria="{{ categoria }}">
+                        <h3>{{ noticia['titulo'] }}</h3>
+                        {% if noticia['subtitulo'] and noticia['subtitulo'] != 'No hay subtítulo disponible' %}
+                            <h4>{{ noticia['subtitulo'] }}</h4>
+                        {% endif %}
+                        <p>{{ noticia['descripcion'] or "No hay descripción disponible." }}</p>
+                        {% if noticia['imagen_url'] %}
+                            <img src="{{ noticia['imagen_url'] }}" alt="Imagen noticia" onerror="this.style.display='none'">
+                        {% endif %}
+                        <div class="noticia-meta">
+                            <span class="fuente-badge">
+                                <i class="fas fa-building"></i> {{ noticia['fuente'] or "Desconocida" }}
+                            </span>
+                            {% if noticia['fecha_publicacion'] %}
+                                <span class="fecha">
+                                    <i class="fas fa-clock"></i>
+                                    {{ noticia['fecha_publicacion'].strftime('%d/%m/%Y %H:%M') }}
+                                </span>
+                            {% endif %}
+                        </div>
+                        {% if noticia['url'] %}
+                            <a href="{{ noticia['url'] }}" target="_blank" class="leer-mas">
+                                <i class="fas fa-external-link-alt"></i> Leer más
+                            </a>
+                        {% endif %}
+                    </div>
+                {% endfor %}
+            {% endfor %}
+        </div>
+    </div>
+
+    <script>
+        let fuenteSeleccionada = null;
+        let categoriaSeleccionada = null;
+
+        // Categorías dinámicas según la fuente
+        const categoriasPorFuente = {
+            "RPP": ["Últimas Noticias", "Política", "Actualidad", "Deportes", "Economía"],
+            "America TV": ["Noticias", "Deportes", "Entretenimiento", ]
+        };
+
+        function seleccionarFuente(fuente) {
+            fuenteSeleccionada = fuente;
+            
+            // Actualizar botones de fuente
+            document.querySelectorAll('.fuente-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.classList.add('active');
+
+            // Mostrar categorías
+            const categoriasContainer = document.getElementById('categorias-container');
+            const categoriasButtons = document.getElementById('categorias-buttons');
+            
+            categoriasButtons.innerHTML = '';
+
+            // Botón "Todas"
+            const todasBtn = document.createElement('button');
+            todasBtn.innerHTML = '<i class="fas fa-list"></i> Todas';
+            todasBtn.className = 'btn categoria-btn active';
+            todasBtn.onclick = (e) => filtrarCategoria('Todas', e.target);
+            categoriasButtons.appendChild(todasBtn);
+
+            // Botones de categorías específicas
+            categoriasPorFuente[fuente].forEach(cat => {
+                const btn = document.createElement('button');
+                btn.innerHTML = `<i class="fas fa-tag"></i> ${cat}`;
+                btn.className = 'btn categoria-btn';
+                btn.onclick = (e) => filtrarCategoria(cat, e.target);
+                categoriasButtons.appendChild(btn);
+            });
+
+            // Mostrar sección de categorías con animación
+            setTimeout(() => {
+                categoriasContainer.classList.add('show');
+            }, 100);
+
+            // Filtrar automáticamente por "Todas"
+            filtrarCategoria('Todas', todasBtn);
+        }
+
+        function filtrarCategoria(categoria, btnElement) {
+            categoriaSeleccionada = categoria;
+            
+            // Mostrar loading
+            document.getElementById('loading').style.display = 'block';
+
+            // Actualizar botones de categoría
+            document.querySelectorAll('.categoria-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            if (btnElement) {
+                btnElement.classList.add('active');
+            }
+
+            // Simular delay para una mejor experiencia de usuario
+            setTimeout(() => {
+                const noticias = document.querySelectorAll('.noticia');
+                let noticiasVisibles = 0;
+
+                noticias.forEach((noticia, index) => {
+                    const coincideFuente = noticia.dataset.fuente === fuenteSeleccionada;
+                    const coincideCategoria = categoria === 'Todas' || noticia.dataset.categoria === categoria;
+                    
+                    if (coincideFuente && coincideCategoria) {
+                        setTimeout(() => {
+                            noticia.classList.add('show');
+                        }, index * 100);
+                        noticiasVisibles++;
+                    } else {
+                        noticia.classList.remove('show');
+                    }
+                });
+
+                // Ocultar loading
+                document.getElementById('loading').style.display = 'none';
+
+                // Scroll suave hacia las noticias si hay resultados
+                if (noticiasVisibles > 0) {
+                    setTimeout(() => {
+                        document.getElementById('noticias-container').scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }, 500);
+                }
+            }, 800);
+        }
+
+        // Animación inicial
+        document.addEventListener('DOMContentLoaded', function() {
+            // Agregar efectos de aparición gradual a los elementos
+            const elements = document.querySelectorAll('.fade-in');
+            elements.forEach((el, index) => {
+                setTimeout(() => {
+                    el.style.opacity = '1';
+                    el.style.transform = 'translateY(0)';
+                }, index * 200);
+            });
+        });
+
+        // Efecto parallax suave en el scroll
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const rate = scrolled * -0.5;
+            document.body.style.backgroundPosition = `0 ${rate}px`;
+        });
+    </script>
+</body>
+</html>
