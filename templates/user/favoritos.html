@@ -1,0 +1,27 @@
+{% extends "user/user_layout.html" %}
+
+{% block title %}Favoritos - Noticias 2025{% endblock %}
+
+{% block content %}
+<h2 class="fw-bold mb-4">
+    <i class="fa-solid fa-heart"></i> Favoritos
+</h2>
+
+<div class="row">
+    {% if favoritos %}
+        {% for favorito in favoritos %}
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm p-3">
+                    <h5><i class="fa-solid fa-newspaper text-danger"></i> {{ favorito.titulo }}</h5>
+                    <p>{{ favorito.descripcion }}</p>
+                    <a href="{{ favorito.url_noticia }}" class="btn btn-primary" target="_blank">Leer más</a>
+                </div>
+            </div>
+        {% endfor %}
+    {% else %}
+        <div class="col-12">
+            <p>No tienes favoritos aún.</p>
+        </div>
+    {% endif %}
+</div>
+{% endblock %}

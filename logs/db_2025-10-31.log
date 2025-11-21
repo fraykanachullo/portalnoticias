@@ -1,0 +1,23 @@
+2025-10-31 20:16:54,898 [INFO] \u2705 Pool de conexiones MySQL inicializado correctamente.
+2025-10-31 20:16:56,004 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.104:5000
+2025-10-31 20:16:56,005 [INFO] [33mPress CTRL+C to quit[0m
+2025-10-31 20:18:30,399 [INFO] 127.0.0.1 - - [31/Oct/2025 20:18:30] "GET / HTTP/1.1" 200 -
+2025-10-31 20:18:31,199 [INFO] 127.0.0.1 - - [31/Oct/2025 20:18:31] "[33mGET /_next/image?url=/img/libro-reclamaciones-ico.png&w=256&q=75 HTTP/1.1[0m" 404 -
+2025-10-31 20:18:32,670 [INFO] 127.0.0.1 - - [31/Oct/2025 20:18:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-31 20:19:50,601 [INFO] 127.0.0.1 - - [31/Oct/2025 20:19:50] "GET / HTTP/1.1" 200 -
+2025-10-31 20:19:50,911 [INFO] 127.0.0.1 - - [31/Oct/2025 20:19:50] "[33mGET /_next/image?url=/img/libro-reclamaciones-ico.png&w=256&q=75 HTTP/1.1[0m" 404 -
+2025-10-31 20:19:53,420 [INFO] 127.0.0.1 - - [31/Oct/2025 20:19:53] "GET / HTTP/1.1" 200 -
+2025-10-31 20:19:53,445 [INFO] 127.0.0.1 - - [31/Oct/2025 20:19:53] "[33mGET /_next/image?url=/img/libro-reclamaciones-ico.png&w=256&q=75 HTTP/1.1[0m" 404 -
+2025-10-31 20:20:33,393 [INFO] \u2705 Pool de conexiones MySQL inicializado correctamente.
+2025-10-31 20:20:33,641 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.104:5000
+2025-10-31 20:20:33,641 [INFO] [33mPress CTRL+C to quit[0m
+2025-10-31 20:20:43,964 [INFO] 127.0.0.1 - - [31/Oct/2025 20:20:43] "GET / HTTP/1.1" 200 -
+2025-10-31 20:20:44,073 [INFO] 127.0.0.1 - - [31/Oct/2025 20:20:44] "[33mGET /_next/image?url=/img/libro-reclamaciones-ico.png&w=256&q=75 HTTP/1.1[0m" 404 -
+2025-10-31 20:22:42,102 [INFO] 127.0.0.1 - - [31/Oct/2025 20:22:42] "GET / HTTP/1.1" 200 -
+2025-10-31 20:22:42,624 [INFO] 127.0.0.1 - - [31/Oct/2025 20:22:42] "[33mGET /_next/image?url=/img/libro-reclamaciones-ico.png&w=256&q=75 HTTP/1.1[0m" 404 -

@@ -1,0 +1,31 @@
+{% extends "admin/admin_layout.html" %}
+
+{% block admin_content %}
+
+<h2 class="fw-bold mb-4"><i class="fa-solid fa-users"></i> Gestión de Usuarios</h2>
+
+<table class="table table-striped">
+    <thead class="table-dark">
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Email</th>
+            <th>Rol</th>
+            <th>Registro</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        {% for u in usuarios %}
+        <tr>
+            <td>{{ u.id }}</td>
+            <td>{{ u.nombre }}</td>
+            <td>{{ u.email }}</td>
+            <td><span class="badge bg-danger">{{ u.rol }}</span></td>
+            <td>{{ u.fecha_registro }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+{% endblock %}

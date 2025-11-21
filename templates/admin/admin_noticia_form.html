@@ -1,0 +1,85 @@
+{% extends "admin/admin_layout.html" %}
+
+{% block admin_content %}
+
+<h2 class="mb-3">
+  {% if noticia %}
+    <i class="fa-solid fa-pen"></i> Editar noticia
+  {% else %}
+    <i class="fa-solid fa-plus"></i> Nueva noticia
+  {% endif %}
+</h2>
+
+<div class="card shadow-sm border-0">
+  <div class="card-body">
+    <form method="post">
+
+      <div class="mb-3">
+        <label class="form-label">Fuente</label>
+        <select name="fuente_id" class="form-select" required>
+          <option value="">-- Selecciona una fuente --</option>
+          {% for f in fuentes %}
+            <option value="{{ f.id }}"
+              {% if noticia and noticia.fuente_id == f.id %}selected{% endif %}>
+              {{ f.nombre }}
+            </option>
+          {% endfor %}
+        </select>
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Título</label>
+        <input type="text" name="titulo" class="form-control" required
+               value="{{ noticia.titulo if noticia else '' }}">
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Categoría</label>
+        <input type="text" name="categoria" class="form-control"
+               placeholder="Ej: Política, Deportes, Mundo..."
+               value="{{ noticia.categoria if noticia else '' }}">
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Subtítulo</label>
+        <input type="text" name="subtitulo" class="form-control"
+               value="{{ noticia.subtitulo if noticia else '' }}">
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Descripción</label>
+        <textarea name="descripcion" rows="4" class="form-control">{{ noticia.descripcion if noticia else '' }}</textarea>
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">URL de la noticia</label>
+        <input type="url" name="url_noticia" class="form-control" required
+               value="{{ noticia.url_noticia if noticia else '' }}">
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">URL de la imagen</label>
+        <input type="url" name="url_imagen" class="form-control"
+               value="{{ noticia.url_imagen if noticia else '' }}">
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Fecha de publicación</label>
+        <input type="date" name="fecha_publicacion" class="form-control"
+               value="{{ noticia.fecha_publicacion_str if noticia else '' }}">
+        <div class="form-text">Opcional. Si se deja vacío se usará la fecha actual.</div>
+      </div>
+
+      <button class="btn btn-danger" type="submit">
+        <i class="fa-solid fa-save"></i> Guardar
+      </button>
+
+      <a href="{{ url_for('admin.admin_noticias') }}" class="btn btn-secondary ms-2">
+        Cancelar
+      </a>
+
+    </form>
+  </div>
+</div>
+
+{% endblock %}

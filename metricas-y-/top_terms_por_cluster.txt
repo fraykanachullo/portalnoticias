@@ -1,0 +1,27 @@
+Cluster 0:
+tras, perú, años, gobierno, congreso, 2025, trump, lima, según, boluarte, 2026, elecciones, policía, unidos, dos
+
+Cluster 1:
+cnn, cnnespanol, href, https, com, first, appeared, on, the, post, video, noticias, trump, 2024, tv
+
+Cluster 2:
+descripción, disponible, perú, tras, mundial, lima, fecha, cuándo, evitamiento, liga, congreso, vía, septiembre, sports, caso
+
+Cluster 3:
+alianza, lima, torneo, clausura, copa, universitario, liga, sudamericana, libertadores, vs, fecha, partido, 2025, atlético, descentralizado
+
+Cluster 4:
+medium, img, image, peru21, src, sites, itok, http, fluid, efsfiles, class, default, styles, width, height
+
+Cluster 5:
+league, ligas, internacionales, europa, champions, fecha, premier, enfrentaron, vs, encuentro, resumen, detalles, aquí, liga, barcelona
+
+Cluster 6:
+selección, peruana, barreto, chile, manuel, amistoso, convocados, convocatoria, perú, dt, tras, fifa, felipe, lista, chávez
+
+Cluster 7:
+dólar, latina, hoy, perú, américa, precio, temblor, igp, tipo, cotización, octubre, cambio, último, según, mundo
+
+Cluster 8:
+paro, transportistas, octubre, lima, afp, milagros, señor, transporte, callao, retiro, gobierno, gremios, 2025, noviembre, horarios
+

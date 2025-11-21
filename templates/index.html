@@ -1,545 +1,453 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portal de Noticias</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+{% extends "base.html" %}
+{% block title %}Noticias 2025{% endblock %}
+{% block content %}
 
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-            line-height: 1.6;
-        }
+<style>
+/* ========================= */
+/* NAV CATEGORÍAS */
+/* ========================= */
+.category-nav {
+    white-space: nowrap;
+    overflow-x: auto;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 16px;
+}
+.category-nav a {
+    display: inline-block;
+    margin-right: 16px;
+    font-weight: 600;
+    color: #444;
+    text-decoration: none;
+    padding-bottom: 6px;
+    font-size: 15px;
+}
+.category-nav a:hover {
+    color: #e40326;
+}
+.category-nav a.active {
+    color: #e40326;
+    border-bottom: 3px solid #e40326;
+}
 
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
+/* ========================= */
+/* PORTADA PRINCIPAL */
+/* ========================= */
+.main-feature {
+    height: 430px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    position: relative;
+    color: white;
+    overflow: hidden;
+}
+.main-feature .overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0.15),
+        rgba(0,0,0,0.9)
+    );
+}
+.main-feature .text-area {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    right: 25px;
+}
 
-        /* Header */
-        .header {
-            text-align: center;
-            margin-bottom: 40px;
-            color: white;
-        }
+/* ========================= */
+/* PORTADAS SECUNDARIAS */
+/* ========================= */
+.feature-small {
+    height: 210px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 14px;
+    position: relative;
+    color: white;
+    overflow: hidden;
+}
+.feature-small .overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0.25),
+        rgba(0,0,0,0.9)
+    );
+}
+.feature-small .text-area {
+    position: absolute;
+    bottom: 12px;
+    left: 15px;
+}
 
-        .header h1 {
-            font-size: 3rem;
-            font-weight: 700;
-            margin-bottom: 10px;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-        }
+/* ========================= */
+/* CARDS NOTICIAS */
+/* ========================= */
+.card-news {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+.card-news img {
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+}
 
-        .header p {
-            font-size: 1.2rem;
-            opacity: 0.9;
-        }
+/* ========================= */
+/* SIDEBAR */
+/* ========================= */
+.sidebar-card {
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+.sidebar-item-title {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
 
-        /* Filtros */
-        .filters {
-            background: rgba(255, 255, 255, 0.95);
-            backdrop-filter: blur(10px);
-            border-radius: 20px;
-            padding: 30px;
-            margin-bottom: 40px;
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-        }
+/* ========================= */
+/* FALLBACK DE IMAGEN */
+/* ========================= */
+.fallback-img {
+    background-color: #ddd;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
-        .filter-section {
-            margin-bottom: 25px;
-        }
+/* ========================= */
+/* PAGINACIÓN */
+/* ========================= */
+.pagination .page-link {
+    color: #e40326;
+}
+.pagination .page-item.active .page-link {
+    background-color: #e40326;
+    border-color: #e40326;
+}
+</style>
 
-        .filter-section:last-child {
-            margin-bottom: 0;
-        }
+<!-- ===================================================== -->
+<!-- 🔝 CABECERA: CATEGORÍAS + BUSCADOR + RESUMEN STATS -->
+<!-- ===================================================== -->
 
-        .filter-title {
-            font-size: 1.1rem;
-            font-weight: 600;
-            color: #333;
-            margin-bottom: 15px;
-            text-align: center;
-        }
+<div class="row align-items-center mb-3">
 
-        .filter-buttons {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 12px;
-        }
+    <div class="col-md-8">
+        <div class="category-nav">
 
-        .btn {
-            padding: 12px 24px;
-            border: none;
-            border-radius: 50px;
-            cursor: pointer;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.3s ease;
-            position: relative;
-            overflow: hidden;
-        }
+            <!-- Últimas noticias (sin filtro categoría) -->
+            <a href="/"
+               class="{{ 'active' if not request.args.get('categoria') else '' }}">
+                Últimas noticias
+            </a>
 
-        .btn:before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: -100%;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
-            transition: left 0.5s;
-        }
+            <!-- Categorías fijas “premium” -->
+            <a href="/?categoria=Deportes"
+               class="{{ 'active' if request.args.get('categoria')=='Deportes' else '' }}">
+                Deportes
+            </a>
 
-        .btn:hover:before {
-            left: 100%;
-        }
+            <a href="/?categoria=Política"
+               class="{{ 'active' if request.args.get('categoria')=='Política' else '' }}">
+                Política
+            </a>
 
-        .fuente-btn {
-            background: linear-gradient(45deg, #ff6b6b, #ee5a24);
-            color: white;
-            box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
-        }
+            <a href="/?categoria=Mundo"
+               class="{{ 'active' if request.args.get('categoria')=='Mundo' else '' }}">
+                Mundo
+            </a>
 
-        .fuente-btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(255, 107, 107, 0.4);
-        }
+            <a href="/?categoria=Economía"
+               class="{{ 'active' if request.args.get('categoria')=='Economía' else '' }}">
+                Economía
+            </a>
 
-        .fuente-btn.active {
-            background: linear-gradient(45deg, #ee5a24, #ff6b6b);
-            transform: scale(1.05);
-        }
+            <a href="/?categoria=Espectáculos"
+               class="{{ 'active' if request.args.get('categoria')=='Espectáculos' else '' }}">
+                Espectáculos
+            </a>
 
-        .categoria-btn {
-            background: linear-gradient(45deg, #10ac84, #1dd1a1);
-            color: white;
-            box-shadow: 0 4px 15px rgba(16, 172, 132, 0.3);
-        }
-
-        .categoria-btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(16, 172, 132, 0.4);
-        }
-
-        .categoria-btn.active {
-            background: linear-gradient(45deg, #1dd1a1, #10ac84);
-            transform: scale(1.05);
-        }
-
-        /* Categorías ocultas inicialmente */
-        .categorias-section {
-            display: none;
-            opacity: 0;
-            transform: translateY(20px);
-            transition: all 0.3s ease;
-        }
-
-        .categorias-section.show {
-            display: block;
-            opacity: 1;
-            transform: translateY(0);
-        }
-
-        /* Noticias */
-        .noticias-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            gap: 25px;
-            margin-top: 40px;
-        }
-
-        .noticia {
-            background: rgba(255, 255, 255, 0.95);
-            backdrop-filter: blur(10px);
-            border-radius: 20px;
-            padding: 25px;
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-            transition: all 0.3s ease;
-            display: none;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .noticia:before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 4px;
-            background: linear-gradient(90deg, #ff6b6b, #10ac84, #667eea);
-        }
-
-        .noticia:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
-        }
-
-        .noticia.show {
-            display: block;
-            animation: slideIn 0.5s ease forwards;
-        }
-
-        @keyframes slideIn {
-            from {
-                opacity: 0;
-                transform: translateY(30px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        .noticia h3 {
-            color: #2c3e50;
-            font-size: 1.3rem;
-            font-weight: 700;
-            margin-bottom: 12px;
-            line-height: 1.4;
-        }
-
-        .noticia h4 {
-            color: #34495e;
-            font-size: 1.1rem;
-            font-weight: 500;
-            margin-bottom: 15px;
-            opacity: 0.8;
-        }
-
-        .noticia p {
-            color: #555;
-            margin-bottom: 15px;
-            text-align: justify;
-        }
-
-        .noticia img {
-            width: 100%;
-            height: 200px;
-            object-fit: cover;
-            border-radius: 12px;
-            margin: 15px 0;
-            transition: transform 0.3s ease;
-        }
-
-        .noticia img:hover {
-            transform: scale(1.02);
-        }
-
-        .noticia-meta {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 15px 0;
-            border-top: 1px solid #eee;
-            margin-top: 15px;
-            font-size: 0.9rem;
-            color: #7f8c8d;
-        }
-
-        .fuente-badge {
-            background: linear-gradient(45deg, #667eea, #764ba2);
-            color: white;
-            padding: 4px 12px;
-            border-radius: 20px;
-            font-size: 0.8rem;
-            font-weight: 500;
-        }
-
-        .fecha {
-            display: flex;
-            align-items: center;
-            gap: 5px;
-        }
-
-        .leer-mas {
-            display: inline-block;
-            background: linear-gradient(45deg, #ff6b6b, #ee5a24);
-            color: white;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 25px;
-            font-weight: 500;
-            transition: all 0.3s ease;
-            margin-top: 10px;
-        }
-
-        .leer-mas:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(255, 107, 107, 0.4);
-        }
-
-        /* Loading spinner */
-        .loading {
-            display: none;
-            text-align: center;
-            padding: 40px;
-        }
-
-        .spinner {
-            width: 50px;
-            height: 50px;
-            border: 4px solid rgba(255, 255, 255, 0.3);
-            border-top: 4px solid white;
-            border-radius: 50%;
-            animation: spin 1s linear infinite;
-            margin: 0 auto 20px;
-        }
-
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
-
-        /* Responsive */
-        @media (max-width: 768px) {
-            .container {
-                padding: 15px;
-            }
-
-            .header h1 {
-                font-size: 2.2rem;
-            }
-
-            .filters {
-                padding: 20px;
-            }
-
-            .noticias-grid {
-                grid-template-columns: 1fr;
-                gap: 20px;
-            }
-
-            .filter-buttons {
-                gap: 8px;
-            }
-
-            .btn {
-                padding: 10px 18px;
-                font-size: 13px;
-            }
-
-            .noticia-meta {
-                flex-direction: column;
-                gap: 8px;
-                align-items: flex-start;
-            }
-        }
-
-        /* Animación de entrada */
-        .fade-in {
-            animation: fadeIn 0.6s ease-in;
-        }
-
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <!-- Header -->
-        <div class="header fade-in">
-            <h1><i class="fas fa-newspaper"></i> Portal de Noticias</h1>
-            <p>Tu fuente confiable de información actualizada</p>
-        </div>
-
-        <!-- Filtros -->
-        <div class="filters fade-in">
-            <!-- Selección de Fuente -->
-            <div class="filter-section">
-                <div class="filter-title">
-                    <i class="fas fa-building"></i> Selecciona una Fuente
-                </div>
-                <div class="filter-buttons">
-                    <button class="btn fuente-btn" onclick="seleccionarFuente('RPP')">
-                        <i class="fas fa-radio"></i> RPP
-                    </button>
-                    <button class="btn fuente-btn" onclick="seleccionarFuente('America TV')">
-                        <i class="fas fa-tv"></i> América TV
-                    </button>
-                </div>
-            </div>
-
-            <!-- Selección de Categoría -->
-            <div class="filter-section categorias-section" id="categorias-container">
-                <div class="filter-title">
-                    <i class="fas fa-tags"></i> Selecciona una Categoría
-                </div>
-                <div class="filter-buttons" id="categorias-buttons"></div>
-            </div>
-        </div>
-
-        <!-- Loading -->
-        <div class="loading" id="loading">
-            <div class="spinner"></div>
-            <p style="color: white;">Cargando noticias...</p>
-        </div>
-
-        <!-- Contenedor de Noticias -->
-        <div class="noticias-grid" id="noticias-container">
-            {% for categoria, noticias in noticias_por_categoria.items() %}
-                {% for noticia in noticias %}
-                    <div class="noticia" 
-                         data-fuente="{{ noticia['fuente'] }}" 
-                         data-categoria="{{ categoria }}">
-                        <h3>{{ noticia['titulo'] }}</h3>
-                        {% if noticia['subtitulo'] and noticia['subtitulo'] != 'No hay subtítulo disponible' %}
-                            <h4>{{ noticia['subtitulo'] }}</h4>
-                        {% endif %}
-                        <p>{{ noticia['descripcion'] or "No hay descripción disponible." }}</p>
-                        {% if noticia['imagen_url'] %}
-                            <img src="{{ noticia['imagen_url'] }}" alt="Imagen noticia" onerror="this.style.display='none'">
-                        {% endif %}
-                        <div class="noticia-meta">
-                            <span class="fuente-badge">
-                                <i class="fas fa-building"></i> {{ noticia['fuente'] or "Desconocida" }}
-                            </span>
-                            {% if noticia['fecha_publicacion'] %}
-                                <span class="fecha">
-                                    <i class="fas fa-clock"></i>
-                                    {{ noticia['fecha_publicacion'].strftime('%d/%m/%Y %H:%M') }}
-                                </span>
-                            {% endif %}
-                        </div>
-                        {% if noticia['url'] %}
-                            <a href="{{ noticia['url'] }}" target="_blank" class="leer-mas">
-                                <i class="fas fa-external-link-alt"></i> Leer más
-                            </a>
-                        {% endif %}
-                    </div>
-                {% endfor %}
+            <!-- Categorías dinámicas desde BD (evitamos duplicar las fijas) -->
+            {% for c in categorias %}
+                {% if c not in ['Deportes','Política','Mundo','Economía','Espectáculos'] %}
+                    <a href="/?categoria={{ c }}"
+                       class="{{ 'active' if request.args.get('categoria') == c else '' }}">
+                        {{ c }}
+                    </a>
+                {% endif %}
             {% endfor %}
         </div>
     </div>
 
-    <script>
-        let fuenteSeleccionada = null;
-        let categoriaSeleccionada = null;
+    <!-- Buscador -->
+    <div class="col-md-4 mt-3 mt-md-0">
+        <form class="d-flex" method="get" action="/">
+            <input type="hidden" name="categoria" value="{{ request.args.get('categoria','') }}">
+            <input type="text"
+                   name="q"
+                   class="form-control form-control-sm me-2"
+                   placeholder="Buscar noticia..."
+                   value="{{ request.args.get('q','') }}">
+            <button class="btn btn-sm btn-danger" type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </form>
+    </div>
+</div>
 
-        // Categorías dinámicas según la fuente
-        const categoriasPorFuente = {
-            "RPP": ["Últimas Noticias", "Política", "Actualidad", "Deportes", "Economía"],
-            "America TV": ["Noticias", "Deportes", "Entretenimiento", ]
-        };
+<!-- Resumen chiquito -->
+{% if stats %}
+<p class="text-muted small mb-3">
+    Mostrando <b>{{ total_noticias_filtradas }}</b> noticias ·
+    <b>{{ stats.total_fuentes }}</b> fuentes ·
+    <b>{{ stats.total_categorias }}</b> categorías
+</p>
+{% endif %}
 
-        function seleccionarFuente(fuente) {
-            fuenteSeleccionada = fuente;
-            
-            // Actualizar botones de fuente
-            document.querySelectorAll('.fuente-btn').forEach(btn => {
-                btn.classList.remove('active');
-            });
-            event.target.classList.add('active');
 
-            // Mostrar categorías
-            const categoriasContainer = document.getElementById('categorias-container');
-            const categoriasButtons = document.getElementById('categorias-buttons');
-            
-            categoriasButtons.innerHTML = '';
+<!-- ===================================================== -->
+<!-- 📰 PORTADA PRINCIPAL + SECUNDARIAS -->
+<!-- ===================================================== -->
 
-            // Botón "Todas"
-            const todasBtn = document.createElement('button');
-            todasBtn.innerHTML = '<i class="fas fa-list"></i> Todas';
-            todasBtn.className = 'btn categoria-btn active';
-            todasBtn.onclick = (e) => filtrarCategoria('Todas', e.target);
-            categoriasButtons.appendChild(todasBtn);
+{% if noticias and noticias|length > 0 %}
+<div class="row mb-4">
 
-            // Botones de categorías específicas
-            categoriasPorFuente[fuente].forEach(cat => {
-                const btn = document.createElement('button');
-                btn.innerHTML = `<i class="fas fa-tag"></i> ${cat}`;
-                btn.className = 'btn categoria-btn';
-                btn.onclick = (e) => filtrarCategoria(cat, e.target);
-                categoriasButtons.appendChild(btn);
-            });
+    <!-- PORTADA PRINCIPAL -->
+    <div class="col-lg-8 mb-3 mb-lg-0">
 
-            // Mostrar sección de categorías con animación
-            setTimeout(() => {
-                categoriasContainer.classList.add('show');
-            }, 100);
+        {% set portada = noticias[0] %}
+        {% set portada_img = portada.url_imagen if portada.url_imagen else "https://via.placeholder.com/800x450?text=Sin+Imagen" %}
 
-            // Filtrar automáticamente por "Todas"
-            filtrarCategoria('Todas', todasBtn);
-        }
+        <a href="{{ portada.url_noticia }}" target="_blank">
+            <div class="main-feature" style="background-image:url('{{ portada_img }}')">
 
-        function filtrarCategoria(categoria, btnElement) {
-            categoriaSeleccionada = categoria;
-            
-            // Mostrar loading
-            document.getElementById('loading').style.display = 'block';
+                <div class="overlay"></div>
 
-            // Actualizar botones de categoría
-            document.querySelectorAll('.categoria-btn').forEach(btn => {
-                btn.classList.remove('active');
-            });
-            if (btnElement) {
-                btnElement.classList.add('active');
-            }
+                <div class="text-area">
+                    <span class="badge bg-danger px-3 py-1">{{ portada.fuente }}</span>
+                    <h2 class="fw-bold mt-2">{{ portada.titulo }}</h2>
+                    {% if portada.categoria %}
+                        <span class="badge bg-light text-dark mt-2">{{ portada.categoria }}</span>
+                    {% endif %}
+                </div>
+            </div>
+        </a>
+    </div>
 
-            // Simular delay para una mejor experiencia de usuario
-            setTimeout(() => {
-                const noticias = document.querySelectorAll('.noticia');
-                let noticiasVisibles = 0;
+    <!-- PORTADAS SECUNDARIAS -->
+    <div class="col-lg-4">
 
-                noticias.forEach((noticia, index) => {
-                    const coincideFuente = noticia.dataset.fuente === fuenteSeleccionada;
-                    const coincideCategoria = categoria === 'Todas' || noticia.dataset.categoria === categoria;
-                    
-                    if (coincideFuente && coincideCategoria) {
-                        setTimeout(() => {
-                            noticia.classList.add('show');
-                        }, index * 100);
-                        noticiasVisibles++;
-                    } else {
-                        noticia.classList.remove('show');
-                    }
-                });
+        {% for n in noticias[1:3] %}
+            {% set img = n.url_imagen if n.url_imagen else "https://via.placeholder.com/800x450?text=Sin+Imagen" %}
+            <a href="{{ n.url_noticia }}" target="_blank">
+                <div class="feature-small mb-3" style="background-image:url('{{ img }}')">
+                    <div class="overlay"></div>
+                    <div class="text-area">
+                        <span class="badge bg-dark">{{ n.fuente }}</span>
+                        <h6 class="fw-bold mt-2">{{ n.titulo }}</h6>
+                    </div>
+                </div>
+            </a>
+        {% endfor %}
 
-                // Ocultar loading
-                document.getElementById('loading').style.display = 'none';
+    </div>
 
-                // Scroll suave hacia las noticias si hay resultados
-                if (noticiasVisibles > 0) {
-                    setTimeout(() => {
-                        document.getElementById('noticias-container').scrollIntoView({
-                            behavior: 'smooth',
-                            block: 'start'
-                        });
-                    }, 500);
-                }
-            }, 800);
-        }
+</div>
+{% endif %}
 
-        // Animación inicial
-        document.addEventListener('DOMContentLoaded', function() {
-            // Agregar efectos de aparición gradual a los elementos
-            const elements = document.querySelectorAll('.fade-in');
-            elements.forEach((el, index) => {
-                setTimeout(() => {
-                    el.style.opacity = '1';
-                    el.style.transform = 'translateY(0)';
-                }, index * 200);
-            });
-        });
 
-        // Efecto parallax suave en el scroll
-        window.addEventListener('scroll', () => {
-            const scrolled = window.pageYOffset;
-            const rate = scrolled * -0.5;
-            document.body.style.backgroundPosition = `0 ${rate}px`;
-        });
-    </script>
-</body>
-</html>
+<!-- ===================================================== -->
+<!-- 🧱 CUERPO: GRID + SIDEBAR -->
+<!-- ===================================================== -->
+
+<div class="row">
+
+    <!-- ========= GRID DE NOTICIAS ========= -->
+    <div class="col-lg-9">
+
+        <h4 class="fw-bold mb-3">
+            {% if request.args.get('categoria') %}
+                {{ request.args.get('categoria') }} · Últimas noticias
+            {% else %}
+                Últimas Noticias
+            {% endif %}
+        </h4>
+
+        <div class="row">
+            {% for n in noticias[3:15] %}
+                {% set img = n.url_imagen if n.url_imagen else "https://via.placeholder.com/800x450?text=Sin+Imagen" %}
+                <div class="col-md-4 mb-4">
+                    <div class="card-news">
+                        <img src="{{ img }}">
+                        <div class="p-3">
+                            <small class="text-muted">
+                                {{ n.fuente }}
+                                {% if n.categoria %} · {{ n.categoria }}{% endif %}
+                            </small>
+                            <h6 class="fw-bold mt-1">{{ n.titulo }}</h6>
+                            <a href="{{ n.url_noticia }}" target="_blank"
+                               class="btn btn-danger btn-sm mt-2">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+
+        {% if total_paginas and total_paginas > 1 %}
+{% set current_page = request.args.get('page', 1) | int %}
+
+<nav aria-label="Page navigation">
+    <ul class="pagination justify-content-center mt-3">
+
+        {# Botón « Anterior #}
+        <li class="page-item {% if current_page <= 1 %}disabled{% endif %}">
+            <a class="page-link"
+               href="/?page={{ current_page - 1 if current_page > 1 else 1 }}{% if request.args.get('categoria') %}&categoria={{ request.args.get('categoria') }}{% endif %}{% if request.args.get('q') %}&q={{ request.args.get('q') }}{% endif %}">
+                «
+            </a>
+        </li>
+
+        {# Siempre mostrar la página 1 #}
+        <li class="page-item {% if current_page == 1 %}active{% endif %}">
+            <a class="page-link"
+               href="/?page=1{% if request.args.get('categoria') %}&categoria={{ request.args.get('categoria') }}{% endif %}{% if request.args.get('q') %}&q={{ request.args.get('q') }}{% endif %}">
+                1
+            </a>
+        </li>
+
+        {# Ellipsis si estamos lejos del inicio #}
+        {% if current_page > 4 %}
+        <li class="page-item disabled">
+            <span class="page-link">…</span>
+        </li>
+        {% endif %}
+
+        {# Páginas alrededor de la actual (ej: current-2 … current+2) #}
+        {% set start = 2 if current_page - 2 < 2 else current_page - 2 %}
+        {% set end = (total_paginas - 1) if current_page + 2 > (total_paginas - 1) else current_page + 2 %}
+
+        {% for p in range(start, end + 1) %}
+        <li class="page-item {% if p == current_page %}active{% endif %}">
+            <a class="page-link"
+               href="/?page={{ p }}{% if request.args.get('categoria') %}&categoria={{ request.args.get('categoria') }}{% endif %}{% if request.args.get('q') %}&q={{ request.args.get('q') }}{% endif %}">
+                {{ p }}
+            </a>
+        </li>
+        {% endfor %}
+
+        {# Ellipsis si estamos lejos del final #}
+        {% if current_page < total_paginas - 3 %}
+        <li class="page-item disabled">
+            <span class="page-link">…</span>
+        </li>
+        {% endif %}
+
+        {# Siempre mostrar la última página (si hay más de 1) #}
+        {% if total_paginas > 1 %}
+        <li class="page-item {% if current_page == total_paginas %}active{% endif %}">
+            <a class="page-link"
+               href="/?page={{ total_paginas }}{% if request.args.get('categoria') %}&categoria={{ request.args.get('categoria') }}{% endif %}{% if request.args.get('q') %}&q={{ request.args.get('q') }}{% endif %}">
+                {{ total_paginas }}
+            </a>
+        </li>
+        {% endif %}
+
+        {# Botón Siguiente » #}
+        <li class="page-item {% if current_page >= total_paginas %}disabled{% endif %}">
+            <a class="page-link"
+               href="/?page={{ current_page + 1 if current_page < total_paginas else total_paginas }}{% if request.args.get('categoria') %}&categoria={{ request.args.get('categoria') }}{% endif %}{% if request.args.get('q') %}&q={{ request.args.get('q') }}{% endif %}">
+                »
+            </a>
+        </li>
+
+    </ul>
+</nav>
+{% endif %}
+
+    </div>
+
+
+    <!-- ========= SIDEBAR: TENDENCIAS + FACEBOOK ========= -->
+    <div class="col-lg-3">
+
+        <!-- Tendencias -->
+        <div class="card sidebar-card mb-4">
+            <div class="card-body">
+                <h5 class="fw-bold mb-3">
+                    <i class="fa-solid fa-fire text-danger"></i> Tendencias
+                </h5>
+
+                {% set tendencias = noticias[:5] if noticias else [] %}
+
+                {% if tendencias %}
+                    {% for t in tendencias %}
+                        <div class="mb-3">
+                            <a href="{{ t.url_noticia }}" target="_blank"
+                               class="text-decoration-none text-dark">
+                                <div class="sidebar-item-title">
+                                    {{ t.titulo }}
+                                </div>
+                            </a>
+                            <small class="text-muted">{{ t.fuente }}</small>
+                        </div>
+                    {% endfor %}
+                {% else %}
+                    <p class="text-muted small mb-0">Sin datos de tendencias.</p>
+                {% endif %}
+            </div>
+        </div>
+
+        <!-- Top Facebook -->
+        <div class="card sidebar-card">
+            <div class="card-body">
+                <h5 class="fw-bold mb-3">
+                    <i class="fa-brands fa-facebook text-primary"></i> Top Facebook
+                </h5>
+
+                {% if publicaciones_fb and publicaciones_fb|length > 0 %}
+                    {% for p in publicaciones_fb %}
+                        <div class="d-flex mb-3">
+                            <img src="{{ p.url_imagen if p.url_imagen else 'https://via.placeholder.com/80x60?text=FB' }}"
+                                 style="width:80px;height:60px;object-fit:cover;border-radius:6px;margin-right:10px;">
+                            <div>
+                                <div class="sidebar-item-title">
+                                    <a href="{{ p.url }}" target="_blank"
+                                       class="text-decoration-none text-dark">
+                                        {{ p.titulo }}
+                                    </a>
+                                </div>
+                                {% if p.fecha_publicacion %}
+                                    <small class="text-muted">
+                                        {{ p.fecha_publicacion.strftime('%d/%m/%Y') if p.fecha_publicacion.__class__.__name__ == 'datetime' else p.fecha_publicacion }}
+                                    </small>
+                                {% endif %}
+                            </div>
+                        </div>
+                    {% endfor %}
+                {% else %}
+                    <p class="text-muted small mb-0">Sin publicaciones recientes.</p>
+                {% endif %}
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<!-- 🔄 AUTO-REFRESH CADA 5 MIN -->
+<script>
+setTimeout(function () {
+    location.reload();
+}, 5 * 60 * 1000);
+</script>
+
+{% endblock %}

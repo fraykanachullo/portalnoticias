@@ -1,0 +1,20 @@
+{% extends "user/user_layout.html" %}
+
+{% block title %}Perfil - Noticias 2025{% endblock %}
+
+{% block content %}
+<h2 class="fw-bold mb-4">
+    <i class="fa-solid fa-user"></i> Mi Perfil
+</h2>
+
+<div class="row">
+    <div class="col-md-6 mb-4">
+        <div class="card shadow-sm p-3">
+            <h5><i class="fa-solid fa-id-badge"></i> Información de Usuario</h5>
+            <p><strong>Nombre:</strong> {{ usuario.nombre }}</p>
+            <p><strong>Email:</strong> {{ usuario.email }}</p>
+            <p><strong>Fecha de Registro:</strong> {{ usuario.fecha_registro }}</p>
+        </div>
+    </div>
+</div>
+{% endblock %}

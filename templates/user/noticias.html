@@ -1,0 +1,21 @@
+{% extends "user/user_layout.html" %}
+
+{% block title %}Noticias - Noticias 2025{% endblock %}
+
+{% block content %}
+<h2 class="fw-bold mb-4">
+    <i class="fa-solid fa-newspaper"></i> Noticias
+</h2>
+
+<div class="row" id="noticias-container">
+    {% for noticia in noticias %}
+        <div class="col-md-4 mb-4">
+            <div class="card shadow-sm p-3">
+                <h5><i class="fa-solid fa-newspaper text-danger"></i> {{ noticia.titulo }}</h5>
+                <p>{{ noticia.descripcion }}</p>
+                <a href="{{ noticia.url_noticia }}" class="btn btn-primary" target="_blank">Leer más</a>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+{% endblock %}

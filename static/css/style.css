@@ -1,75 +1,60 @@
+:root {
+  --bg: #f4f4f4;
+  --text: #222;
+  --accent: #dc3545;
+  --card-bg: #fff;
+}
+
+body.dark-mode {
+  --bg: #0d0d0d;
+  --text: #f8f9fa;
+  --accent: #ff3d57;
+  --card-bg: #1a1a1a;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-    color: #333;
-    margin: 0;
-    padding: 0 20px;
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: "Poppins", "Segoe UI", sans-serif;
+  transition: background .3s, color .3s;
 }
 
-h1 {
-    text-align: center;
-    margin: 20px 0;
-    color: #0d6efd;
+/* Tarjetas */
+.news-card {
+  background: var(--card-bg);
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: all .3s;
 }
 
-h2 {
-    margin-top: 30px;
-    color: #0d6efd;
-    border-bottom: 2px solid #0d6efd;
-    display: inline-block;
+.news-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
 }
 
-.noticias-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+/* Sidebar */
+.sidebar {
+  background: var(--card-bg);
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-.noticia {
-    background-color: white;
-    padding: 15px;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-    max-width: 300px;
+.sidebar .fb-item {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 1rem;
 }
 
-.noticia img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
+/* Botonera */
+.btn-toggle {
+  background: var(--accent);
+  color: white;
+  border: none;
+  border-radius: 50px;
 }
 
-.noticia h3 {
-    margin: 10px 0 5px;
-}
 
-.noticia h4 {
-    margin: 5px 0 10px;
-    font-weight: normal;
-    color: #666;
-}
 
-.noticia p {
-    font-size: 0.9rem;
-}
-
-.noticia a {
-    display: inline-block;
-    margin-top: 5px;
-    padding: 5px 10px;
-    background-color: #0d6efd;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-.noticia a:hover {
-    background-color: #084298;
-}
-
-@media(max-width: 768px){
-    .noticias-container {
-        flex-direction: column;
-        align-items: center;
-    }
-}

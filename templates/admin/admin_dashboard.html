@@ -1,0 +1,258 @@
+{% extends "admin/admin_layout.html" %}
+
+{% block admin_content %}
+
+<style>
+
+/* ============================================================
+   🌟 GLASS UI GLOBAL — Refinado PRO
+   ============================================================ */
+.card {
+  border-radius: 16px !important;
+  background: rgba(255,255,255,0.78);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.07);
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,0.45);
+}
+
+/* ============================================================
+   🎨 TARJETAS SUPERIORES — Más finas y balanceadas
+   ============================================================ */
+.stat-card {
+  border-radius: 18px;
+  padding: 20px;
+  background: linear-gradient(145deg, #ffffff, #f0f3ff);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.06);
+  transition: .25s ease;
+  border: 1px solid rgba(255,255,255,0.4);
+}
+.stat-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 34px rgba(0,0,0,0.12);
+}
+
+.stat-label {
+  font-size: .8rem;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  color: #737791;
+}
+
+.stat-value {
+  font-size: 2.2rem;
+  font-weight: 800;
+  margin-top: 6px;
+}
+
+.mini-chip {
+  font-size: .7rem;
+  padding: 5px 12px;
+  border-radius: 999px;
+  background: #eef2ff;
+  color: #4b56c0;
+  border: 1px solid rgba(75,86,192,0.18);
+}
+
+/* ============================================================
+   📊 TÍTULOS DE TARJETAS — Espaciado más fino
+   ============================================================ */
+h5 {
+  font-weight: 600;
+  margin-bottom: 12px;
+  font-size: 1.05rem;
+}
+h5 i { 
+  margin-right: 6px;
+  opacity: .85;
+}
+
+/* ============================================================
+   ☁️ WORDCLOUD — Card equilibrado y centrado
+   ============================================================ */
+.wordcloud-card {
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* container refinado */
+#wordcloudContainer {
+  width: 100%;
+  height: 100%;
+  padding: 8px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+  gap: 8px;
+
+  overflow-y: auto;
+  border-radius: 14px;
+  background: rgba(255,255,255,0.7);
+  backdrop-filter: blur(10px);
+  box-shadow: inset 0 0 12px rgba(0,0,0,0.04);
+  border: 1px solid rgba(255,255,255,0.45);
+}
+
+/* Scroll elegante */
+#wordcloudContainer::-webkit-scrollbar { width: 6px; }
+#wordcloudContainer::-webkit-scrollbar-thumb {
+  background: #c3c8d6;
+  border-radius: 6px;
+}
+
+/* Ajuste para que NO se desborde */
+#wordcloudContainer span {
+  white-space: nowrap;
+  max-width: 100%;
+}
+
+/* ============================================================
+   📟 LOGS — Consola PRO optimizada
+   ============================================================ */
+.logs-pre {
+  max-height: 260px;
+  overflow: auto;
+  font-size: .80rem;
+  background: #0d1117;
+  color: #39ff14;
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px solid #1f2937;
+  box-shadow: inset 0 0 12px rgba(0,255,0,0.05);
+}
+
+.logs-pre::-webkit-scrollbar { width: 7px; }
+.logs-pre::-webkit-scrollbar-thumb {
+  background: #444;
+  border-radius: 6px;
+}
+
+/* ============================================================
+   📱 RESPONSIVE
+   ============================================================ */
+@media (max-width: 992px) {
+  #wordcloudContainer { min-height: 200px; }
+}
+
+</style>
+
+
+<h3 class="mb-4">
+  <i class="fa-solid fa-gauge-high"></i> Resumen general
+</h3>
+
+
+<!-- ============================================================
+     📌 CARDS SUPERIORES
+     ============================================================ -->
+<div class="row mb-4">
+
+  <div class="col-md-4 mb-3">
+    <div class="stat-card">
+      <div class="stat-label">Noticias totales</div>
+      <div class="d-flex justify-content-between align-items-center mt-1">
+        <div class="stat-value text-danger">{{ stats.total_noticias }}</div>
+        <div class="mini-chip"><i class="fa-solid fa-arrow-trend-up"></i> Hoy</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-4 mb-3">
+    <div class="stat-card">
+      <div class="stat-label">Fuentes registradas</div>
+      <div class="d-flex justify-content-between align-items-center mt-1">
+        <div class="stat-value text-primary">{{ stats.total_fuentes }}</div>
+        <div class="mini-chip"><i class="fa-solid fa-globe"></i> Medios</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-4 mb-3">
+    <div class="stat-card">
+      <div class="stat-label">Usuarios</div>
+      <div class="d-flex justify-content-between align-items-center mt-1">
+        <div class="stat-value text-success">{{ stats.total_usuarios }}</div>
+        <div class="mini-chip"><i class="fa-solid fa-user-shield"></i> Staff</div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+
+<!-- ============================================================
+     📊 GRÁFICOS PRINCIPALES
+     ============================================================ -->
+<div class="row mb-4">
+
+  <div class="col-lg-6 mb-4">
+    <div class="card shadow-sm border-0">
+      <div class="card-body">
+        <h5><i class="fa-solid fa-layer-group text-primary"></i> Noticias por categoría</h5>
+        <canvas id="chartCategorias" height="210"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-6 mb-4">
+    <div class="card shadow-sm border-0">
+      <div class="card-body">
+        <h5><i class="fa-solid fa-bullhorn text-danger"></i> Noticias por fuente</h5>
+        <canvas id="chartFuentes" height="210"></canvas>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+
+<!-- ============================================================
+     😊 SENTIMIENTO / 📈 DÍA / ☁️ WORDCLOUD
+     ============================================================ -->
+<div class="row mb-4">
+
+  <div class="col-lg-4 mb-4">
+    <div class="card shadow-sm border-0">
+      <div class="card-body">
+        <h5><i class="fa-solid fa-face-smile-beam text-success"></i> Sentimiento de noticias</h5>
+        <canvas id="chartSentimiento" height="220"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-4 mb-4">
+    <div class="card shadow-sm border-0">
+      <div class="card-body">
+        <h5><i class="fa-solid fa-chart-line text-primary"></i> Noticias por día</h5>
+        <canvas id="chartNoticiasDia" height="220"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-4 mb-4">
+    <div class="card shadow-sm border-0 wordcloud-card">
+      <div class="card-body d-flex flex-column">
+        <h5><i class="fa-solid fa-cloud text-info"></i> WordCloud dinámico</h5>
+
+        <!-- CONTENEDOR SIEMPRE CENTRADO Y SIN DESBORDES -->
+        <div id="wordcloudContainer"></div>
+
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="/static/js/dashboard_admin.js"></script>
+
+{% endblock %}

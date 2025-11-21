@@ -1,0 +1,880 @@
+2025-11-06 23:23:45,340 [INFO] \u2705 Pool de conexiones MySQL inicializado correctamente.
+2025-11-06 23:23:45,344 [INFO] === INICIO DE SCRAPING GENERAL ===
+2025-11-06 23:23:45,344 [INFO] [SCRAPER] Iniciando: RPP
+2025-11-06 23:23:46,223 [INFO] [OK] Guardada noticia de RPP: Temblor en Chile hoy 6 de noviembre: Epicentro del sismo según CSN
+2025-11-06 23:23:46,229 [INFO] [OK] Guardada noticia de RPP: Alfonso López Chau promete propiciar la derogación de las leyes "procrimen" si l
+2025-11-06 23:23:46,236 [INFO] [OK] Guardada noticia de RPP: Partidos de hoy, viernes 7 de noviembre del 2025: horarios y canales TV para ver
+2025-11-06 23:23:46,241 [INFO] [OK] Guardada noticia de RPP: Cúal fue el último temblor en México hoy 6 de noviembre según SSN
+2025-11-06 23:23:46,248 [INFO] [OK] Guardada noticia de RPP: Reducción del tráfico aéreo y vuelos cancelados: así afecta el cierre del gobier
+2025-11-06 23:23:46,253 [INFO] [OK] Guardada noticia de RPP: "El respeto por delante de todo": Luciana Fuster se pronuncia tras conflicto ent
+2025-11-06 23:23:46,258 [INFO] [OK] Guardada noticia de RPP: Ignacio Buse eliminado: cayó ante Reis Da Silva en octavos del Challenger de Lim
+2025-11-06 23:23:46,262 [INFO] [OK] Guardada noticia de RPP: Exjefe de la Policía critica implementación del estado de emergencia y advierte 
+2025-11-06 23:23:46,267 [INFO] [OK] Guardada noticia de RPP: Eduardo Pérez Rocha cuestiona estado de emergencia decretado por el Gobierno
+2025-11-06 23:23:46,271 [INFO] [OK] Guardada noticia de RPP: Gonzalo Bueno vs Cristian Garín: ¿a qué hora juegan y dónde ver duelo por cuarto
+2025-11-06 23:23:46,275 [INFO] [OK] Guardada noticia de RPP: La Libertad: un pescador desaparecido y otro herido tras volcadura de embarcació
+2025-11-06 23:23:46,279 [INFO] [OK] Guardada noticia de RPP: Áncash: hombre es condenado a 8 años de prisión por minería ilegal en el Parque 
+2025-11-06 23:23:46,285 [INFO] [OK] Guardada noticia de RPP: Edwin Martínez presentó denuncia contra jefa del Reniec por presunta exposición 
+2025-11-06 23:23:46,289 [INFO] [OK] Guardada noticia de RPP: El tricampeón va por el triunfo: el once de Universitario para enfrentar a Garci
+2025-11-06 23:23:46,292 [INFO] [OK] Guardada noticia de RPP: Corte Suprema rechaza recusación para apartar al juez Checkley de investigación 
+2025-11-06 23:23:46,296 [INFO] [OK] Guardada noticia de RPP: Ayacucho: detienen a tres efectivos de la Policía por presuntamente pedir coima 
+2025-11-06 23:23:46,302 [INFO] [OK] Guardada noticia de RPP: "Confío en mi hija": Susy Díaz muestra su apoyo a Flor Polo en su postulación al
+2025-11-06 23:23:46,306 [INFO] [OK] Guardada noticia de RPP: Temblor en Perú, hoy 6 de noviembre: magnitud y epicentro del sismo según IGP
+2025-11-06 23:23:46,310 [INFO] [OK] Guardada noticia de RPP: Congreso declara de interés nacional recuperación de la goleta chilena Covadonga
+2025-11-06 23:23:46,315 [INFO] [OK] Guardada noticia de RPP: ¿Con quiénes compiten? Cristiano y Messi nominados al once ideal del premio The 
+2025-11-06 23:23:46,319 [INFO] [OK] Guardada noticia de RPP: Áncash: detienen a fiscal que protagonizó pelea con abogado en local de Casma
+2025-11-06 23:23:46,323 [INFO] [OK] Guardada noticia de RPP: Farid Kahhat: "No queda mayor posibilidad que conceder el salvoconducto" a Betss
+2025-11-06 23:23:46,326 [INFO] [OK] Guardada noticia de RPP: México rechaza declaración de persona no grata contra la presidenta Claudia Shei
+2025-11-06 23:23:46,331 [INFO] [OK] Guardada noticia de RPP: Farid Kahhat: "No queda mayor posibilidad que conceder el salvoconducto" a Betss
+2025-11-06 23:23:46,334 [INFO] [OK] Guardada noticia de RPP: Detonan explosivo en casa de alcalde de Huarmey y dejan carta extorsiva con bala
+2025-11-06 23:23:46,338 [INFO] [OK] Guardada noticia de RPP: Alcalde de Huarmey evalúa renunciar al cargo y a la política tras atentado con e
+2025-11-06 23:23:46,341 [INFO] [OK] Guardada noticia de RPP: Korina Rivadeneira presenta a su padre con emotivo video y revela a qué se dedic
+2025-11-06 23:23:46,345 [INFO] [OK] Guardada noticia de RPP: Carlos Zambrano tras la no convocatoria de Paolo Guerrero: "Es un delantero de n
+2025-11-06 23:23:46,350 [INFO] [OK] Guardada noticia de RPP: "Ella sabe que la amo": Samahara Lobatón reacciona ante ruptura de Melissa Klug 
+2025-11-06 23:23:46,354 [INFO] [OK] Guardada noticia de RPP: Loreto: 3 efectivos de la Marina de Guerra resultaron heridos tras manipular exp
+2025-11-06 23:23:46,357 [INFO] [OK] Guardada noticia de RPP: CADE 2025: las reacciones de los empresarios ante la cédula electoral más grande
+2025-11-06 23:23:46,361 [INFO] [OK] Guardada noticia de RPP: Pisco bajo fuertes vientos: vehículos avanzan lentamente por baja visibilidad
+2025-11-06 23:23:46,365 [INFO] [OK] Guardada noticia de RPP: Guns N' Roses en Lima: tres horas y media de rock para la posteridad [CRÓNICA]
+2025-11-06 23:23:46,368 [INFO] [OK] Guardada noticia de RPP: Alfonso López Chau en CADE 2025: “La primera tarea no es económica, es moral”
+2025-11-06 23:23:46,372 [INFO] [OK] Guardada noticia de RPP: Elecciones 2026: ¿cuándo y dónde podrás elegir tu local de votación, según la ON
+2025-11-06 23:23:46,376 [INFO] [OK] Guardada noticia de RPP: ONPE: partidos políticos tienen hasta el 7 de noviembre para  informar sobre pre
+2025-11-06 23:23:46,381 [INFO] [OK] Guardada noticia de RPP: El presidente de Bolivia, Luis Arce, fue expulsado del partido oficialista MAS
+2025-11-06 23:23:46,386 [INFO] [OK] Guardada noticia de RPP: Perupetro cierra proceso de adjudicación en Talara: Lote I inicia operaciones y 
+2025-11-06 23:23:46,390 [INFO] [OK] Guardada noticia de RPP: Clínica Aviva construye nueva sede en San Juan de Miraflores: Este es su plan pa
+2025-11-06 23:23:46,393 [INFO] [OK] Guardada noticia de RPP: Jefe de Nvidia afirma que China ganará la carrera global de la inteligencia arti
+2025-11-06 23:23:46,397 [INFO] [OK] Guardada noticia de RPP: 'Los 4 Fantásticos: Primeros pasos' en streaming: cuándo y dónde ver online la p
+2025-11-06 23:23:46,401 [INFO] [OK] Guardada noticia de RPP: Universitario, a otra casa: Lozano se pronunció sobre nuevos derechos de televis
+2025-11-06 23:23:46,404 [INFO] [OK] Guardada noticia de RPP: Hospital Loayza: piden ayuda para paciente que necesita catéter para ser operado
+2025-11-06 23:23:46,408 [INFO] [OK] Guardada noticia de RPP: Tribunal Supremo de EE.UU. avala política de Donald Trump de exigir que el sexo 
+2025-11-06 23:23:46,412 [INFO] [OK] Guardada noticia de RPP: Perú será sede de la 60ª Asamblea Anual de FELABAN en 2026: ¿Cuál es el impacto 
+2025-11-06 23:23:46,415 [INFO] [OK] Guardada noticia de RPP: ¿Quién lo ganará? Lamine Yamal, Mbappé y Dembélé en lista de nominados al The Be
+2025-11-06 23:23:46,419 [INFO] [OK] Guardada noticia de RPP: Congreso declara persona no grata a Claudia Sheinbaum, presidenta de México
+2025-11-06 23:23:46,423 [INFO] [OK] Guardada noticia de RPP: "Se trata de una campaña política": Rospigliosi sobre moción de censura por uso 
+2025-11-06 23:23:46,426 [INFO] [OK] Guardada noticia de RPP: Secretario general de la OTAN advierte que Rusia será una fuerza desestabilizado
+2025-11-06 23:23:46,431 [INFO] [OK] Guardada noticia de RPP: Macaulay Culkin vuelve a ser Kevin McCallister de 'Mi pobre angelito' en un emot
+2025-11-06 23:23:46,434 [INFO] [OK] Guardada noticia de RPP: Mibanco proyecta fortalecer su oferta con mejoras en vivienda y créditos inclusi
+2025-11-06 23:23:46,438 [INFO] [OK] Guardada noticia de RPP: Dólar BCV y DolarToday hoy: ¿Cuánto cotiza el dólar en Venezuela el 6 de noviemb
+2025-11-06 23:23:46,442 [INFO] [OK] Guardada noticia de RPP: Con el Universitario vs. Garcilaso: programación y horarios de la fecha 18 del T
+2025-11-06 23:23:46,447 [INFO] [OK] Guardada noticia de RPP: Cronograma del octavo retiro de AFP 2025 con las fechas para registrar tu solici
+2025-11-06 23:23:46,452 [INFO] [OK] Guardada noticia de RPP: El setlist que Guns N’ Roses tocó en el Estadio Nacional de Lima
+2025-11-06 23:23:46,456 [INFO] [OK] Guardada noticia de RPP: Fuertes vientos se registran en Pisco: vehículos transitan de forma lenta debido
+2025-11-06 23:23:46,460 [INFO] [OK] Guardada noticia de RPP: Lambayeque: Callanca, el pueblo de Monsefú que reclama obras de prevención para 
+2025-11-06 23:23:46,464 [INFO] [OK] Guardada noticia de RPP: Europa League: Rodrigo Zalazar anotó dos goles, pero SC Braga no pudo evitar la 
+2025-11-06 23:23:46,469 [INFO] [OK] Guardada noticia de RPP: Europa League: Aston Villa dominó a Maccabi Tel-Aviv con un 2-0 en un partido el
+2025-11-06 23:23:46,473 [INFO] [OK] Guardada noticia de RPP: EE. UU.: al menos dos muertos y un herido en un tiroteo en la ciudad de Hialeah,
+2025-11-06 23:23:46,473 [INFO] [SCRAPER] Iniciando: América TV
+2025-11-06 23:23:46,474 [INFO] [SCRAPER] Iniciando: Diario Sin Fronteras
+2025-11-06 23:23:47,862 [INFO] [OK] Guardada noticia de Diario Sin Fronteras: Salvoconducto para Betssy Chávez podría activarse esta medianoche
+2025-11-06 23:23:47,868 [INFO] [OK] Guardada noticia de Diario Sin Fronteras: Peruanos podrán elegir su local de votación desde el 23 de noviembre
+2025-11-06 23:23:47,872 [INFO] [OK] Guardada noticia de Diario Sin Fronteras: Arequipa: Inicia el Hay Festival con homenaje a Mario Vargas Llosa
+2025-11-06 23:23:47,876 [INFO] [OK] Guardada noticia de Diario Sin Fronteras: Delincuentes roban con total tranquilad y a plena luz del día una vivienda
+2025-11-06 23:23:47,881 [INFO] [OK] Guardada noticia de Diario Sin Fronteras: Arequipa registra 15.600 denuncias por vi0lencia
+2025-11-06 23:23:47,885 [INFO] [OK] Guardada noticia de Diario Sin Fronteras: Arequipa: Serenos denuncian abusos laborales y falta de interés
+2025-11-06 23:23:47,888 [INFO] [OK] Guardada noticia de Diario Sin Fronteras: Advierten falta de equipos en hospitales de Arequipa
+2025-11-06 23:23:47,892 [INFO] [OK] Guardada noticia de Diario Sin Fronteras: Arequipa: Muere y compañeros de mina alteraron la escena
+2025-11-06 23:23:47,896 [INFO] [OK] Guardada noticia de Diario Sin Fronteras: Arequipa: Recompensa de S/40 mil por profesor acusado de vi0lación
+2025-11-06 23:23:47,901 [INFO] [OK] Guardada noticia de Diario Sin Fronteras: Festividad Virgen de la Candelaria en Lima este 9 de noviembre
+2025-11-06 23:23:47,901 [INFO] [SCRAPER] Iniciando: Perú21
+2025-11-06 23:23:48,609 [INFO] [OK] Guardada noticia de Perú21: Tráiler que transportaba retroexcavadora quedó atascado en el puente Balta (VIDE
+2025-11-06 23:23:48,614 [INFO] [OK] Guardada noticia de Perú21: Estados Unidos presenta texto para respaldar en la ONU el plan de Trump para Gaz
+2025-11-06 23:23:48,618 [INFO] [OK] Guardada noticia de Perú21: Natalia Salas contrajo matrimonio con Sergio Coloma: "Juntos para siempre"
+2025-11-06 23:23:48,622 [INFO] [OK] Guardada noticia de Perú21: CADE 2025: Empresas mantienen planes de inversión pese a incertidumbre electoral
+2025-11-06 23:23:48,626 [INFO] [OK] Guardada noticia de Perú21: María Corina Machado cierra segundo día del CADE 2025 con un mensaje de defensa 
+2025-11-06 23:23:48,630 [INFO] [OK] Guardada noticia de Perú21: Luna del Castor en Perú: ¿A qué hora se podrá ver la superluna?
+2025-11-06 23:23:48,634 [INFO] [OK] Guardada noticia de Perú21: CADE 2025: Ejecutivos consideran la lucha contra la corrupción como la prioridad
+2025-11-06 23:23:48,638 [INFO] [OK] Guardada noticia de Perú21: Paul Van Dyk vuelve al Perú diez años después de su legendario concierto
+2025-11-06 23:23:48,643 [INFO] [OK] Guardada noticia de Perú21: CADE Ejecutivos 2025: “Necesitamos una reforma estructural de Essalud”
+2025-11-06 23:23:48,648 [INFO] [OK] Guardada noticia de Perú21: Cae 'Negro Marín' en España: rival de 'El Monstruo' era el terror de empresarios
+2025-11-06 23:23:48,655 [INFO] [OK] Guardada noticia de Perú21: CADE 2025: Ejecutivos proyectan crecimiento moderado en 2026 pero optimista resp
+2025-11-06 23:23:48,659 [INFO] [OK] Guardada noticia de Perú21: Ministra de Economía en CADE 2025: "Necesitamos ser más confiables"
+2025-11-06 23:23:48,665 [INFO] [OK] Guardada noticia de Perú21: CADE 2025: La delincuencia e inseguridad encabezan la lista de preocupaciones en
+2025-11-06 23:23:48,669 [INFO] [OK] Guardada noticia de Perú21: CADE 2025: Ejecutivos se muestran optimistas sobre el progreso del país según en
+2025-11-06 23:23:48,672 [INFO] [OK] Guardada noticia de Perú21: Con doblete de Guerrero: Alianza Lima venció 2-1 a Los Chankas en Andahuaylas
+2025-11-06 23:23:48,675 [INFO] [OK] Guardada noticia de Perú21: Aviones de guerra: Comandante General de la FAP pasa al retiro
+2025-11-06 23:23:48,680 [INFO] [OK] Guardada noticia de Perú21: CADE 2025: DÍA 2 ¿Cómo generamos empleo de calidad?
+2025-11-06 23:23:48,684 [INFO] [OK] Guardada noticia de Perú21: Expertos consideran que la seguridad jurídica es clave para la inversión
+2025-11-06 23:23:48,687 [INFO] [OK] Guardada noticia de Perú21: Tine van den Wall Bake, de Repsol: “Queremos acompañar a los emprendimientos”
+2025-11-06 23:23:48,691 [INFO] [OK] Guardada noticia de Perú21: CADE 2025: mypes necesitan mejorar su productividad
+2025-11-06 23:23:51,235 [INFO] [SCRAPER] Iniciando: La República
+2025-11-06 23:23:53,147 [INFO] [OK] Guardada noticia de La República: Janet Tello rechaza acusaciones contra el Poder Judicial: "Es posible que se hag
+2025-11-06 23:23:53,152 [INFO] [OK] Guardada noticia de La República: Víctimas del Sodalicio piden reunirse con el Papa León XIV para saber detalles d
+2025-11-06 23:23:53,156 [INFO] [OK] Guardada noticia de La República: México rechaza declaración de persona no grata a Claudia Sheinbaum y ratifica as
+2025-11-06 23:23:53,160 [INFO] [OK] Guardada noticia de La República: Rafael López Aliaga en CADE: estas fueron las claves en su discurso sobre seguri
+2025-11-06 23:23:53,164 [INFO] [OK] Guardada noticia de La República: Pedro Castillo: Fiscalía se ratifica y pide 34 años para expresidente y 25 años 
+2025-11-06 23:23:53,168 [INFO] [OK] Guardada noticia de La República: Congreso: denuncian a la jefa del Reniec y piden su destitución por filtración m
+2025-11-06 23:23:53,171 [INFO] [OK] Guardada noticia de La República: Claudia Sheinbaum: qué es persona non grata y qué implicancias tiene esta medida
+2025-11-06 23:23:53,175 [INFO] [OK] Guardada noticia de La República: Víctimas del Sodalicio cuestionan al arzobispo de Arequipa por formar parte de l
+2025-11-06 23:23:53,178 [INFO] [OK] Guardada noticia de La República: Alfonso López Chau arremete contra el empresariado en el CADE por muertos en pro
+2025-11-06 23:23:53,185 [INFO] [OK] Guardada noticia de La República: Pleno del Congreso alista reelección de rectores de universidades públicas
+2025-11-06 23:23:53,189 [INFO] [OK] Guardada noticia de La República: Precandidato Alfonso López Chau plantea reforma total de la PNP como propuesta p
+2025-11-06 23:23:53,192 [INFO] [OK] Guardada noticia de La República: Congreso declara a Claudia Sheinbaum, presidenta de México, como persona non gra
+2025-11-06 23:23:53,196 [INFO] [OK] Guardada noticia de La República: Pedro Salinas estrenará ‘La verdad a fondo’ en La República: “Los portales digit
+2025-11-06 23:23:53,199 [INFO] [OK] Guardada noticia de La República: JNJ escuchará pedidos de reconsideración presentados contra la decisión de no va
+2025-11-06 23:23:53,204 [INFO] [OK] Guardada noticia de La República: Discurso vs. realidad: las mentiras de López Aliaga en el CADE sobre bicameralid
+2025-11-06 23:23:53,207 [INFO] [OK] Guardada noticia de La República: El padre de Trvko anuncia que demandará a Fernando Rospigliosi por llamar “terru
+2025-11-06 23:23:53,211 [INFO] [OK] Guardada noticia de La República: Congreso declara a Claudia Sheinbaum, presidenta de México, como persona non gra
+2025-11-06 23:23:53,216 [INFO] [OK] Guardada noticia de La República: María Corina Machado en CADE 2025 previo a elecciones 2026: "Tienen que elegir b
+2025-11-06 23:23:53,220 [INFO] [OK] Guardada noticia de La República: Relevo del Comandante General de la FAP no cambiará calendario de compra de 24 c
+2025-11-06 23:23:53,224 [INFO] [OK] Guardada noticia de La República: Fiscalía de Ayacucho entrega restos de 13 víctimas del conflicto armado interno 
+2025-11-06 23:23:53,228 [INFO] [OK] Guardada noticia de La República: Elecciones Primarias 2025: Este viernes vence plazo para que partidos comuniquen
+2025-11-06 23:23:53,232 [INFO] [OK] Guardada noticia de La República: Rosa María Palacios: “Lo de Betssy Chávez parece un psicosocial para distraernos
+2025-11-06 23:23:53,235 [INFO] [OK] Guardada noticia de La República: Sinohydro Corporation Limited confirma estar a cargo de la construcción del Hosp
+2025-11-06 23:23:53,239 [INFO] [OK] Guardada noticia de La República: Norma Martínez: “La libertad y el respeto son valores básicos, no de una ideolog
+2025-11-06 23:23:53,242 [INFO] [OK] Guardada noticia de La República: Trenes Caltrain están en mal estado en el Parque La Muralla y gestión de López A
+2025-11-06 23:23:53,246 [INFO] [OK] Guardada noticia de La República: Populismo en el Congreso: en una semana se han creado otras 6 universidades y ya
+2025-11-06 23:23:53,249 [INFO] [OK] Guardada noticia de La República: Jorge del Castillo, Garrido Lecca y 13 precandidatos del APRA rumbo a Elecciones
+2025-11-06 23:23:53,253 [INFO] [OK] Guardada noticia de La República: Castillo en juicio por caso golpe de Estado: “Vamos a llegar a 80 sesiones sin q
+2025-11-06 23:23:53,256 [INFO] [OK] Guardada noticia de La República: Al mismo estilo del fujimorismo, Rafael López Aliaga propone jueces sin rostro p
+2025-11-06 23:23:53,259 [INFO] [OK] Guardada noticia de La República: José Jerí mantuvo plan de seguridad ciudadana reciclado por 7 años y descrito co
+2025-11-06 23:23:53,263 [INFO] [OK] Guardada noticia de La República: Gobierno decidirá si otorga salvoconducto a Betssy Chávez este viernes tras asil
+2025-11-06 23:23:53,266 [INFO] [OK] Guardada noticia de La República: Fernando Rospigliosi habría infringido neutralidad electoral por uso de cámara d
+2025-11-06 23:23:53,270 [INFO] [OK] Guardada noticia de La República: Caso Anguía: Fiscalia pide al Poder Judicial ampliar 36 meses la investigación c
+2025-11-06 23:23:53,273 [INFO] [OK] Guardada noticia de La República: Congreso: Moción de censura contra Fernando Rospigliosi no alcanzaría firmas par
+2025-11-06 23:23:53,277 [INFO] [OK] Guardada noticia de La República: Subcomisión del Congreso aprueba informe final que acusa a Martín Vizcarra y Pil
+2025-11-06 23:23:53,280 [INFO] [OK] Guardada noticia de La República: Magistrados de la JNJ buscan aumentarse el sueldo a S/42.000 con apoyo de Perú L
+2025-11-06 23:23:53,284 [INFO] [OK] Guardada noticia de La República: Poder Judicial ratifica: Rutas de Lima debe suspender cobro de peajes en Villa y
+2025-11-06 23:23:53,288 [INFO] [OK] Guardada noticia de La República: Exasesor de Wilfredo Oscorima fue designado director de Orden Público en el Mini
+2025-11-06 23:23:53,291 [INFO] [OK] Guardada noticia de La República: Caso Trvko: habla testigo clave y nuevo video confirman al menos cinco disparos 
+2025-11-06 23:23:53,295 [INFO] [OK] Guardada noticia de La República: Betssy Chávez nombra como su unico abogado a Raúl Noblecilla: "Goza de mi total 
+2025-11-06 23:23:53,298 [INFO] [OK] Guardada noticia de La República: César Combina: Poder Judicial ordena ubicación y captura de excongresista por au
+2025-11-06 23:23:53,302 [INFO] [OK] Guardada noticia de La República: Rosa María Palacios critica a José Jerí: “Las extorsiones no se resuelven tománd
+2025-11-06 23:23:53,306 [INFO] [OK] Guardada noticia de La República: APRA y sus 15 precandidatos con miras las Elecciones 2026: conoce las listas y c
+2025-11-06 23:23:53,309 [INFO] [OK] Guardada noticia de La República: Fernán Altuve arremete contra López Aliaga: “Su tendencia hacia la extrema derec
+2025-11-06 23:23:53,313 [INFO] [OK] Guardada noticia de La República: Gobierno aprueba ley para juzgar como adultos a menores de 16 y 17 años por crím
+2025-11-06 23:23:53,317 [INFO] [OK] Guardada noticia de La República: Comisión de Constitución aprueba ampliar detención preliminar por sicariato y ex
+2025-11-06 23:23:53,321 [INFO] [OK] Guardada noticia de La República: Elecciones 2026: esta es la lista completa de todos los precandidatos de los par
+2025-11-06 23:23:53,324 [INFO] [OK] Guardada noticia de La República: Excanciller Rodríguez Mackay: “Negarle el salvoconducto a Betssy Chávez sería un
+2025-11-06 23:23:53,327 [INFO] [OK] Guardada noticia de La República: Gobierno de José Jerí otorga un "plazo perentorio" a la encargada de la embajada
+2025-11-06 23:23:53,330 [INFO] [OK] Guardada noticia de La República: Gobierno de José Jerí otorga un "plazo perentorio" a la encargada de la embajada
+2025-11-06 23:23:53,334 [INFO] [OK] Guardada noticia de La República: Le cortan el micrófono a Castillo tras saludar a presidenta de México por asilo 
+2025-11-06 23:23:53,338 [INFO] [OK] Guardada noticia de La República: Abogado de Betssy Chávez renuncia en plena audiencia y asegura que no conocía pe
+2025-11-06 23:23:53,341 [INFO] [OK] Guardada noticia de La República: “Negar el salvoconducto a Betssy Chávez afectaría la reputación internacional de
+2025-11-06 23:23:53,344 [INFO] [OK] Guardada noticia de La República: Impulsan moción de censura contra Fernando Rospigliosi por uso de cámara del Con
+2025-11-06 23:23:53,348 [INFO] [OK] Guardada noticia de La República: Salvoconducto de Betssy Chávez se decidirá en "breves días", asegura el cancille
+2025-11-06 23:23:53,352 [INFO] [OK] Guardada noticia de La República: México "lamenta y rechaza" ruptura de relaciones diplomáticas con Perú tras asil
+2025-11-06 23:23:53,356 [INFO] [OK] Guardada noticia de La República: Betssy Chávez: Poder Judicial decide no declararla reo contumaz tras asilo en Em
+2025-11-06 23:23:55,192 [INFO] [OK] Guardada noticia de La República: Retiro AFP 2025: revisa cronograma, fechas de depósito y cómo saber tu AFP solo 
+2025-11-06 23:23:55,196 [INFO] [OK] Guardada noticia de La República: Peruanos con DNI que terminan en 5, 6 y 7 pueden presentar la solicitud de retir
+2025-11-06 23:23:55,201 [INFO] [OK] Guardada noticia de La República: Indecopi asegura que sancionará a productora por cancelación del evento ‘Overpas
+2025-11-06 23:23:55,205 [INFO] [OK] Guardada noticia de La República: Ya están habilitados los enlaces para solicitar hasta 4 UIT en Hábitat, Integra,
+2025-11-06 23:23:55,209 [INFO] [OK] Guardada noticia de La República: ¿Necesitas un préstamo? Banco de la Nación ofrece hasta S/100.000 para pagar has
+2025-11-06 23:23:55,213 [INFO] [OK] Guardada noticia de La República: ¿Cuánto es la pensión más alta de la ONP en 2025? Afiliados pueden solicitar jub
+2025-11-06 23:23:55,218 [INFO] [OK] Guardada noticia de La República: ¿El debilitamiento del dólar en 2025 podría reducir el precio de los productos e
+2025-11-06 23:23:55,221 [INFO] [OK] Guardada noticia de La República: Congreso: proyecto de ley busca otorgar un bono de hasta S/10.700 para afiliados
+2025-11-06 23:23:55,225 [INFO] [OK] Guardada noticia de La República: Presidente de Confiep: "Hay que retomar en este gobierno el mecanismo técnico pa
+2025-11-06 23:23:55,230 [INFO] [OK] Guardada noticia de La República: COFOPRI inicia empadronamiento de más de 14 mil lotes urbanos para facilitar la 
+2025-11-06 23:23:55,236 [INFO] [OK] Guardada noticia de La República: Interbank cobra comisión por servicios, pero usuarios pueden exonerar el pago ac
+2025-11-06 23:23:55,240 [INFO] [OK] Guardada noticia de La República: CTS al 100% y gratificación: trabajadores CAS se movilizaron por aprobación fina
+2025-11-06 23:23:55,244 [INFO] [OK] Guardada noticia de La República: SBS: "Hasta tres competidores han mostrado su interés de ingresar al mercado de 
+2025-11-06 23:23:55,248 [INFO] [OK] Guardada noticia de La República: “Para México, el comercio con Perú es muy marginal, pero la ruptura diplomática 
+2025-11-06 23:23:55,252 [INFO] [OK] Guardada noticia de La República: Presidenta de la SNMPE sobre Reinfo: "Invocamos al gobierno a que no permita una
+2025-11-06 23:23:55,255 [INFO] [OK] Guardada noticia de La República: Precio del dólar en Perú HOY, jueves 6 de noviembre: ¿cuál es la cotización del 
+2025-11-06 23:23:55,259 [INFO] [OK] Guardada noticia de La República: El megaproyecto bioceánico que unirá al Perú con el Atlántico y competirá direct
+2025-11-06 23:23:55,269 [INFO] [OK] Guardada noticia de La República: El túnel Ollachea de la Interoceánica Sur de más de US$18 millones que mejorará 
+2025-11-06 23:23:55,275 [INFO] [OK] Guardada noticia de La República: Natalia Llanos: “El 88% de los peruanos cree que TikTok es un lugar donde puede 
+2025-11-06 23:23:55,282 [INFO] [OK] Guardada noticia de La República: Del oro de Pizarro al dólar: cada semana hay nuevos millonarios mientras millone
+2025-11-06 23:23:55,290 [INFO] [OK] Guardada noticia de La República: CADE 2025 EN VIVO: Rafael López Aliaga y Alfonso López Chau participan del bloqu
+2025-11-06 23:23:55,300 [INFO] [OK] Guardada noticia de La República: Precio del dólar en Perú: caída del tipo de cambio permite originales formas de 
+2025-11-06 23:23:55,307 [INFO] [OK] Guardada noticia de La República: Ocho retiros de AFP ponen en duda las inversiones de largo plazo en Perú, según 
+2025-11-06 23:23:55,317 [INFO] [OK] Guardada noticia de La República: Ministerio de Economía y Finanzas aprueba nueva escala salarial y gratificacione
+2025-11-06 23:23:55,324 [INFO] [OK] Guardada noticia de La República: Banco de la Nación fija el límite de edad para acceder a crédito hipotecario en 
+2025-11-06 23:23:55,328 [INFO] [OK] Guardada noticia de La República: Sunarp con CAS: promulgan ley que autoriza el pase progresivo al régimen laboral
+2025-11-06 23:23:55,334 [INFO] [OK] Guardada noticia de La República: ¿Cuándo acaba el Cyber Wow de noviembre de 2025 en Perú? Esta es la fecha límite
+2025-11-06 23:23:55,339 [INFO] [OK] Guardada noticia de La República: La megacarretera peruana de más de US$1.500 millones que beneficiará a 1,6 millo
+2025-11-06 23:23:55,344 [INFO] [OK] Guardada noticia de La República: Nuevo retiro AFP en noviembre 2025: conoce los requisitos, trámite y fecha estim
+2025-11-06 23:23:55,350 [INFO] [OK] Guardada noticia de La República: Si ya me depositaron la CTS, ¿por qué no puedo disponer del dinero todavía?
+2025-11-06 23:23:55,355 [INFO] [OK] Guardada noticia de La República: ¿Ya te depositaron la CTS en noviembre de 2025? Así podrás retirarlo si eres BCP
+2025-11-06 23:23:55,359 [INFO] [OK] Guardada noticia de La República: ¿Tu solicitud de AFP ya fue aprobada? Este es el tiempo que queda para recibir e
+2025-11-06 23:23:55,364 [INFO] [OK] Guardada noticia de La República: Congreso cursa 38 beneficios tributarios que harían perder al Perú S/50.000 mill
+2025-11-06 23:23:55,369 [INFO] [OK] Guardada noticia de La República: Cummins Perú impulsa la transición energética: "Tenemos productos que contribuye
+2025-11-06 23:23:55,373 [INFO] [OK] Guardada noticia de La República: IPAE, organizador de CADE critica ausentismo de candidatos presidenciales: "No a
+2025-11-06 23:23:55,377 [INFO] [OK] Guardada noticia de La República: ¿Cómo calcular el pago de la CTS en noviembre 2025? Fórmula, plazos y ejemplos p
+2025-11-06 23:23:55,383 [INFO] [OK] Guardada noticia de La República: Precio del dólar en Perú HOY, miércoles 5 de noviembre: ¿cuál es la cotización d
+2025-11-06 23:23:55,387 [INFO] [OK] Guardada noticia de La República: LATAM Airlines Perú anuncia que podrían suspender estas 4 rutas tras imposición 
+2025-11-06 23:23:55,390 [INFO] [OK] Guardada noticia de La República: CTS 2025: 4 de cada 10 trabajadores en Perú usará dinero para pago de deudas o c
+2025-11-06 23:23:55,394 [INFO] [OK] Guardada noticia de La República: Ficafé 2025: conoce el evento anual que fortalece el sector cafetalero a nivel n
+2025-11-06 23:23:55,399 [INFO] [OK] Guardada noticia de La República: Fonavistas del Perú pueden cobrar la devolución de aportes de estos reintegros y
+2025-11-06 23:23:55,404 [INFO] [OK] Guardada noticia de La República: Fonavi devuelve los aportes a estos beneficiarios en 2025: padrón fue aprobado y
+2025-11-06 23:23:55,408 [INFO] [OK] Guardada noticia de La República: Estos son los nuevos beneficiarios del Fonavi en Perú que podrán cobrar la devol
+2025-11-06 23:23:55,414 [INFO] [OK] Guardada noticia de La República: MEF destinará S/1.200 millones adicionales a seguridad ciudadana mediante decret
+2025-11-06 23:23:55,419 [INFO] [OK] Guardada noticia de La República: Retiro AFP 2025: solución para la solicitud denegada y cómo saber si te han rech
+2025-11-06 23:23:55,423 [INFO] [OK] Guardada noticia de La República: Proyecto Chinecas da paso clave: aprueban estudios de preinversión que definirán
+2025-11-06 23:23:55,427 [INFO] [OK] Guardada noticia de La República: Segundo pago de la CTS en Perú iniciará en noviembre de 2025 a nivel nacional: e
+2025-11-06 23:23:55,433 [INFO] [OK] Guardada noticia de La República: Este mes, Osiptel bloqueará 300.000 celulares no registrados para evitar su come
+2025-11-06 23:23:55,437 [INFO] [OK] Guardada noticia de La República: ¿Cómo saber si ya pagaron la CTS de noviembre 2025? Así puedes averiguarlo en BC
+2025-11-06 23:23:55,442 [INFO] [OK] Guardada noticia de La República: Este es el distrito con la mejor calidad de servicio móvil en toda Lima Metropol
+2025-11-06 23:23:55,446 [INFO] [OK] Guardada noticia de La República: Trabajadores públicos en Perú tendrán bono extraordinario y aumento de sueldo de
+2025-11-06 23:23:55,452 [INFO] [OK] Guardada noticia de La República: Pago ONP noviembre 2025: cronograma oficial para el pago de pensionistas 19990 y
+2025-11-06 23:23:55,456 [INFO] [OK] Guardada noticia de La República: CEO de Casa Andina: "El turismo sigue rezagado, pero ahora hay mejor diálogo ent
+2025-11-06 23:23:57,072 [INFO] [OK] Guardada noticia de La República: Construirán una nueva universidad nacional en Lima Metropolitana: ¿qué carreras 
+2025-11-06 23:23:57,077 [INFO] [OK] Guardada noticia de La República: Incendio de gran magnitud consume vivienda en el Rímac: varias unidades de bombe
+2025-11-06 23:23:57,082 [INFO] [OK] Guardada noticia de La República: Indecopi advierte posibles sanciones a dueños que alquilan inmuebles por aplicac
+2025-11-06 23:23:57,087 [INFO] [OK] Guardada noticia de La República: ¿Qué feriados hay en noviembre del 2025 en Perú? Esta es la lista completa de dí
+2025-11-06 23:23:57,093 [INFO] [OK] Guardada noticia de La República: Crhiss Vanger, el tiktoker acusado de estafar a más de 160 personas y generar S/
+2025-11-06 23:23:57,098 [INFO] [OK] Guardada noticia de La República: "El 50% de mercados en el país son extorsionados": comerciantes anuncian paro pa
+2025-11-06 23:23:57,103 [INFO] [OK] Guardada noticia de La República: Números ganadores de la Kábala hoy jueves 6 de noviembre y cuánto quedó el pozo 
+2025-11-06 23:23:57,107 [INFO] [OK] Guardada noticia de La República: Sorteo de La Tinka del miércoles 5 de noviembre: premios, jugada ganadora y Pozo
+2025-11-06 23:23:57,111 [INFO] [OK] Guardada noticia de La República: Vecinos de Pueblo Libre alertan segundo forado en menos de dos días y genera cao
+2025-11-06 23:23:57,115 [INFO] [OK] Guardada noticia de La República: Madre de ‘Maldito Cris’ afirma que el coronel Víctor Revoredo le ofrecía dinero 
+2025-11-06 23:23:57,119 [INFO] [OK] Guardada noticia de La República: Joven pasó dos noches gratis en hotel de Arequipa tras pagar con Yape falso: fue
+2025-11-06 23:23:57,123 [INFO] [OK] Guardada noticia de La República: Las vías expresas inconclusas de López Aliaga dejan caos, tráfico y accidentes a
+2025-11-06 23:23:57,127 [INFO] [OK] Guardada noticia de La República: Municipalidad de Lima ampliará la avenida Nicolás Ayllón y cerrará la Carretera 
+2025-11-06 23:23:57,131 [INFO] [OK] Guardada noticia de La República: Corpac anuncia suspensión de vuelos en el aeropuerto de Pisco debido a tormenta 
+2025-11-06 23:23:57,135 [INFO] [OK] Guardada noticia de La República: Peruanos pagan menos por el nuevo DNI electrónico en 2025, pero deben cumplir es
+2025-11-06 23:23:57,139 [INFO] [OK] Guardada noticia de La República: Docentes de universidades públicas en todo el país acatan huelga indefinida: est
+2025-11-06 23:23:57,143 [INFO] [OK] Guardada noticia de La República: Hidrandina anuncia corte de luz en Cajamarca: horarios y distritos afectados del
+2025-11-06 23:23:57,147 [INFO] [OK] Guardada noticia de La República: Congreso busca restringir el tránsito total de motocicletas en los distritos dec
+2025-11-06 23:23:57,151 [INFO] [OK] Guardada noticia de La República: Chiclayo: intentan asaltar a junta de regantes y terminan llevándose cosméticos 
+2025-11-06 23:23:57,155 [INFO] [OK] Guardada noticia de La República: Nueva vía expresa norte: anuncian desvíos de 30 rutas de transporte por obras en
+2025-11-06 23:23:57,159 [INFO] [OK] Guardada noticia de La República: Trabajo en Migraciones: conoce cómo postular a las más de 20 vacantes con sueldo
+2025-11-06 23:23:57,163 [INFO] [OK] Guardada noticia de La República: La millonaria vía rápida que conectará SJM y VMT en solo 40 minutos: tendrá 3 ca
+2025-11-06 23:23:57,167 [INFO] [OK] Guardada noticia de La República: Usan página falsa de minera Cerro Verde para vender autos de lujo en Arequipa: f
+2025-11-06 23:23:57,171 [INFO] [OK] Guardada noticia de La República: Reportan tormenta de arena en Ica: Lima y 7 regiones en alerta naranja del Senam
+2025-11-06 23:23:57,175 [INFO] [OK] Guardada noticia de La República: Ratas invaden viviendas por obras en pistas y veredas en El Agustino: vecinos de
+2025-11-06 23:23:57,179 [INFO] [OK] Guardada noticia de La República: Temblor en Perú HOY: ¿a qué hora y dónde ocurrió el último sismo del 6 de noviem
+2025-11-06 23:23:57,183 [INFO] [OK] Guardada noticia de La República: Policía halla en Cusco maquinaria pesada que fue robada en Huancayo
+2025-11-06 23:23:57,186 [INFO] [OK] Guardada noticia de La República: Asesinan a colectivero en Chosica: recibió tres impactos de bala cuando conducía
+2025-11-06 23:23:57,190 [INFO] [OK] Guardada noticia de La República: Defensoría del Pueblo solicita anular adenda que autorizó el alza del TUUA en el
+2025-11-06 23:23:57,193 [INFO] [OK] Guardada noticia de La República: Detienen a adulto mayor de 65 años por microcomercializar drogas en su domicilio
+2025-11-06 23:23:57,198 [INFO] [OK] Guardada noticia de La República: La Rinconada: mineros exigen reanudar explotación de oro paralizada por ola de a
+2025-11-06 23:23:57,202 [INFO] [OK] Guardada noticia de La República: Exministro Idel Vexler advierte que clases en colegios estatales deberían empeza
+2025-11-06 23:23:57,206 [INFO] [OK] Guardada noticia de La República: Más de 20.000 denuncias y solo 11 sentencias por extorsión: datos del INPE revel
+2025-11-06 23:23:57,214 [INFO] [OK] Guardada noticia de La República: Perú suma más de 100 feminicidios en 2025 y especialistas advierten: "La inacció
+2025-11-06 23:23:57,218 [INFO] [OK] Guardada noticia de La República: Cae alias 'Negro Marín', secuaz de 'El Jorobado' y rival de ‘El Monstruo’, en Es
+2025-11-06 23:23:57,223 [INFO] [OK] Guardada noticia de La República: Línea 1 del Metro de Lima aumenta frecuencia de trenes para reducir tiempo de es
+2025-11-06 23:23:57,227 [INFO] [OK] Guardada noticia de La República: Corte de agua en Lima: zonas afectadas y horario de Sedapal para el viernes 7 de
+2025-11-06 23:23:57,232 [INFO] [OK] Guardada noticia de La República: Más de 419.000 docentes recibirán aumento de sueldo tras transferencia de S/ 175
+2025-11-06 23:23:57,243 [INFO] [OK] Guardada noticia de La República: Hoy corte de agua en Lima: zonas afectadas y horarios por distrito este jueves 6
+2025-11-06 23:23:57,248 [INFO] [OK] Guardada noticia de La República: Carabayllo: Investigan presunto feminicidio de una mujer hallada sin vida en hos
+2025-11-06 23:23:57,252 [INFO] [OK] Guardada noticia de La República: Iquitos: detienen a tres sospechosos del robo de celulares valorados en 25 mil s
+2025-11-06 23:23:57,257 [INFO] [OK] Guardada noticia de La República: SBS alista denuncia contra tiktoker Crhiss Vanger, acusado de estafar a más de 1
+2025-11-06 23:23:57,262 [INFO] [OK] Guardada noticia de La República: El caso sin resolver del ingeniero de 38 años que desapareció en 2022 luego de v
+2025-11-06 23:23:57,266 [INFO] [OK] Guardada noticia de La República: Explosión en base naval de Iquitos deja tres marinos heridos durante ensayos por
+2025-11-06 23:23:57,270 [INFO] [OK] Guardada noticia de La República: Estudiante sanmarquino de Computación Científica brilla como violinista a sus 22
+2025-11-06 23:23:57,274 [INFO] [OK] Guardada noticia de La República: PNP intervino vehículo chileno que llevaba más de seis kilos de droga tras perse
+2025-11-06 23:23:57,277 [INFO] [OK] Guardada noticia de La República: Refinería de Talara: incendio en unidad de destilación al vacío dejó un trabajad
+2025-11-06 23:23:57,281 [INFO] [OK] Guardada noticia de La República: Si comí duraznos contaminados con residuos químicos en Perú, ¿a qué entidad pued
+2025-11-06 23:23:57,285 [INFO] [OK] Guardada noticia de La República: Adulto mayor lleva desaparecido 9 días en río Ucayali y solo encontraron a su pe
+2025-11-06 23:23:57,288 [INFO] [OK] Guardada noticia de La República: Código Civil peruano permite que universidades anulen título profesional si la t
+2025-11-06 23:23:57,292 [INFO] [OK] Guardada noticia de La República: Coronel Víctor Revoredo pide fiscalización a Osiptel en medio de ola de extorsio
+2025-11-06 23:23:57,296 [INFO] [OK] Guardada noticia de La República: Atacan con 5 disparos a colegio en San Juan de Lurigancho: vigilante resulta her
+2025-11-06 23:23:57,299 [INFO] [OK] Guardada noticia de La República: Pareja chilena muere tras chocar contra camión en Panamericana Sur en Tacna: cho
+2025-11-06 23:23:57,303 [INFO] [OK] Guardada noticia de La República: Unidad antiextorsión se estrena capturando a ‘Los Murci de Ventanilla'
+2025-11-06 23:23:57,306 [INFO] [OK] Guardada noticia de La República: La Libertad: dos ataques en menos de 24 horas dejan dos fallecidos
+2025-11-06 23:23:57,310 [INFO] [OK] Guardada noticia de La República: Capturan a ‘Loco Frank’, presunto extorsionador de ‘Los Faites del Este’ en Ate:
+2025-11-06 23:23:57,313 [INFO] [OK] Guardada noticia de La República: Ate tendrá un nuevo y moderno centro de salud que costará más de S/43 millones: 
+2025-11-06 23:23:57,317 [INFO] [OK] Guardada noticia de La República: Gobierno declara el 25 de noviembre como día no laborable en esta provincia del 
+2025-11-06 23:23:57,320 [INFO] [OK] Guardada noticia de La República: Fútbol, fiesta y valores: así se vivió la Cuarta Copa Ocho Sur en Ucayali
+2025-11-06 23:23:57,325 [INFO] [OK] Guardada noticia de La República: Municipalidad de Lima inaugura nueva vía sin peaje que conecta Ate, La Molina y 
+2025-11-06 23:23:57,329 [INFO] [OK] Guardada noticia de La República: Municipalidad de Ate demolió casas en Cerro Candela para ampliar avenida Nicolás
+2025-11-06 23:23:57,333 [INFO] [OK] Guardada noticia de La República: Alcalde de Carabayllo sufre atentado y lo acusan de no pagar sueldos a sus traba
+2025-11-06 23:23:57,337 [INFO] [OK] Guardada noticia de La República: Delincuentes roban custodia de oro de más de US$30.000 en catedral de Huacho: se
+2025-11-06 23:23:57,340 [INFO] [OK] Guardada noticia de La República: Comerciante enfrenta a extorsionadores que le exigen S/20.000 en Villa María del
+2025-11-06 23:23:57,344 [INFO] [OK] Guardada noticia de La República: Casos de extorsión aumentan, pero condenas se estacan: PJ solo registra 4 senten
+2025-11-06 23:23:57,347 [INFO] [OK] Guardada noticia de La República: Detienen a 30 efectivos del Ejército que habrían utilizado recursos del Estado p
+2025-11-06 23:23:57,351 [INFO] [OK] Guardada noticia de La República: Viaja de Villa El Salvador a Carabayllo por solo S/ 3,50: así funciona la nueva 
+2025-11-06 23:23:57,354 [INFO] [OK] Guardada noticia de La República: Motociclistas anuncian marcha este 8 de noviembre tras no llegar a acuerdos con 
+2025-11-06 23:23:57,358 [INFO] [OK] Guardada noticia de La República: "Limpias espirituales" por videollamada en Perú: la nueva modalidad de extorsión
+2025-11-06 23:23:57,361 [INFO] [OK] Guardada noticia de La República: Hombre armado frustra robo y salva a pareja de cuatro delincuentes en Los Olivos
+2025-11-06 23:23:57,365 [INFO] [OK] Guardada noticia de La República: Números ganadores de la Kábala hoy martes 4 de noviembre y cuánto quedó el pozo 
+2025-11-06 23:23:57,368 [INFO] [OK] Guardada noticia de La República: Banda de adultos mayores roba más de S/6.000 en productos de skincare en botica 
+2025-11-06 23:23:57,372 [INFO] [OK] Guardada noticia de La República: Odontólogos peruanos se suman a lista de víctimas por extorsión: al menos 18 den
+2025-11-06 23:23:57,375 [INFO] [OK] Guardada noticia de La República: Intenso tráfico en Vía de Evitamiento tras choque de un tráiler con puente Balta
+2025-11-06 23:23:57,379 [INFO] [OK] Guardada noticia de La República: Delincuentes roban por quinta vez en colegio inicial de Piura
+2025-11-06 23:23:57,382 [INFO] [OK] Guardada noticia de La República: Con marcha exigen justicia para madre que murió embestida por taxista en Chiclay
+2025-11-06 23:23:57,386 [INFO] [OK] Guardada noticia de La República: Madre con cáncer denuncia robo dentro de la Clínica Ricardo Palma mientras estab
+2025-11-06 23:23:57,390 [INFO] [OK] Guardada noticia de La República: Universitario desaparece tras salir con amiga a discoteca en Juliaca: familia of
+2025-11-06 23:23:57,395 [INFO] [OK] Guardada noticia de La República: Intento de motín en penal Ancón I: reos quemaron objetos y exigieron visitas tra
+2025-11-06 23:23:57,399 [INFO] [OK] Guardada noticia de La República: Temblor en Perú HOY: ¿a qué hora y dónde ocurrió el último sismo del 5 de noviem
+2025-11-06 23:23:57,404 [INFO] [OK] Guardada noticia de La República: Enorme forado en la avenida Brasil pone en riesgo a transportistas y peatones pe
+2025-11-06 23:23:57,408 [INFO] [OK] Guardada noticia de La República: Hombre fallece tras incendio en su casa en Trujillo: siniestro se habría produci
+2025-11-06 23:23:57,413 [INFO] [OK] Guardada noticia de La República: Caen “Los Cangris del Callao”, banda que extorsionaba a transportistas: cabecill
+2025-11-06 23:23:57,417 [INFO] [OK] Guardada noticia de La República: El 30% de menores de 5 años en Piura aún no recibe el refuerzo contra enfermedad
+2025-11-06 23:23:57,422 [INFO] [OK] Guardada noticia de La República: Adulta mayor es cargada para poder cruzar quebrada activa: lluvias intensas caus
+2025-11-06 23:23:57,425 [INFO] [OK] Guardada noticia de La República: Increíble hazaña médica en Arequipa: logran extirpar un tumor gigante de 20 kilo
+2025-11-06 23:23:57,429 [INFO] [OK] Guardada noticia de La República: Suspenden paro de mercados en Lima y Callao de este 6 de noviembre tras llegar a
+2025-11-06 23:23:57,433 [INFO] [OK] Guardada noticia de La República: Municipalidad del Cusco evalúa acciones legales tras encierro de fiscalizadoras 
+2025-11-06 23:23:57,436 [INFO] [OK] Guardada noticia de La República: Medidas de Gobierno de José Jerí con gremios de transportistas no previenen ataq
+2025-11-06 23:23:57,440 [INFO] [OK] Guardada noticia de La República: Policía y su padre detenidos por extorsión a empresas de transporte en Ventanill
+2025-11-06 23:23:57,443 [INFO] [OK] Guardada noticia de La República: Corte de luz en Arequipa programado por SEAL desde el martes 4 al viernes 7 de n
+2025-11-06 23:23:57,447 [INFO] [OK] Guardada noticia de La República: Este 5 de noviembre habrá feriado no laborable exclusivo para este grupo de trab
+2025-11-06 23:23:57,451 [INFO] [OK] Guardada noticia de La República: Iquitos: sujetos irrumpen en tienda de celulares y roban equipos valorizados en 
+2025-11-06 23:23:57,455 [INFO] [OK] Guardada noticia de La República: Vecinos queman moto torito tras captura de presunto ladrón en Juliaca
+2025-11-06 23:23:57,459 [INFO] [OK] Guardada noticia de La República: Asesinan a dos hombres en zona de Chuquitanta, en SMP: lugar fue escenario de ot
+2025-11-06 23:23:57,463 [INFO] [OK] Guardada noticia de La República: Cusco: fiscalía alerta estafas a turistas mediante cambio de titularidad de líne
+2025-11-06 23:23:57,466 [INFO] [OK] Guardada noticia de La República: Suplantan a postulante de ingeniería en examen de admisión UNSA 2026: universida
+2025-11-06 23:23:57,470 [INFO] [OK] Guardada noticia de La República: Osiptel: Este mes se bloqueará otros 300.000 celulares no registrados
+2025-11-06 23:23:57,473 [INFO] [OK] Guardada noticia de La República: Ascenso Docente 2025 para profesores del Mindef: fecha límite de inscripción, cr
+2025-11-06 23:23:57,477 [INFO] [OK] Guardada noticia de La República: Cárceles: Se realizaron más de 350 requisas, pero solo se incautaron 79 celulare
+2025-11-06 23:23:57,481 [INFO] [OK] Guardada noticia de La República: Caso Wanda del Valle: sujeto que avisó a coronel Víctor Revoredo sobre atentado 
+2025-11-06 23:23:57,485 [INFO] [OK] Guardada noticia de La República: Tráfico en Lima rompe récord histórico en 'hora punta' y supera a estas ciudades
+2025-11-06 23:23:57,488 [INFO] [OK] Guardada noticia de La República: Pronabec Beca 18-2026: fecha oficial del examen nacional tras publicación de lis
+2025-11-06 23:23:57,492 [INFO] [OK] Guardada noticia de La República: ¿Hay paro de transportistas hoy 5 de noviembre? Estos fueron los últimos acuerdo
+2025-11-06 23:23:57,495 [INFO] [OK] Guardada noticia de La República: Transportistas acatan paro en Lima y Callao para exigir al Gobierno frenar los a
+2025-11-06 23:23:57,499 [INFO] [OK] Guardada noticia de La República: Sismo de magnitud 4,0 remeció Ica esta madrugada, según IGP
+2025-11-06 23:23:58,774 [INFO] [OK] Guardada noticia de La República: El papa León XIV se reúne por primera vez con el presidente palestino Mahmud Abá
+2025-11-06 23:23:58,779 [INFO] [OK] Guardada noticia de La República: Excarcelan a la expresidenta boliviana Jeanine Áñez tras la anulación de su cond
+2025-11-06 23:23:58,785 [INFO] [OK] Guardada noticia de La República: China revoluciona la industria marítima al completar su primer viaje en “autopis
+2025-11-06 23:23:58,797 [INFO] [OK] Guardada noticia de La República: Este país de América Latina desafía a la ingeniería con el túnel más largo y es 
+2025-11-06 23:23:58,804 [INFO] [OK] Guardada noticia de La República: Histórico triunfo de Zohran Mamdani en Nueva York genera celebración de líderes 
+2025-11-06 23:23:58,809 [INFO] [OK] Guardada noticia de La República: Inicia nuevo juicio contra Cristina Fernández por corrupción: la mayor causa en 
+2025-11-06 23:23:58,816 [INFO] [OK] Guardada noticia de La República: Rusia acusa a la OTAN de planear sabotaje contra la mayor central nuclear de Eur
+2025-11-06 23:23:58,822 [INFO] [OK] Guardada noticia de La República: Rusia sentencia a 13 años de cárcel a dos exsoldados colombianos acusados de com
+2025-11-06 23:23:58,829 [INFO] [OK] Guardada noticia de La República: Este país de América Latina es el mayor productor de paltas en el mundo en 2025:
+2025-11-06 23:23:58,835 [INFO] [OK] Guardada noticia de La República: Precandidato presidencial de Colombia denuncia a Gustavo Petro por traición a la
+2025-11-06 23:23:58,840 [INFO] [OK] Guardada noticia de La República: Filipinas registra al menos 140 muertos y 127 desaparecidos tras el devastador p
+2025-11-06 23:23:58,845 [INFO] [OK] Guardada noticia de La República: Estados Unidos tiene tres planes para derrocar a Nicolás Maduro del poder en Ven
+2025-11-06 23:23:58,850 [INFO] [OK] Guardada noticia de La República: ¿Cómo van las encuestas presidenciales en Chile 2025? Estas son las predicciones
+2025-11-06 23:23:58,854 [INFO] [OK] Guardada noticia de La República: Este país de América Latina prepara el mejor pan y es top 4 en ranking del mundo
+2025-11-06 23:23:58,858 [INFO] [OK] Guardada noticia de La República: Trump revela que Putin lo invitó a resolver el conflicto con Ucrania a través de
+2025-11-06 23:23:58,863 [INFO] [OK] Guardada noticia de La República: El país de América Latina que tiene territorio en 3 continentes y acceso a 3 océ
+2025-11-06 23:23:58,868 [INFO] [OK] Guardada noticia de La República: Este país de América Latina triplicaría su producción de oro, hierro y cobre par
+2025-11-06 23:23:58,872 [INFO] [OK] Guardada noticia de La República: María Corina Machado asegura que Trump "está terminando" la guerra que Maduro "e
+2025-11-06 23:23:58,877 [INFO] [OK] Guardada noticia de La República: Donald Trump desliza que está trabajando en conjunto con China y Rusia en un pos
+2025-11-06 23:23:58,883 [INFO] [OK] Guardada noticia de La República: Zohran Mamdani y su mensaje a Donald Trump: "Para llegar por alguno de nosotros,
+2025-11-06 23:23:58,890 [INFO] [OK] Guardada noticia de La República: Zohran Mamdani, el primer alcalde musulmán que conquistó Nueva York y marcó la d
+2025-11-06 23:23:58,894 [INFO] [OK] Guardada noticia de La República: EE.UU. quiere instalar oficinas de Seguridad Nacional en Ecuador para luchar con
+2025-11-06 23:23:58,937 [INFO] [OK] Guardada noticia de La República: Nicolás Maduro dice ser más famoso que Taylor Swift y Bad Bunny por atención med
+2025-11-06 23:23:58,941 [INFO] [OK] Guardada noticia de La República: Detienen al hombre que acosó a la presidenta Claudia Sheinbaum cuando saludaba a
+2025-11-06 23:23:58,948 [INFO] [OK] Guardada noticia de La República: Francia: hombre descubre un increíble tesoro en su jardín mientras construía su 
+2025-11-06 23:23:58,951 [INFO] [OK] Guardada noticia de La República: Lula califica de “masacre” el megaoperativo en Río y pide investigar accionar po
+2025-11-06 23:23:58,955 [INFO] [OK] Guardada noticia de La República: Justicia de Bolivia anula sentencia contra expresidenta Jeanine Añez por golpe d
+2025-11-06 23:23:58,958 [INFO] [OK] Guardada noticia de La República: Donald Trump tilda de 'kamikazes' a demócratas y los culpa por cierre del gobier
+2025-11-06 23:23:58,962 [INFO] [OK] Guardada noticia de La República: Portugal intercepta narcosubmarino con 1,7 toneladas de cocaína en el Atlántico 
+2025-11-06 23:23:58,966 [INFO] [OK] Guardada noticia de La República: Avión de carga se estrella tras despegar de aeropuerto en Estados Unidos y deja 
+2025-11-06 23:23:58,969 [INFO] [OK] Guardada noticia de La República: Las 10 ciudades de América Latina con los centros históricos más hermosos del mu
+2025-11-06 23:23:58,972 [INFO] [OK] Guardada noticia de La República: Zohran Mamdani es elegido como nuevo alcalde de Nueva York en medio de amenazas 
+2025-11-06 23:23:58,975 [INFO] [OK] Guardada noticia de La República: La ONU advierte que el planeta va camino a un devastador calentamiento de 2,5° m
+2025-11-06 23:23:58,979 [INFO] [OK] Guardada noticia de La República: Alemania: enfermero es condenado a cadena perpetua por matar a 10 pacientes y 27
+2025-11-06 23:23:58,982 [INFO] [OK] Guardada noticia de La República: Vladimir Putin asegura que Rusia retomará ensayos nucleares si es que Estados Un
+2025-11-06 23:23:58,985 [INFO] [OK] Guardada noticia de La República: Japón despliega militares al norte del país ante ola de ataques de osos que han 
+2025-11-06 23:23:58,989 [INFO] [OK] Guardada noticia de La República: Colombiano sobreviviente a ataque de EE.UU. en el Caribe sale del hospital y que
+2025-11-06 23:23:58,992 [INFO] [OK] Guardada noticia de La República: Guatemala anuncia apoyo del FBI para recapturar a pandilleros de 'Barrio' 18 fug
+2025-11-06 23:23:58,996 [INFO] [OK] Guardada noticia de La República: California desafía a Donald Trump: aprueban medida para cambiar su mapa electora
+2025-11-06 23:23:58,999 [INFO] [OK] Guardada noticia de La República: Zohran Mamdani desafía a Trump tras ganar la alcaldía de Nueva York: “Esta ciuda
+2025-11-06 23:23:59,003 [INFO] [OK] Guardada noticia de La República: Elecciones en Nueva York 2025: Zohran Mamdani gana la alcaldía y triunfo le da u
+2025-11-06 23:23:59,007 [INFO] [OK] Guardada noticia de La República: Donald Trump firma orden que reduce aranceles a China tras acuerdo con Xi Jinpin
+2025-11-06 23:23:59,011 [INFO] [OK] Guardada noticia de La República: Johannes Kaiser promete sacar a Chile de la Corte IDH y seguir el modelo de 'man
+2025-11-06 23:23:59,014 [INFO] [OK] Guardada noticia de La República: El país de América Latina que produce más carne de cerdo con EE.UU. y China: sup
+2025-11-06 23:23:59,018 [INFO] [OK] Guardada noticia de La República: El país de América Latina que supera a Perú con mayor producción de carne de pol
+2025-11-06 23:23:59,021 [INFO] [OK] Guardada noticia de La República: Evo Morales acusa a Milei de pedirle a Rodrigo Paz "deshacerse" de él: "Dice que
+2025-11-06 23:24:00,327 [INFO] [OK] Guardada noticia de La República: Barcelona descarta amistoso contra Perú en diciembre: club azulgrana habría pref
+2025-11-06 23:24:00,334 [INFO] [OK] Guardada noticia de La República: Flamengo entrenará en Matute y Palmeiras en la Videna como preparación para la f
+2025-11-06 23:24:00,339 [INFO] [OK] Guardada noticia de La República: Posibles fichajes de Universitario 2026: altas, bajas y renovaciones del tricamp
+2025-11-06 23:24:00,345 [INFO] [OK] Guardada noticia de La República: Lista de convocados de la selección peruana: estos son los 28 jugadores elegidos
+2025-11-06 23:24:00,352 [INFO] [OK] Guardada noticia de La República: Reimond Manco considera que el fichaje de Christian Cueva por Universitario serí
+2025-11-06 23:24:00,356 [INFO] [OK] Guardada noticia de La República: Revelan la razón por la que Oliver Sonne no fue convocado en Perú para amistosos
+2025-11-06 23:24:00,360 [INFO] [OK] Guardada noticia de La República: Voleibolista peruana Zoila La Rosa recibió emotiva propuesta de matrimonio duran
+2025-11-06 23:24:00,367 [INFO] [OK] Guardada noticia de La República: Rodrigo Ureña estaría analizando ofertas del extranjero ante postura de Universi
+2025-11-06 23:24:00,372 [INFO] [OK] Guardada noticia de La República: Gustavo Zevallos aclara que Alianza Lima no le "quitó" a Pedro Aquino a Sporting
+2025-11-06 23:24:00,376 [INFO] [OK] Guardada noticia de La República: ¿Cómo jugarán Alianza Lima y Cusco FC los playoffs para ser Perú 2 y clasificar 
+2025-11-06 23:24:00,381 [INFO] [OK] Guardada noticia de La República: Jairo Vélez y la encrucijada que vive por su continuidad en Universitario tras e
+2025-11-06 23:24:00,387 [INFO] [OK] Guardada noticia de La República: Universitario de Deportes sale a sacarle lustre a su tricampeonato ante Deportiv
+2025-11-06 23:24:00,391 [INFO] [OK] Guardada noticia de La República: Cusco FC vs Sport Boys: hora y canal del partido por el arranque de la fecha 18 
+2025-11-06 23:24:00,395 [INFO] [OK] Guardada noticia de La República: Canal confirmado de Boca Juniors contra River Plate para ver el superclásico en 
+2025-11-06 23:24:00,402 [INFO] [OK] Guardada noticia de La República: Luis Ramos quedó fuera: los ausentes de la selección peruana para los amistosos 
+2025-11-06 23:24:00,408 [INFO] [OK] Guardada noticia de La República: Programación de la fecha 18 del Torneo Clausura de la Liga 1: partidos, horarios
+2025-11-06 23:24:00,415 [INFO] [OK] Guardada noticia de La República: ¿Qué equipos están clasificando a la Copa Sudamericana a 2 fechas para el final 
+2025-11-06 23:24:00,420 [INFO] [OK] Guardada noticia de La República: Perú completó el Campeonato Sudamericano sub-20 de Atletismo con 11 medallas y 5
+2025-11-06 23:24:00,424 [INFO] [OK] Guardada noticia de La República: Sporting Cristal vs Cienciano por el Torneo Clausura 2025: hora y canales para v
+2025-11-06 23:24:00,427 [INFO] [OK] Guardada noticia de La República: ¿Por qué Felipe Chávez no jugará ante Rusia y Chile? Futbolista del Bayern Múnic
+2025-11-06 23:24:00,434 [INFO] [OK] Guardada noticia de La República: Carlos Zambrano contundente sobre Paolo Guerrero tras gran presente en Alianza L
+2025-11-06 23:24:00,439 [INFO] [OK] Guardada noticia de La República: Lionel Messi habló sobre el tiempo que le queda en el fútbol y reveló cómo plane
+2025-11-06 23:24:00,444 [INFO] [OK] Guardada noticia de La República: Con Guillermo Viscarra, Bolivia anuncia su lista de convocados para los amistoso
+2025-11-06 23:24:00,451 [INFO] [OK] Guardada noticia de La República: César Vallejo - CD Moquegua: días, horarios y canal de TV para ver el repechaje 
+2025-11-06 23:24:00,457 [INFO] [OK] Guardada noticia de La República: ¿Quién es Philipp Eisele Yupanqui, la joven promesa del Eintracht Frankfurt que 
+2025-11-06 23:24:00,463 [INFO] [OK] Guardada noticia de La República: Jesús Castillo y su enigmático mensaje tras volver al titularato en Alianza Lima
+2025-11-06 23:24:00,469 [INFO] [OK] Guardada noticia de La República: Manuel Barreto y sus nuevos 'proyectos' en la selección peruana: los sparring qu
+2025-11-06 23:24:00,474 [INFO] [OK] Guardada noticia de La República: ¿Quién es Francesco Andrealli, el nuevo 'Bambino' de la selección peruana que co
+2025-11-06 23:24:00,478 [INFO] [OK] Guardada noticia de La República: Reimond Manco sobre Christian Cueva a Universitario: "Si las puertas de la 'U' y
+2025-11-06 23:24:00,485 [INFO] [OK] Guardada noticia de La República: ¡Con Piero Quispe y Fabio Gruber! Las 6 sorpresas de Manuel Barreto en la selecc
+2025-11-06 23:24:00,490 [INFO] [OK] Guardada noticia de La República: Miguel Trauco revela la impensada reacción de Lionel Messi tras encontrarlo en l
+2025-11-06 23:24:00,494 [INFO] [OK] Guardada noticia de La República: Álex Valera remece las redes al cambiar de look como Ronaldo Nazário tras tricam
+2025-11-06 23:24:00,500 [INFO] [OK] Guardada noticia de La República: Álvaro Barco admite que no quedó conforme con actuación de Universitario en Copa
+2025-11-06 23:24:00,505 [INFO] [OK] Guardada noticia de La República: Acumulado Liga 1 Perú y tabla de posiciones del Torneo Clausura 2025 en la fecha
+2025-11-06 23:24:00,509 [INFO] [OK] Guardada noticia de La República: Agustín Lozano advierte a Universitario y Sport Boys sobre los derechos de TV pa
+2025-11-06 23:24:00,516 [INFO] [OK] Guardada noticia de La República: Agustín Lozano responde a Ricardo Gareca sobre su salida de la selección peruana
+2025-11-06 23:24:00,522 [INFO] [OK] Guardada noticia de La República: Britos aclara su futuro en Universitario y el posible fichaje de Pedro Gallese: 
+2025-11-06 23:24:00,526 [INFO] [OK] Guardada noticia de La República: Miguel Trauco contundente sobre penal de Álex Valera ante Australia: "Nunca más 
+2025-11-06 23:24:00,532 [INFO] [OK] Guardada noticia de La República: Carlos Ascues y Alexi Gómez fueron captados en 'pichanga' de streamer Neutro tra
+2025-11-06 23:24:00,537 [INFO] [OK] Guardada noticia de La República: Cristhian Tizón rompe su silencio sobre fuerte pelea con su DT Santiago Acasiete
+2025-11-06 23:24:00,541 [INFO] [OK] Guardada noticia de La República: Piero Quispe y su rotunda respuesta sobre la posibilidad de jugar en Alianza Lim
+2025-11-06 23:24:00,546 [INFO] [OK] Guardada noticia de La República: Natalia Málaga vuelve a la Liga Peruana de Vóley y cuenta qué la motivó a regres
+2025-11-06 23:24:00,552 [INFO] [OK] Guardada noticia de La República: Alianza Lima venció 2-1 a Los Chankas en Andahuaylas con doblete de Paolo Guerre
+2025-11-06 23:24:00,557 [INFO] [OK] Guardada noticia de La República: Brujas de Bélgica le hizo un partidazo al FC Barcelona y estuvo cerca de ganarle
+2025-11-06 23:24:00,561 [INFO] [OK] Guardada noticia de La República: Paolo Guerrero sobre el posible homenaje que le haría la selección peruana: "No 
+2025-11-06 23:24:00,567 [INFO] [OK] Guardada noticia de La República: Revelan los 2 motivos por los que Christian Cueva podría ser el flamante fichaje
+2025-11-06 23:24:00,573 [INFO] [OK] Guardada noticia de La República: Acumulado de la Liga 1 2025: tabla de posiciones actualizada tras el partido pen
+2025-11-06 23:24:00,578 [INFO] [OK] Guardada noticia de La República: Con doblete de Paolo Guerrero, Alianza Lima venció a Los Chankas y se aferra al 
+2025-11-06 23:24:00,584 [INFO] [OK] Guardada noticia de La República: Barcelona empató ante Brujas 3-3 por Champions League: se reparten puntos en Bél
+2025-11-06 23:24:00,589 [INFO] [OK] Guardada noticia de La República: Nueva camiseta de la selección peruana: ¿cuánto cuesta, dónde y desde cuándo se 
+2025-11-06 23:24:00,598 [INFO] [OK] Guardada noticia de La República: Leila Pereira: la poderosa empresaria que rompió barreras y llevó al Palmeiras a
+2025-11-06 23:24:00,604 [INFO] [OK] Guardada noticia de La República: Mirar Brujas vs Barcelona vía ESPN en vivo por UEFA Champions League: minuto a m
+2025-11-06 23:24:00,608 [INFO] [OK] Guardada noticia de La República: Luis Advíncula asegura que verá opciones distintas a Sporting Cristal si regresa
+2025-11-06 23:24:00,616 [INFO] [OK] Guardada noticia de La República: Juvenil de 16 años de Independiente del Valle falleció "víctima de la insegurida
+2025-11-06 23:24:00,623 [INFO] [OK] Guardada noticia de La República: Canal confirmado de Universitario contra Deportivo Garcilaso por la penúltima fe
+2025-11-06 23:24:00,628 [INFO] [OK] Guardada noticia de La República: Perú Trail Series anuncia nueva temporada con récord de premios y gran final en 
+2025-11-06 23:24:00,636 [INFO] [OK] Guardada noticia de La República: Resultados 5y6 La Rinconada EN VIVO HOY, domingo 2 de noviembre 2025: ganadores 
+2025-11-06 23:24:00,642 [INFO] [OK] Guardada noticia de La República: Paolo Guerrero rompe su silencio sobre irrupción de hinchas de Alianza Lima dura
+2025-11-06 23:24:00,649 [INFO] [OK] Guardada noticia de La República: Sebastián Britos podría dejar Universitario: tiene propuestas de otros clubes de
+2025-11-06 23:24:00,656 [INFO] [OK] Guardada noticia de La República: Alianza Lima vs Universitario por la final de la Liga Femenina: hora y canales p
+2025-11-06 23:24:00,661 [INFO] [OK] Guardada noticia de La República: Serbia: DT falleció tras sufrir descompensación y sus jugadores se enteraron en 
+2025-11-06 23:24:02,091 [INFO] [OK] Guardada noticia de La República: Melanie Martínez llora tras encontrarse con Christian Domínguez en el Juzgado: ¿
+2025-11-06 23:24:02,098 [INFO] [OK] Guardada noticia de La República: Milett Figueroa envía conmovedor mensaje a Marcelo Tinelli tras amenazas de muer
+2025-11-06 23:24:02,103 [INFO] [OK] Guardada noticia de La República: Cómico Cachay recuerda su participación como soldado en la guerra del 'Falso Paq
+2025-11-06 23:24:02,109 [INFO] [OK] Guardada noticia de La República: Ana Paula Consorte sorprende al mostrar chat privado con Paolo Guerrero en el qu
+2025-11-06 23:24:02,114 [INFO] [OK] Guardada noticia de La República: Así fue la incómoda reacción de Sofía Franco al ver el ampay de Álvaro Paz de la
+2025-11-06 23:24:02,119 [INFO] [OK] Guardada noticia de La República: Nickol Sinchi rompe su silencio tras cantar con Son del Duke y revela su deseo d
+2025-11-06 23:24:02,125 [INFO] [OK] Guardada noticia de La República: Yiddá Eslava defiende su película ‘La habitación negra’ y admite que tiene error
+2025-11-06 23:24:02,130 [INFO] [OK] Guardada noticia de La República: Magaly Medina cuestiona a Sofía Franco por negar vínculo con Álvaro Paz de la Ba
+2025-11-06 23:24:02,135 [INFO] [OK] Guardada noticia de La República: Melanie Martínez habría denunciado a Christian Domínguez y a los padres del cant
+2025-11-06 23:24:02,138 [INFO] [OK] Guardada noticia de La República: Korina Rivadeneira revela cómo su padre se gana la vida en Venezuela y muestra s
+2025-11-06 23:24:02,142 [INFO] [OK] Guardada noticia de La República: ¿Quién es Melanie Martínez, la madre de la hija mayor de Christian Domínguez, y 
+2025-11-06 23:24:02,146 [INFO] [OK] Guardada noticia de La República: Candidata a Miss Mundo Chile sorprende al jurado con actuación de death metal: "
+2025-11-06 23:24:02,150 [INFO] [OK] Guardada noticia de La República: Influencer Valentino casi se descompensa tras vencer a Josi y ganar la semifinal
+2025-11-06 23:24:02,154 [INFO] [OK] Guardada noticia de La República: Actor Andrés Wiesse fue sometido a operación de emergencia tras presentar proble
+2025-11-06 23:24:02,158 [INFO] [OK] Guardada noticia de La República: ¿Quién es Helen Ballón, la nueva pareja de Claudio Pizarro y madre de su hija me
+2025-11-06 23:24:02,162 [INFO] [OK] Guardada noticia de La República: Javiera Arnillas pide coherencia a Mariana Vértiz por defender causas LGTB y ten
+2025-11-06 23:24:02,166 [INFO] [OK] Guardada noticia de La República: Samahara Lobatón impacta al vender su cuenta de Instagram con 60.000 usuarios a 
+2025-11-06 23:24:02,170 [INFO] [OK] Guardada noticia de La República: Ampayan a Yahaira Plasencia con Luis Fernando 'El diablo' ingresando a su depart
+2025-11-06 23:24:02,173 [INFO] [OK] Guardada noticia de La República: Susy Díaz defiende a Florcita tras su candidatura como diputada y asegura que es
+2025-11-06 23:24:02,177 [INFO] [OK] Guardada noticia de La República: Magaly Medina elogia la boda civil de Natalia Salas y Sergio Coloma: "Está feliz
+2025-11-06 23:24:02,181 [INFO] [OK] Guardada noticia de La República: Bryan Torres sorprende al revelar el método que usó para salvar su relación con 
+2025-11-06 23:24:02,185 [INFO] [OK] Guardada noticia de La República: Susy Díaz sorprende al confesar por qué rechazó propuesta para ser mandataria de
+2025-11-06 23:24:02,189 [INFO] [OK] Guardada noticia de La República: ¡Ya son marido y mujer! Natalia Salas y Sergio Coloma se casaron y comparten emo
+2025-11-06 23:24:02,193 [INFO] [OK] Guardada noticia de La República: La ‘Uchulú’ sorprende al someterse a cirugía de trasplante de cabello y presume 
+2025-11-06 23:24:02,198 [INFO] [OK] Guardada noticia de La República: 'Esto es guerra': ¿cómo le fue en el rating tras la salida de Patricio Parodi y 
+2025-11-06 23:24:02,203 [INFO] [OK] Guardada noticia de La República: Luciana Fuster se pronuncia tras lo que pasó entre Mr. Nawat y miss México: ''Ha
+2025-11-06 23:24:02,207 [INFO] [OK] Guardada noticia de La República: Rebeca Escribens indignada tras demanda de Christian Domínguez contra Melanie Ma
+2025-11-06 23:24:02,210 [INFO] [OK] Guardada noticia de La República: Mr. Nawat rompe su silencio tras retirar a Miss México de un evento del Miss Uni
+2025-11-06 23:24:02,215 [INFO] [OK] Guardada noticia de La República: Sofía Franco se pronuncia tras ampay de Álvaro Paz de la Barra con misteriosa mu
+2025-11-06 23:24:02,220 [INFO] [OK] Guardada noticia de La República: Yahaira Plasencia rechaza oficializar relación con Luis Fernando ‘El Diablo’ tra
+2025-11-06 23:24:02,225 [INFO] [OK] Guardada noticia de La República: Gianella Ydoña expone a Josimar y confiesa que aún la sigue buscando pese a su r
+2025-11-06 23:24:02,231 [INFO] [OK] Guardada noticia de La República: Christian Domínguez demandó a Melanie Martínez por TikToks de su hija mayor cont
+2025-11-06 23:24:02,237 [INFO] [OK] Guardada noticia de La República: Magaly Medina expone a Claudio Pizarro y revela detalles inéditos del inicio del
+2025-11-06 23:24:02,242 [INFO] [OK] Guardada noticia de La República: Tilsa Lozano tilda de “payasada” la posible candidatura del ‘Loco’ Vargas, Florc
+2025-11-06 23:24:02,248 [INFO] [OK] Guardada noticia de La República: ¡Escándalo! Representante de México, Fátima Bosch, es retirada de evento del Mis
+2025-11-06 23:24:02,254 [INFO] [OK] Guardada noticia de La República: Estrella Torres se pronuncia por primera vez sobre su ingreso a Son del Duke tra
+2025-11-06 23:24:02,258 [INFO] [OK] Guardada noticia de La República: ¿Cuántos hijos tiene Claudio Pizarro, cómo se llaman y quiénes son las madres de
+2025-11-06 23:24:02,262 [INFO] [OK] Guardada noticia de La República: Ana Siucho impacta al dedicar tierno mensaje a Elías Brito por su cumpleaños tra
+2025-11-06 23:24:02,268 [INFO] [OK] Guardada noticia de La República: Melany Martínez responde indignada tras denuncia de Christian Domínguez por los 
+2025-11-06 23:24:02,271 [INFO] [OK] Guardada noticia de La República: Christian Domínguez demandó a Melany Martínez, madre de su hija mayor, por viole
+2025-11-06 23:24:02,275 [INFO] [OK] Guardada noticia de La República: Magaly arremete contra Josimar por borrar comunicado sobre ruptura con María Fe 
+2025-11-06 23:24:02,275 [INFO] [SCRAPER] Iniciando: Andina
+2025-11-06 23:24:15,641 [INFO] [SCRAPER] Iniciando: CNN Español
+2025-11-06 23:24:16,846 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias del cierre del aeropuerto de Heathrow en Londres, 21 de marz
+2025-11-06 23:24:16,850 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la guerra entre Israel y Hamas del 18 de marzo
+2025-11-06 23:24:16,854 [INFO] [OK] Guardada noticia de CNN Español: Resumen de la reunión entre EE.UU. y Ucrania en Arabia Saudita: noticias, avance
+2025-11-06 23:24:16,858 [INFO] [OK] Guardada noticia de CNN Español: ¿Por qué se conmemora el 8 de marzo el Día Internacional de la Mujer? ¿Cuál es s
+2025-11-06 23:24:16,862 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias del Gobierno de Trump y los aranceles de EE.UU. a México, 6 
+2025-11-06 23:24:16,870 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias del discurso de Trump ante el Congreso y reacciones a los ar
+2025-11-06 23:24:16,874 [INFO] [OK] Guardada noticia de CNN Español: Resumen de los premios Oscar 2025: ganadores, looks discursos y más
+2025-11-06 23:24:16,879 [INFO] [OK] Guardada noticia de CNN Español: ¿Cuáles son las películas que más Premios Oscar han ganado en la historia?
+2025-11-06 23:24:16,883 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la disputa entre Trump y Zelensky tras su reunión, 1 de m
+2025-11-06 23:24:16,891 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la disputa entre Trump y Zelensky tras su reunión del 28 
+2025-11-06 23:24:16,895 [INFO] [OK] Guardada noticia de CNN Español: ¿Quién era Enrique “Kiki” Camarena? La historia del agente de la DEA por cuyo as
+2025-11-06 23:24:16,899 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de Caro Quintero y los narcos de México extraditados a EE.UU
+2025-11-06 23:24:16,903 [INFO] [OK] Guardada noticia de CNN Español: Una ley poco conocida de 1798 podría ser clave para los planes de deportación de
+2025-11-06 23:24:16,907 [INFO] [OK] Guardada noticia de CNN Español: Este es el origen de la bandera de México y por qué se celebra el 24 febrero
+2025-11-06 23:24:16,911 [INFO] [OK] Guardada noticia de CNN Español: Resultados de las elecciones en Alemania 2025
+2025-11-06 23:24:16,915 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la reunión entre EE.UU. y Rusia en Arabia Saudita y guerr
+2025-11-06 23:24:16,919 [INFO] [OK] Guardada noticia de CNN Español: ¿Quién era Paquita la del Barrio, emblemática cantautora mexicana fallecida a lo
+2025-11-06 23:24:16,923 [INFO] [OK] Guardada noticia de CNN Español: Día de los Presidentes: ¿qué se celebra y cuál es el origen de este feriado de E
+2025-11-06 23:24:16,934 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la guerra de Rusia en Ucrania el 17 de febrero
+2025-11-06 23:24:16,939 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la guerra entre Rusia y Ucrania y la reunión de Zelensky 
+2025-11-06 23:24:16,943 [INFO] [OK] Guardada noticia de CNN Español: ¿En qué orden hay que ver todas las películas y series de Marvel del MCU?
+2025-11-06 23:24:16,947 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la guerra entre Rusia y Ucrania tras llamada entre Trump 
+2025-11-06 23:24:16,951 [INFO] [OK] Guardada noticia de CNN Español: ¿Quién era San Valentín? Esta es la retorcida historia del origen de esta celebr
+2025-11-06 23:24:16,954 [INFO] [OK] Guardada noticia de CNN Español: Así fue el Super Bowl 2025 y el halftime show: resumen y resultado de la contund
+2025-11-06 23:24:16,958 [INFO] [OK] Guardada noticia de CNN Español: Resumen de las elecciones en Ecuador 2025: habrá segunda vuelta entre Noboa y Go
+2025-11-06 23:24:16,962 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la guerra en Gaza: liberación de rehenes, reacciones y má
+2025-11-06 23:24:16,966 [INFO] [OK] Guardada noticia de CNN Español: ¿Quién es Patrick Mahomes, el quarterback estrella de los Kansas City Chiefs?
+2025-11-06 23:24:16,970 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la guerra en Gaza: Trump dice que tomará el control, reac
+2025-11-06 23:24:16,974 [INFO] [OK] Guardada noticia de CNN Español: Estos son los nominados a los Premios Grammy 2025: lista por categorías
+2025-11-06 23:24:16,978 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de los aranceles que Trump impone a México, Canadá y China
+2025-11-06 23:24:16,982 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias sobre la guerra en Gaza: liberación de rehenes, noticias, re
+2025-11-06 23:24:16,988 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias del choque de un avión con un helicóptero en Washington de 3
+2025-11-06 23:24:16,993 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de deportaciones en EE.UU., medidas de Trump sobre migración
+2025-11-06 23:24:16,997 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la guerra en Gaza del 30 de enero de 2025
+2025-11-06 23:24:17,001 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias del choque de un avión con un helicóptero en Washington del 
+2025-11-06 23:24:17,007 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de deportaciones en EE.UU., migración y otras medidas de Tru
+2025-11-06 23:24:17,011 [INFO] [OK] Guardada noticia de CNN Español: ¿Qué es el Año Nuevo chino? Las 7 cosas que debes saber sobre la popular celebra
+2025-11-06 23:24:17,015 [INFO] [OK] Guardada noticia de CNN Español: ¿Qué animales hay en el horóscopo chino, cómo saber cuál soy y qué significa?
+2025-11-06 23:24:17,019 [INFO] [OK] Guardada noticia de CNN Español: ¿Quién no tiene que declarar impuestos en EE.UU. y cuál es el límite de ingresos
+2025-11-06 23:24:17,025 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias sobre deportaciones en EE.UU. y medidas de Trump sobre migra
+2025-11-06 23:24:17,029 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de las medidas de EE.UU. sobre inmigración y la crisis con C
+2025-11-06 23:24:17,033 [INFO] [OK] Guardada noticia de CNN Español: Cómo presentar tu declaración de impuestos en EE.UU. en 2025: link, formularios,
+2025-11-06 23:24:17,039 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la guerra entre Israel y Hamas del 25 de enero
+2025-11-06 23:24:17,044 [INFO] [OK] Guardada noticia de CNN Español: ¿Qué son los programas de diversidad, equidad e inclusión (DEI) que Trump quiere
+2025-11-06 23:24:17,048 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la presidencia de Donald Trump del día 21 de enero de 202
+2025-11-06 23:24:17,052 [INFO] [OK] Guardada noticia de CNN Español: A quiénes podría deportar Trump en su segundo mandato
+2025-11-06 23:24:17,058 [INFO] [OK] Guardada noticia de CNN Español: ¿Quién es J. D. Vance, vicepresidente de Donald Trump?
+2025-11-06 23:24:17,062 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la toma de posesión de Trump como presidente de EE.UU. de
+2025-11-06 23:24:17,066 [INFO] [OK] Guardada noticia de CNN Español: Estas son las personas elegidas por Donald Trump para cargos clave de su Gabinet
+2025-11-06 23:24:17,071 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias sobre la guerra entre Israel y Hamas del 20 de enero de 2025
+2025-11-06 23:24:17,076 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la guerra entre Israel y Hamas este domingo 19 de enero
+2025-11-06 23:24:17,080 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la guerra entre Israel y Hamas este sábado 18 de enero
+2025-11-06 23:24:17,084 [INFO] [OK] Guardada noticia de CNN Español: El clima extremo llegó para quedarse. Cómo prepararse financieramente para un de
+2025-11-06 23:24:17,090 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de los incendios en Los Ángeles, California, del 17 de enero
+2025-11-06 23:24:17,095 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la guerra entre Israel y Hamas del 17 de enero
+2025-11-06 23:24:17,101 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de los incendios en Los Ángeles, California, del 16 de enero
+2025-11-06 23:24:17,107 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la guerra entre Israel y Hamas del 16 de enero de 2025
+2025-11-06 23:24:17,112 [INFO] [OK] Guardada noticia de CNN Español: Resumen de la guerra y el acuerdo de cese el fuego entre Israel y Hamas, 15 de e
+2025-11-06 23:24:17,116 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de incendios en Los Ángeles, California del 15 de enero 2025
+2025-11-06 23:24:17,121 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la guerra en Gaza del 14 de enero
+2025-11-06 23:24:17,126 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de incendios en Los Ángeles, California del 14 de enero de 2
+2025-11-06 23:24:17,129 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de incendios en Los Ángeles, California del 13 de enero de 2
+2025-11-06 23:24:17,133 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias sobre los incendios en Los Ángeles, California, el 12 de ene
+2025-11-06 23:24:17,138 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de los incendios en Los Ángeles, California este sábado 11 d
+2025-11-06 23:24:17,142 [INFO] [OK] Guardada noticia de CNN Español: Estatus de Protección Temporal (TPS): qué es, quién es elegible, precio y cómo s
+2025-11-06 23:24:17,146 [INFO] [OK] Guardada noticia de CNN Español: Qué pasó en el juicio penal contra Donald Trump por supuestos pagos por silencio
+2025-11-06 23:24:17,150 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la toma de posesión del presidente de Venezuela del 10 de
+2025-11-06 23:24:17,156 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de los incendios en Los Ángeles, California del 10 de enero 
+2025-11-06 23:24:17,160 [INFO] [OK] Guardada noticia de CNN Español: ¿Qué problemas de salud ha tenido José "Pepe" Mujica?
+2025-11-06 23:24:17,164 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de las protestas en Venezuela, Machado y Maduro del 9 de ene
+2025-11-06 23:24:17,168 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de los incendios en Los Ángeles, California del 9 de enero d
+2025-11-06 23:24:17,173 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de Venezuela, Maduro y González del 8 de enero
+2025-11-06 23:24:17,177 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de los incendios en Los Ángeles, California, del 8 de enero
+2025-11-06 23:24:17,181 [INFO] [OK] Guardada noticia de CNN Español: De los inicios políticos a las presidencias cuestionadas: los años de Nicolás Ma
+2025-11-06 23:24:17,185 [INFO] [OK] Guardada noticia de CNN Español: ANÁLISIS | ¿Cuál es el peso de la Fuerza Armada en la política de Venezuela y qu
+2025-11-06 23:24:17,188 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias del ataque en Nueva Orleans del 3 de enero de 2025
+2025-11-06 23:24:17,192 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias del ataque en Nueva Orleans del 2 de enero de 2025
+2025-11-06 23:24:17,195 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias del ataque en Nueva Orleans este 1 de enero del 2025
+2025-11-06 23:24:17,198 [INFO] [OK] Guardada noticia de CNN Español: ¿Por qué es importante el Concierto de Año Nuevo de Viena?
+2025-11-06 23:24:17,202 [INFO] [OK] Guardada noticia de CNN Español: ¿Cuál es el país que primero recibe el Año Nuevo?
+2025-11-06 23:24:17,206 [INFO] [OK] Guardada noticia de CNN Español: ¿Cuál es el origen de Nochevieja y por qué se celebra?
+2025-11-06 23:24:17,209 [INFO] [OK] Guardada noticia de CNN Español: ¿Quién fue Jimmy Carter y qué hizo como presidente de Estados Unidos?
+2025-11-06 23:24:17,213 [INFO] [OK] Guardada noticia de CNN Español: ¿De qué murió y qué problemas de salud tuvo Jimmy Carter?
+2025-11-06 23:24:17,216 [INFO] [OK] Guardada noticia de CNN Español: La vida y familia de Jimmy Carter: carrera, hijos y más datos
+2025-11-06 23:24:17,220 [INFO] [OK] Guardada noticia de CNN Español: ¿Por qué ganó Jimmy Carter el Premio Nobel de la Paz en 2002?
+2025-11-06 23:24:17,223 [INFO] [OK] Guardada noticia de CNN Español: Todos los presidentes de la historia de EE.UU. de George Washington a Joe Biden
+2025-11-06 23:24:17,228 [INFO] [OK] Guardada noticia de CNN Español: La historia de amor de Rosalynn y Jimmy Carter
+2025-11-06 23:24:17,232 [INFO] [OK] Guardada noticia de CNN Español: Los 7 momentos más relevantes de la presidencia de Jimmy Carter
+2025-11-06 23:24:17,235 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la muerte del expresidente de EE.UU. Jimmy Carter este do
+2025-11-06 23:24:17,239 [INFO] [OK] Guardada noticia de CNN Español: Jimmy Carter, el expresidente que se dedicó a la paz, murió a los 100 años
+2025-11-06 23:24:17,244 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias del avión que se estrelló en Corea del Sur
+2025-11-06 23:24:17,248 [INFO] [OK] Guardada noticia de CNN Español: ¿Cuántos números hay que tener para ganar el Mega Millions? ¿Cuánto se gana con 
+2025-11-06 23:24:17,251 [INFO] [OK] Guardada noticia de CNN Español: Estas son las propuestas que ha hecho Donald Trump para su regreso a la presiden
+2025-11-06 23:24:17,255 [INFO] [OK] Guardada noticia de CNN Español: La verdadera historia del origen de la Navidad
+2025-11-06 23:24:17,258 [INFO] [OK] Guardada noticia de CNN Español: Así fue como El Grinch, una sorprendente película de Navidad, se convirtió en un
+2025-11-06 23:24:17,262 [INFO] [OK] Guardada noticia de CNN Español: La historia del "ugly sweater" o suéter navideño
+2025-11-06 23:24:17,265 [INFO] [OK] Guardada noticia de CNN Español: "Como viajar a la luna": el cruce oceánico más aterrador del mundo
+2025-11-06 23:24:17,269 [INFO] [OK] Guardada noticia de CNN Español: Ni China ni Corea del Norte: la historia del país de América Latina que "eliminó
+2025-11-06 23:24:17,275 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias del atropello en el mercado navideño de Alemania del 21 de d
+2025-11-06 23:24:17,278 [INFO] [OK] Guardada noticia de CNN Español: Solsticio de invierno 2024: el día más corto del año y el inicio oficial del inv
+2025-11-06 23:24:17,778 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la disputa entre Trump y Zelensky tras su reunión, 1 de m
+2025-11-06 23:24:17,783 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la guerra entre Israel y Hamas del 17 de enero
+2025-11-06 23:24:17,787 [INFO] [OK] Guardada noticia de CNN Español: Captan erupción del volcán Kanlaon en Filipinas
+2025-11-06 23:24:17,791 [INFO] [OK] Guardada noticia de CNN Español: "Vamos a vivir un proceso sumamente complicado para definir el futuro de Siria",
+2025-11-06 23:24:17,794 [INFO] [OK] Guardada noticia de CNN Español: "Tiene que ser una farsa": la reacción del líder de la oposición surcoreana sobr
+2025-11-06 23:24:17,799 [INFO] [OK] Guardada noticia de CNN Español: La consola PlayStation cumple 30 años en el mercado
+2025-11-06 23:24:17,802 [INFO] [OK] Guardada noticia de CNN Español: Un alud cubrió de barro las viviendas del estado indio de Tamil Nadu
+2025-11-06 23:24:17,806 [INFO] [OK] Guardada noticia de CNN Español: Las 25 páginas de Wikipedia más vistas de 2024
+2025-11-06 23:24:17,810 [INFO] [OK] Guardada noticia de CNN Español: La Policía de Georgia reprime a manifestantes con cañones de agua
+2025-11-06 23:24:17,814 [INFO] [OK] Guardada noticia de CNN Español: Una escultura de mimbre similar al emoji “poop” genera controversias entre sus e
+2025-11-06 23:24:17,818 [INFO] [OK] Guardada noticia de CNN Español: “Reciclar no es una solución completa”, dice experta en el tratado mundial de pl
+2025-11-06 23:24:17,822 [INFO] [OK] Guardada noticia de CNN Español: Un candidato de extrema derecha y crítico de la OTAN llega a la segunda vuelta p
+2025-11-06 23:24:17,825 [INFO] [OK] Guardada noticia de CNN Español: Muere a los 39 años el actor surcoreano Song Jae-lim
+2025-11-06 23:24:17,829 [INFO] [OK] Guardada noticia de CNN Español: Crisis climática: ¿Qué están haciendo los líderes mundiales en la COP29?
+2025-11-06 23:24:17,834 [INFO] [OK] Guardada noticia de CNN Español: COP29: esto es lo que debes saber sobre el segundo día de la cumbre del clima
+2025-11-06 23:24:17,838 [INFO] [OK] Guardada noticia de CNN Español: ¿Cuál será el rol de Trump en el escenario mundial?
+2025-11-06 23:24:17,841 [INFO] [OK] Guardada noticia de CNN Español: Netanyahu despidió a su ministro de Defensa. ¿Qué pasará ahora?
+2025-11-06 23:24:17,845 [INFO] [OK] Guardada noticia de CNN Español: Un pequeño pueblo de la India reza por Kamala Harris
+2025-11-06 23:24:17,849 [INFO] [OK] Guardada noticia de CNN Español: Así lanzó Corea del Norte un misil balístico “perfeccionado”
+2025-11-06 23:24:17,853 [INFO] [OK] Guardada noticia de CNN Español: Las noticias del mundo del 31 de octubre en CNN en español
+2025-11-06 23:24:17,857 [INFO] [OK] Guardada noticia de CNN Español: Lo que dejó la cumbre de los BRICS
+2025-11-06 23:24:17,861 [INFO] [OK] Guardada noticia de CNN Español: A Netanyahu no le conviene un cese del fuego, dice analista
+2025-11-06 23:24:17,865 [INFO] [OK] Guardada noticia de CNN Español: Una caminata anual de zombis toma las calles de Bolivia
+2025-11-06 23:24:17,869 [INFO] [OK] Guardada noticia de CNN Español: Lluvias torrenciales provocan graves daños en el sur de Francia
+2025-11-06 23:24:17,873 [INFO] [OK] Guardada noticia de CNN Español: Maduro: “Un banco de los Brics es una necesidad de los pueblos del sur”
+2025-11-06 23:24:17,877 [INFO] [OK] Guardada noticia de CNN Español: Maduro critica a la Corte Internacional de Justicia: "¿Y las vidas de los niños 
+2025-11-06 23:24:17,881 [INFO] [OK] Guardada noticia de CNN Español: El lago más grande del planeta se está achicando rápidamente y los expertos teme
+2025-11-06 23:24:17,885 [INFO] [OK] Guardada noticia de CNN Español: Países en cumbre de los BRICS buscan fortalecer su influencia mundial
+2025-11-06 23:24:17,889 [INFO] [OK] Guardada noticia de CNN Español: El caótico momento posterior al derrumbe de la pasarela de un muelle de embarcac
+2025-11-06 23:24:17,892 [INFO] [OK] Guardada noticia de CNN Español: Muere un niño palestino de 3 años por ayuda lanzada desde el aire
+2025-11-06 23:24:17,897 [INFO] [OK] Guardada noticia de CNN Español: Explosión en Nigeria deja 147 muertos y más de 70 heridos
+2025-11-06 23:24:17,901 [INFO] [OK] Guardada noticia de CNN Español: Reportero de CNN se disfraza y se baña en orina de panda para acercarse a pandas
+2025-11-06 23:24:17,906 [INFO] [OK] Guardada noticia de CNN Español: Otorgan el Nobel de la Paz a Nihon Hidankyo, grupo de sobrevivientes de Hiroshim
+2025-11-06 23:24:17,909 [INFO] [OK] Guardada noticia de CNN Español: El Minuto Internacional del 10 de octubre en CNN en Español
+2025-11-06 23:24:17,914 [INFO] [OK] Guardada noticia de CNN Español: Nadie debería ganar el Premio Nobel de la Paz que se entrega mañana, dice el dir
+2025-11-06 23:24:17,919 [INFO] [OK] Guardada noticia de CNN Español: Interpol busca resolver 46 casos de mujeres sin identificar
+2025-11-06 23:24:17,923 [INFO] [OK] Guardada noticia de CNN Español: Conoce la cultura de la India con Destinos
+2025-11-06 23:24:17,927 [INFO] [OK] Guardada noticia de CNN Español: La democracia, amenazada globalmente
+2025-11-06 23:24:17,937 [INFO] [OK] Guardada noticia de CNN Español: Fuego y humo en el cielo de Beirut tras un nuevo ataque aéreo israelí
+2025-11-06 23:24:17,941 [INFO] [OK] Guardada noticia de CNN Español: Hemos visto un deterioro del equilibrio de poderes en el mundo: Michael E. Shift
+2025-11-06 23:24:17,946 [INFO] [OK] Guardada noticia de CNN Español: Julian Assange reaparece tras su liberación y defiende la libertad de prensa
+2025-11-06 23:24:17,950 [INFO] [OK] Guardada noticia de CNN Español: Analistas estiman que el iPhone 16 no ha tenido un buen comienzo, pero algunos t
+2025-11-06 23:24:17,954 [INFO] [OK] Guardada noticia de CNN Español: El cannabis podría reclasificarse pronto como una droga menos peligrosa. Cinco c
+2025-11-06 23:24:17,958 [INFO] [OK] Guardada noticia de CNN Español: “Hay mucho descontento en el mundo y hay líderes que lo aprovechan para su agend
+2025-11-06 23:24:17,963 [INFO] [OK] Guardada noticia de CNN Español: Análisis de CNN muestra que bombas de 907 kg fabricadas en Estados Unidos probab
+2025-11-06 23:24:17,967 [INFO] [OK] Guardada noticia de CNN Español: Mira las explosiones durante un ataque de Israel sobre un puerto en Yemen contro
+2025-11-06 23:24:17,971 [INFO] [OK] Guardada noticia de CNN Español: Se llevaron bien en vacaciones, pero luego él no la buscó y ella decidió llamarl
+2025-11-06 23:24:17,975 [INFO] [OK] Guardada noticia de CNN Español: Así construyen el primer hotel impreso en 3D del mundo
+2025-11-06 23:24:17,979 [INFO] [OK] Guardada noticia de CNN Español: El “cerebro” de Bengasi, Ahmed Abu Khatallah, condenado a 28 años de prisión en 
+2025-11-06 23:24:17,984 [INFO] [OK] Guardada noticia de CNN Español: ¿Pueden los partidos de centro favorecer a los extremos en América Latina? La mi
+2025-11-06 23:24:17,987 [INFO] [OK] Guardada noticia de CNN Español: Meryl Streep: “Una ardilla tiene más derechos que una niña en Afganistán”
+2025-11-06 23:24:17,991 [INFO] [OK] Guardada noticia de CNN Español: Bukele: “Mientras El Salvador se volvió más seguro, el mundo se volvió más inseg
+2025-11-06 23:24:17,995 [INFO] [OK] Guardada noticia de CNN Español: “La cápsula suicida no cumple legalmente”, dice ministra de Suiza tras muerte de
+2025-11-06 23:24:17,999 [INFO] [OK] Guardada noticia de CNN Español: Zelensky en la ONU sobre guerra con Rusia: Nos quieren dejar a oscuras en este i
+2025-11-06 23:24:18,003 [INFO] [OK] Guardada noticia de CNN Español: El discurso de Lula da Silva en la ONU: Terminar con el hambre en Brasil es el c
+2025-11-06 23:24:18,007 [INFO] [OK] Guardada noticia de CNN Español: El discurso de Biden ante la ONU: “Reconozco los desafíos desde Ucrania hasta Ga
+2025-11-06 23:24:18,010 [INFO] [OK] Guardada noticia de CNN Español: Líderes mundiales se suman a la Asamblea General de las Naciones Unidas
+2025-11-06 23:24:18,015 [INFO] [OK] Guardada noticia de CNN Español: Cambian las formas de relacionarse: ¿está en crisis la monogamia?
+2025-11-06 23:24:18,018 [INFO] [OK] Guardada noticia de CNN Español: Los principales desafíos que rodean a la nueva Asamblea General de la ONU
+2025-11-06 23:24:18,022 [INFO] [OK] Guardada noticia de CNN Español: La compañía que construyó el Titanic se declara insolvente
+2025-11-06 23:24:18,026 [INFO] [OK] Guardada noticia de CNN Español: Manifestantes y policía chocan las afueras de una convención de defensa en Austr
+2025-11-06 23:24:18,031 [INFO] [OK] Guardada noticia de CNN Español: Imágenes de la multitudinaria recepción al Papa Francisco en su visita a Timor O
+2025-11-06 23:24:18,035 [INFO] [OK] Guardada noticia de CNN Español: Impresionante derrumbe de un puente en Vietnam tras tifón Yagi
+2025-11-06 23:24:18,039 [INFO] [OK] Guardada noticia de CNN Español: El pueblo maorí de Nueva Zelandia tiene una nueva reina
+2025-11-06 23:24:18,042 [INFO] [OK] Guardada noticia de CNN Español: Subastarán icónica camiseta que usó LeBron James
+2025-11-06 23:24:18,047 [INFO] [OK] Guardada noticia de CNN Español: Graves inundaciones en la India dejan casas y vehículos bajo el agua
+2025-11-06 23:24:18,050 [INFO] [OK] Guardada noticia de CNN Español: La brutal masacre contra el pueblo rohinyá
+2025-11-06 23:24:18,054 [INFO] [OK] Guardada noticia de CNN Español: Niño rompe accidentalmente jarrón de 3.500 años de antigüedad
+2025-11-06 23:24:18,057 [INFO] [OK] Guardada noticia de CNN Español: Los 5 países en América Latina donde peor se habla inglés, según EF
+2025-11-06 23:24:18,061 [INFO] [OK] Guardada noticia de CNN Español: OPINIÓN | Jorge Dávila Miguel|¿Puede escalar el conflicto entre Israel y Hamas?
+2025-11-06 23:24:18,065 [INFO] [OK] Guardada noticia de CNN Español: Lego remplazará los combustibles fósiles para fabricar sus ladrillos
+2025-11-06 23:24:18,069 [INFO] [OK] Guardada noticia de CNN Español: Video muestra los daños al noroeste de Sudán tras colapso de una presa
+2025-11-06 23:24:18,072 [INFO] [OK] Guardada noticia de CNN Español: Perros surfistas entrenan en las playas de California
+2025-11-06 23:24:18,076 [INFO] [OK] Guardada noticia de CNN Español: Así es el campeonato mundial de snorkel en pantano de Gales
+2025-11-06 23:24:18,080 [INFO] [OK] Guardada noticia de CNN Español: Ataques separatistas en el suroeste de Pakistán dejan al menos 48 personas muert
+2025-11-06 23:24:18,084 [INFO] [OK] Guardada noticia de CNN Español: Francia tiene todo listo para el comienzo de los Juegos Paralímpicos
+2025-11-06 23:24:18,089 [INFO] [OK] Guardada noticia de CNN Español: India se prepara para celebrar el festival Ganesh Chaturthi
+2025-11-06 23:24:18,094 [INFO] [OK] Guardada noticia de CNN Español: Ucranianos huyen de una ciudad destrozada mientras los rusos se acercan
+2025-11-06 23:24:18,099 [INFO] [OK] Guardada noticia de CNN Español: Rusia investiga a periodista de CNN por reportar desde área de incursión ucrania
+2025-11-06 23:24:18,104 [INFO] [OK] Guardada noticia de CNN Español: Noticias del mundo: buques de China y Filipinas colisionan en zona de disputa
+2025-11-06 23:24:18,108 [INFO] [OK] Guardada noticia de CNN Español: La primera superluna azul del año fue vista desde el cielo de Sydney
+2025-11-06 23:24:18,112 [INFO] [OK] Guardada noticia de CNN Español: Así rescatan a 19 personas y a un perro de un hotel atrapados por las inundacion
+2025-11-06 23:24:18,116 [INFO] [OK] Guardada noticia de CNN Español: El primer ministro de Japón anuncia que renunciará al cargo
+2025-11-06 23:24:18,121 [INFO] [OK] Guardada noticia de CNN Español: Unos 300.000 médicos se declaran en huelga en la India para exigir protección pa
+2025-11-06 23:24:18,124 [INFO] [OK] Guardada noticia de CNN Español: Video muestra camiones militares que parecen contener cadáveres de personal mili
+2025-11-06 23:24:18,128 [INFO] [OK] Guardada noticia de CNN Español: Un video de vigilancia capta la gran explosión de un carguero
+2025-11-06 23:24:18,132 [INFO] [OK] Guardada noticia de CNN Español: Al menos 32 muertos tras atentado suicida contra un restaurante de playa en la c
+2025-11-06 23:24:18,136 [INFO] [OK] Guardada noticia de CNN Español: Estos hijos de espías liberados hablan español y no sabían que son rusos, según 
+2025-11-06 23:24:18,141 [INFO] [OK] Guardada noticia de CNN Español: Analista explica cómo la muerte del líder político de Hamas podría impactar las 
+2025-11-06 23:24:18,145 [INFO] [OK] Guardada noticia de CNN Español: Observa cómo un poderoso tifón “rebota” en Taiwán como si fuera un "pinball"
+2025-11-06 23:24:18,150 [INFO] [OK] Guardada noticia de CNN Español: Descubren en Brasil un fósil de dinosaurio de más de 200 millones de años
+2025-11-06 23:24:18,154 [INFO] [OK] Guardada noticia de CNN Español: Israel lanzó ataques aéreos a hutíes en Yemen
+2025-11-06 23:24:18,158 [INFO] [OK] Guardada noticia de CNN Español: Guardia Civil española encuentra cuerpo de Jay Slater
+2025-11-06 23:24:18,163 [INFO] [OK] Guardada noticia de CNN Español: Kate, princesa de Gales, recibe ovación en Wimbledon
+2025-11-06 23:24:18,168 [INFO] [OK] Guardada noticia de CNN Español: Los mejores aeropuertos del mundo 2024, según AirHelp
+2025-11-06 23:24:18,172 [INFO] [OK] Guardada noticia de CNN Español: ¿Qué cambios propone el nuevo proyecto de ley contra el maltrato animal en Argen
+2025-11-06 23:24:18,175 [INFO] [OK] Guardada noticia de CNN Español: Un video muestra el ataque mortal de Israel a desplazados de Gaza que veían un p
+2025-11-06 23:24:18,180 [INFO] [OK] Guardada noticia de CNN Español: "No se trata de origen", Le Pen defiende la controvertida política de "prioridad
+2025-11-06 23:24:18,184 [INFO] [OK] Guardada noticia de CNN Español: Video muestra a pasajero de avión bajar del compartimento superior para equipaje
+2025-11-06 23:24:18,188 [INFO] [OK] Guardada noticia de CNN Español: Conoce a Carlo Acutis, el llamado Influencer de Dios
+2025-11-06 23:24:18,582 [INFO] [OK] Guardada noticia de CNN Español: Los eventos deportivos y atletas con el mayor número de búsquedas en Google en 2
+2025-11-06 23:24:18,586 [INFO] [OK] Guardada noticia de CNN Español: Continúa la crisis del City mientras el Barcelona se mantiene cerca de la punta 
+2025-11-06 23:24:18,590 [INFO] [OK] Guardada noticia de CNN Español: ¿Qué necesita el Real Madrid para avanzar de forma directa a octavos de la Liga 
+2025-11-06 23:24:18,595 [INFO] [OK] Guardada noticia de CNN Español: Qué debe hacer el Real Madrid para pasar de ronda en la Champions
+2025-11-06 23:24:18,599 [INFO] [OK] Guardada noticia de CNN Español: Real Madrid logra una importante victoria sobre Atalanta en la Champions League
+2025-11-06 23:24:18,603 [INFO] [OK] Guardada noticia de CNN Español: Tras el contrato histórico de Juan Soto, así queda la lista de los mejores pagad
+2025-11-06 23:24:18,607 [INFO] [OK] Guardada noticia de CNN Español: Análisis: Los motivos que llevaron a Juan Soto a firmar con los Mets de Nueva Yo
+2025-11-06 23:24:18,612 [INFO] [OK] Guardada noticia de CNN Español: El estado de salud de Michail Antonio tras sufrir aparatoso accidente vial
+2025-11-06 23:24:18,617 [INFO] [OK] Guardada noticia de CNN Español: Sedes de los juegos más atractivos del Mundial de Clubes 2025
+2025-11-06 23:24:18,621 [INFO] [OK] Guardada noticia de CNN Español: Análisis: Los pros y contras del Mundial de Clubes 2025
+2025-11-06 23:24:18,625 [INFO] [OK] Guardada noticia de CNN Español: ¿Neymar al Inter Miami? Esto dice Jorge Más sobre la posibilidad de que llegue e
+2025-11-06 23:24:18,630 [INFO] [OK] Guardada noticia de CNN Español: Por estos números, Lionel Messi ganó el premio al Jugador Más Valioso de la MLS 
+2025-11-06 23:24:18,634 [INFO] [OK] Guardada noticia de CNN Español: Roaldo Nazario: "Me hubiese gustado jugar el Mundial con Real Madrid"
+2025-11-06 23:24:18,638 [INFO] [OK] Guardada noticia de CNN Español: Zanetti: Real Madrid y Manchester City son rivales duros para el Inter
+2025-11-06 23:24:18,642 [INFO] [OK] Guardada noticia de CNN Español: Gloria y Emilio Estefan celebran la llegada del Mundial de Clubes a Miami
+2025-11-06 23:24:18,646 [INFO] [OK] Guardada noticia de CNN Español: Gran competencia de sumo regresa a Londres tras 34 años
+2025-11-06 23:24:18,649 [INFO] [OK] Guardada noticia de CNN Español: Así son los bombos de la Copa Mundial de Clubes de la FIFA
+2025-11-06 23:24:18,654 [INFO] [OK] Guardada noticia de CNN Español: Cruz Azul logra la hazaña y avanza a semifinales para enfrentar al América
+2025-11-06 23:24:18,658 [INFO] [OK] Guardada noticia de CNN Español: Premios The Best: la comparación entre Messi, nominado, y Cristiano Ronaldo, des
+2025-11-06 23:24:18,661 [INFO] [OK] Guardada noticia de CNN Español: El América avanza a semifinales y sigue en busca del tricampeonato en México
+2025-11-06 23:24:18,666 [INFO] [OK] Guardada noticia de CNN Español: Lou Carnesecca, entrenador del Salón de la Fama del Baloncesto que dirigió a St.
+2025-11-06 23:24:18,670 [INFO] [OK] Guardada noticia de CNN Español: Botafogo se coronó campeón de la Copa Libertadores 2024
+2025-11-06 23:24:18,673 [INFO] [OK] Guardada noticia de CNN Español: Los jugadores más valiosos de LaLiga en 2024, según Transfermarkt
+2025-11-06 23:24:18,677 [INFO] [OK] Guardada noticia de CNN Español: Conor McGregor ya no será la imagen de la marca de whisky Proper No. Twelve tras
+2025-11-06 23:24:18,681 [INFO] [OK] Guardada noticia de CNN Español: Josep Guardiola explicó los arañazos en su rostro tras el empate del City
+2025-11-06 23:24:18,685 [INFO] [OK] Guardada noticia de CNN Español: Tras "años de silencio forzado", futbolistas españolas hablan abiertamente del i
+2025-11-06 23:24:18,688 [INFO] [OK] Guardada noticia de CNN Español: Conor McGregor apelará el veredicto civil por violación mientras crece el apoyo 
+2025-11-06 23:24:18,692 [INFO] [OK] Guardada noticia de CNN Español: Inter Miami apuesta por Javier Mascherano para la próxima temporada de la MLS
+2025-11-06 23:24:18,696 [INFO] [OK] Guardada noticia de CNN Español: Guardiola a sus jugadores: quiero compromiso, es la única manera que conozco
+2025-11-06 23:24:18,700 [INFO] [OK] Guardada noticia de CNN Español: ¿Es Javier Mascherano el técnico ideal para reemplazar a Gerardo Martino en el I
+2025-11-06 23:24:18,704 [INFO] [OK] Guardada noticia de CNN Español: Conor McGregor pagará indemnización por caso de abuso sexual
+2025-11-06 23:24:18,707 [INFO] [OK] Guardada noticia de CNN Español: Whoopi Goldberg lanza All Women’s Sports Network, un canal de televisión global 
+2025-11-06 23:24:18,711 [INFO] [OK] Guardada noticia de CNN Español: Gerardo "Tata" Martino dejará el Inter Miami, según una fuente del club
+2025-11-06 23:24:18,715 [INFO] [OK] Guardada noticia de CNN Español: Los equipos más valiosos de la NBA en 2024, según Brand Finance
+2025-11-06 23:24:18,719 [INFO] [OK] Guardada noticia de CNN Español: El baile de Donald Trump llega al mundo de los deportes
+2025-11-06 23:24:18,723 [INFO] [OK] Guardada noticia de CNN Español: Harry Kane y las estatuas de figuras del deporte que no se parecen
+2025-11-06 23:24:18,726 [INFO] [OK] Guardada noticia de CNN Español: El 'baile de Trump' arrasa en el mundo del deporte
+2025-11-06 23:24:18,730 [INFO] [OK] Guardada noticia de CNN Español: Concacaf sanciona a la selección de Honduras y anuncia investigación contra Javi
+2025-11-06 23:24:18,734 [INFO] [OK] Guardada noticia de CNN Español: El piloto Jorge Martín, listo para hacer historia en la final de la temporada de
+2025-11-06 23:24:18,737 [INFO] [OK] Guardada noticia de CNN Español: Cómo una mezcla tóxica de antisemitismo, racismo y xenofobia culminó en la viole
+2025-11-06 23:24:18,741 [INFO] [OK] Guardada noticia de CNN Español: En Argentina creen que Paraguay será un rival duro
+2025-11-06 23:24:18,745 [INFO] [OK] Guardada noticia de CNN Español: Kendry Páez y los consejos que recibió de parte de Moisés Caicedo y Piero Hincap
+2025-11-06 23:24:18,749 [INFO] [OK] Guardada noticia de CNN Español: Eder Militao y Rodrygo serán bajas para Brasil en la fecha FIFA
+2025-11-06 23:24:18,753 [INFO] [OK] Guardada noticia de CNN Español: Rachael "Raygun" Gunn se retira del "breaking" competitivo tras críticas en los 
+2025-11-06 23:24:18,756 [INFO] [OK] Guardada noticia de CNN Español: La bailarina de breakdance Raygun dejará de competir tras reacción negativa en l
+2025-11-06 23:24:18,760 [INFO] [OK] Guardada noticia de CNN Español: Los Chiefs de Kansas City quieren extender su invicto a toda la temporada
+2025-11-06 23:24:18,764 [INFO] [OK] Guardada noticia de CNN Español: Ignacio Piatti revela el peligro por el que Inter Miami podría no ser campeón de
+2025-11-06 23:24:18,767 [INFO] [OK] Guardada noticia de CNN Español: Sentido homenaje a las víctimas de la DANA en Valencia en partido de Champions L
+2025-11-06 23:24:18,771 [INFO] [OK] Guardada noticia de CNN Español: Rommel Pacheco nos cuenta sus objetivos al frente de la CONADE en México
+2025-11-06 23:24:18,775 [INFO] [OK] Guardada noticia de CNN Español: LeBron James y Nick Bosa se pronuncian sobre las elecciones presidenciales de Es
+2025-11-06 23:24:18,778 [INFO] [OK] Guardada noticia de CNN Español: "No estoy orgulloso de ello": Jason Kelce se disculpa después de que un video lo
+2025-11-06 23:24:18,782 [INFO] [OK] Guardada noticia de CNN Español: Cómo una mujer de 34 años de Indianápolis se convirtió en la primera campeona mu
+2025-11-06 23:24:18,786 [INFO] [OK] Guardada noticia de CNN Español: Fluminense rescinde el contrato de Marcelo tras pelea con el entrenador
+2025-11-06 23:24:18,790 [INFO] [OK] Guardada noticia de CNN Español: Gerardo Martino niega la llegada de Neymar al Inter Miami para 2025
+2025-11-06 23:24:18,795 [INFO] [OK] Guardada noticia de CNN Español: La convocatoria de Brasil para las eliminatorias mundialistas de noviembre
+2025-11-06 23:24:18,800 [INFO] [OK] Guardada noticia de CNN Español: LeBron James respalda a Kamala Harris en la carrera presidencial contra Trump
+2025-11-06 23:24:18,804 [INFO] [OK] Guardada noticia de CNN Español: Euforia y festejos: seguidores de los Dodgers celebran en Los Ángeles su octava 
+2025-11-06 23:24:18,809 [INFO] [OK] Guardada noticia de CNN Español: Mira la eufórica celebración de los Dodgers de Los Ángeles tras ganar su octava 
+2025-11-06 23:24:18,814 [INFO] [OK] Guardada noticia de CNN Español: Dos fans de los Yankees fueron expulsados, luego de intentar evitar un out por p
+2025-11-06 23:24:18,817 [INFO] [OK] Guardada noticia de CNN Español: Fiesta en Los Ángeles: Los Dodgers logran su octavo título de Serie Mundial
+2025-11-06 23:24:18,821 [INFO] [OK] Guardada noticia de CNN Español: Así han sido los ocho títulos de Serie Mundial de los Dodgers de Los Ángeles
+2025-11-06 23:24:18,824 [INFO] [OK] Guardada noticia de CNN Español: María Fernanda Timms y su rol en el desarrollo del patinaje de velocidad
+2025-11-06 23:24:18,828 [INFO] [OK] Guardada noticia de CNN Español: La nueva estatua de Dwyane Wade generó polémica; estas son otras seis estatuas d
+2025-11-06 23:24:18,832 [INFO] [OK] Guardada noticia de CNN Español: Vinicius Jr., favorito para llevarse el Balón de Oro de este año
+2025-11-06 23:24:18,835 [INFO] [OK] Guardada noticia de CNN Español: Así fue la victoria de los Dodgers sobre los Yankees para aumentar su ventaja en
+2025-11-06 23:24:18,839 [INFO] [OK] Guardada noticia de CNN Español: La estrella de los Dodgers Shohei Ohtani sufre una lesión en hombro izquierdo du
+2025-11-06 23:24:18,842 [INFO] [OK] Guardada noticia de CNN Español: Los Dodgers toman ventaja de 2 a 0 sobre los Yankees en la Serie Mundial
+2025-11-06 23:24:18,847 [INFO] [OK] Guardada noticia de CNN Español: Barcelona superó ampliamente al Real Madrid y lo goleó en el Bernabéu
+2025-11-06 23:24:18,850 [INFO] [OK] Guardada noticia de CNN Español: Aficionados disfrutaron de la victoria de los Dodgers en la Serie Mundial
+2025-11-06 23:24:18,854 [INFO] [OK] Guardada noticia de CNN Español: Fiesta, automóviles y mucho calor en el Gran Premio de México
+2025-11-06 23:24:18,857 [INFO] [OK] Guardada noticia de CNN Español: Fernando Valenzuela estuvo presente para los aficionados de Dodgers y Yankees
+2025-11-06 23:24:18,861 [INFO] [OK] Guardada noticia de CNN Español: Real Madrid vs. Barcelona: un clásico de pronóstico reservado este sábado
+2025-11-06 23:24:18,865 [INFO] [OK] Guardada noticia de CNN Español: “Checo” Pérez aún mantiene a los fanáticos ilusionados por una victoria en el Gr
+2025-11-06 23:24:18,869 [INFO] [OK] Guardada noticia de CNN Español: Sergio “Checo” Pérez: Todavía tengo dos años más de contrato y seguiré
+2025-11-06 23:24:18,872 [INFO] [OK] Guardada noticia de CNN Español: Los Dodgers homenajean a Fernando Valenzuela con un parche en la Serie Mundial
+2025-11-06 23:24:18,876 [INFO] [OK] Guardada noticia de CNN Español: Campos: Fernando Valenzuela fue increíble dentro y fuera del terreno
+2025-11-06 23:24:18,880 [INFO] [OK] Guardada noticia de CNN Español: Barcelona goleó al Bayern Munich y quedó listo para jugar El Clásico este fin de
+2025-11-06 23:24:18,883 [INFO] [OK] Guardada noticia de CNN Español: Fernando Valenzuela desató la "Fernandomanía": el zurdo que descubrió la "virali
+2025-11-06 23:24:18,887 [INFO] [OK] Guardada noticia de CNN Español: Así fue como el lanzador mexicano Fernando Valenzuela forjó su leyenda en el béi
+2025-11-06 23:24:18,891 [INFO] [OK] Guardada noticia de CNN Español: Sergio "Checo" Pérez: Todos nos sentimos orgullos del legado de Fernando Valenzu
+2025-11-06 23:24:18,894 [INFO] [OK] Guardada noticia de CNN Español: Remontada del Real Madrid ante el Borussia Dortmund en la Champions League
+2025-11-06 23:24:18,898 [INFO] [OK] Guardada noticia de CNN Español: El exfutbolista Diego Forlán debutará en el tenis profesional
+2025-11-06 23:24:18,902 [INFO] [OK] Guardada noticia de CNN Español: Dodgers vs. Yankees: el duelo histórico de la Serie Mundial vuelve tras 43 años
+2025-11-06 23:24:18,906 [INFO] [OK] Guardada noticia de CNN Español: La recuperación de Irene Aldana tras sufrir la peor herida en la historia de UFC
+2025-11-06 23:24:18,909 [INFO] [OK] Guardada noticia de CNN Español: Tua Tagovailoa volverá a jugar en la NFL pese a historial de conmociones
+2025-11-06 23:24:18,913 [INFO] [OK] Guardada noticia de CNN Español: Sergio “Checo” Pérez niega los rumores sobre su retiro de la Fórmula 1
+2025-11-06 23:24:18,917 [INFO] [OK] Guardada noticia de CNN Español: Dos atletas mueren en el Campeonato Mundial de Triatlón en España
+2025-11-06 23:24:18,921 [INFO] [OK] Guardada noticia de CNN Español: México cortó su mala racha ante Estados Unidos y se llevó la victoria en Guadala
+2025-11-06 23:24:18,924 [INFO] [OK] Guardada noticia de CNN Español: Expulsan de una competición al gran maestro de ajedrez Kirill Shevchenko por pre
+2025-11-06 23:24:18,928 [INFO] [OK] Guardada noticia de CNN Español: El pedido de Lula da Silva contra los futbolistas brasileños que juegan en Europ
+2025-11-06 23:24:18,932 [INFO] [OK] Guardada noticia de CNN Español: Carlos Mendoza: el manager que llevó a los Mets a la Serie de Campeonato en la N
+2025-11-06 23:24:18,936 [INFO] [OK] Guardada noticia de CNN Español: Lo que dejó la fecha 9 de las eliminatorias mundialistas de la Conmebol
+2025-11-06 23:24:18,940 [INFO] [OK] Guardada noticia de CNN Español: La última vez que Bolivia ganó 3 partidos seguidos de eliminatorias mundialistas
+2025-11-06 23:24:18,943 [INFO] [OK] Guardada noticia de CNN Español: 5 grandes logros de Rafael Nadal en el tenis profesional
+2025-11-06 23:24:18,958 [INFO] [OK] Guardada noticia de CNN Español: Este dispositivo ayuda a las personas ciegas a “vivir” los deportes cuando van a
+2025-11-06 23:24:18,963 [INFO] [OK] Guardada noticia de CNN Español: Seis finales memorables en la carrera de Rafael Nadal
+2025-11-06 23:24:18,968 [INFO] [OK] Guardada noticia de CNN Español: Los Mets de Nueva York regresan a la Serie de Campeonato de la Liga Nacional
+2025-11-06 23:24:18,972 [INFO] [OK] Guardada noticia de CNN Español: Este es el historial de Lionel Messi contra Venezuela en todas las competencias
+2025-11-06 23:24:18,976 [INFO] [OK] Guardada noticia de CNN Español: Milton no detuvo el viaje de Argentina para las eliminatorias sudamericanas
+2025-11-06 23:24:18,981 [INFO] [OK] Guardada noticia de CNN Español: Análisis: El legado de Luis Tiant en las Grandes Ligas
+2025-11-06 23:24:19,393 [INFO] [OK] Guardada noticia de CNN Español: ¿Quién no tiene que declarar impuestos en EE.UU. y cuál es el límite de ingresos
+2025-11-06 23:24:19,399 [INFO] [OK] Guardada noticia de CNN Español: Cómo presentar tu declaración de impuestos en EE.UU. en 2025: link, formularios,
+2025-11-06 23:24:19,404 [INFO] [OK] Guardada noticia de CNN Español: Aumento del salario mínimo en México para 2025: ¿qué cantidad será y cuándo entr
+2025-11-06 23:24:19,408 [INFO] [OK] Guardada noticia de CNN Español: La falta de inversiones y la baja productividad en la economía de América Latina
+2025-11-06 23:24:19,412 [INFO] [OK] Guardada noticia de CNN Español: ¿Cuáles son los principales desafíos económicos de América Latina, según el últi
+2025-11-06 23:24:19,417 [INFO] [OK] Guardada noticia de CNN Español: Mercosur y Unión Europea sellan acuerdo de libre comercio
+2025-11-06 23:24:19,421 [INFO] [OK] Guardada noticia de CNN Español: La volatilidad, un riesgo para las criptomonedas
+2025-11-06 23:24:19,426 [INFO] [OK] Guardada noticia de CNN Español: Cyber Monday, el mayor día de compras en línea en la historia de Estados Unidos
+2025-11-06 23:24:19,431 [INFO] [OK] Guardada noticia de CNN Español: En Argentina es posible ser millonario y pobre a la vez. Aquí la razón
+2025-11-06 23:24:19,436 [INFO] [OK] Guardada noticia de CNN Español: Renuncia el CEO de Intel, Pat Gelsinger, tras un mandato desastroso
+2025-11-06 23:24:19,440 [INFO] [OK] Guardada noticia de CNN Español: Esta es la situación de las principales economías del mundo, según experta
+2025-11-06 23:24:19,444 [INFO] [OK] Guardada noticia de CNN Español: Alternativas para una cena de Acción de Gracias asequible
+2025-11-06 23:24:19,448 [INFO] [OK] Guardada noticia de CNN Español: ANÁLISIS | La Constitución de EE.UU. no contempla que los presidentes impongan a
+2025-11-06 23:24:19,452 [INFO] [OK] Guardada noticia de CNN Español: "Una economía resiliente y normalizada" es lo que vive hoy Estados Unidos tras l
+2025-11-06 23:24:19,456 [INFO] [OK] Guardada noticia de CNN Español: ¿Qué productos y servicios podrían ser más caros si Trump impone aranceles a Méx
+2025-11-06 23:24:19,459 [INFO] [OK] Guardada noticia de CNN Español: Caen las acciones de General Motors, Ford y otras automotrices tras las amenazas
+2025-11-06 23:24:19,463 [INFO] [OK] Guardada noticia de CNN Español: Walmart da marcha atrás en los programas DEI de diversidad, equidad e inclusión 
+2025-11-06 23:24:19,467 [INFO] [OK] Guardada noticia de CNN Español: Macy's descubrió que un solo empleado ocultó gastos por valor de hasta US$ 154 m
+2025-11-06 23:24:19,470 [INFO] [OK] Guardada noticia de CNN Español: "Es un tiempo de muchos retos", dice el nobel de economía, James Robinson
+2025-11-06 23:24:19,474 [INFO] [OK] Guardada noticia de CNN Español: "Las políticas de Trump no tienen nada que ver con lo que hoy se vive", dice nob
+2025-11-06 23:24:19,478 [INFO] [OK] Guardada noticia de CNN Español: ¿Qué impacto tendrá el plan inmigratorio de Trump en el envío de remesas a Améri
+2025-11-06 23:24:19,482 [INFO] [OK] Guardada noticia de CNN Español: Elon Musk es más rico que nunca. Ahora su fortuna es de casi US$ 350.000 millone
+2025-11-06 23:24:19,486 [INFO] [OK] Guardada noticia de CNN Español: ¿Es seguro reservar un boleto aéreo con Spirit Airlines?
+2025-11-06 23:24:19,490 [INFO] [OK] Guardada noticia de CNN Español: "No veo ninguna razón para que haya menos volatilidad", dice nobel de Economía s
+2025-11-06 23:24:19,494 [INFO] [OK] Guardada noticia de CNN Español: "Las criptomonedas están muy lejos de ser una inversión segura", dice nobel de E
+2025-11-06 23:24:19,498 [INFO] [OK] Guardada noticia de CNN Español: Aranceles, impuestos, intereses... ¿Cuál será la política económica que podría a
+2025-11-06 23:24:19,502 [INFO] [OK] Guardada noticia de CNN Español: ANÁLISIS | ¿Cuál será la realidad económica que heredará Donald Trump cuando asu
+2025-11-06 23:24:19,506 [INFO] [OK] Guardada noticia de CNN Español: ¿Serán menos volátiles las criptomonedas durante el Gobierno de Trump?
+2025-11-06 23:24:19,509 [INFO] [OK] Guardada noticia de CNN Español: Premio Nobel de Economía: No es suficiente distribuir lo que existe, se necesita
+2025-11-06 23:24:19,514 [INFO] [OK] Guardada noticia de CNN Español: Target advierte sobre una temporada navideña baja en ventas
+2025-11-06 23:24:19,517 [INFO] [OK] Guardada noticia de CNN Español: ¿Quién es Elon Musk? Así es el dueño de SpaceX, Tesla y X que se ha erigido como
+2025-11-06 23:24:19,521 [INFO] [OK] Guardada noticia de CNN Español: Los “bitcoiners” aportaron millones a la campaña de Trump. Así es como podría de
+2025-11-06 23:24:19,524 [INFO] [OK] Guardada noticia de CNN Español: En América Latina hay desafíos, pero también grandes oportunidades, afirma organ
+2025-11-06 23:24:19,528 [INFO] [OK] Guardada noticia de CNN Español: Se espera que Trump elija a Howard Lutnick como secretario de Comercio
+2025-11-06 23:24:19,533 [INFO] [OK] Guardada noticia de CNN Español: Deportaciones masivas causarían aumento de precios de alimentos
+2025-11-06 23:24:19,537 [INFO] [OK] Guardada noticia de CNN Español: Claudia Sheinbaum propone en el G20 que los países destinen el 1% del gasto mili
+2025-11-06 23:24:19,541 [INFO] [OK] Guardada noticia de CNN Español: ¿Qué es el G20, quiénes lo integran y qué objetivos tiene?
+2025-11-06 23:24:19,545 [INFO] [OK] Guardada noticia de CNN Español: El papel fundamental de la legislación y las políticas públicas en la economía c
+2025-11-06 23:24:19,550 [INFO] [OK] Guardada noticia de CNN Español: ¿Cuál será la importancia del nuevo puerto de Chancay, Perú?
+2025-11-06 23:24:19,553 [INFO] [OK] Guardada noticia de CNN Español: Los altos precios de los alimentos hicieron que muchos estadounidenses votaran p
+2025-11-06 23:24:19,557 [INFO] [OK] Guardada noticia de CNN Español: La inflación se disparó en octubre después de desacelerarse durante seis meses c
+2025-11-06 23:24:19,561 [INFO] [OK] Guardada noticia de CNN Español: Larry Summer advierte sobre el riesgo de una inflación prolongada en EE.UU.
+2025-11-06 23:24:19,565 [INFO] [OK] Guardada noticia de CNN Español: ANÁLISIS | Cómo la peor decisión empresarial que tomó Elon Musk lo acercó a Dona
+2025-11-06 23:24:19,569 [INFO] [OK] Guardada noticia de CNN Español: La inflación en EE.UU. aumenta en octubre tras seis meses consecutivos de desace
+2025-11-06 23:24:19,573 [INFO] [OK] Guardada noticia de CNN Español: Elon Musk quiere remodelar radicalmente quién controla el suministro de dinero d
+2025-11-06 23:24:19,577 [INFO] [OK] Guardada noticia de CNN Español: Cuatro formas en que los planes de deportación masiva de Trump podrían perjudica
+2025-11-06 23:24:19,581 [INFO] [OK] Guardada noticia de CNN Español: Una “crisis financiera” en la sombra le ha costado al mundo US$ 2 billones
+2025-11-06 23:24:19,585 [INFO] [OK] Guardada noticia de CNN Español: Qué estará abierto y cerrado el Día de los Veteranos de 2024
+2025-11-06 23:24:19,588 [INFO] [OK] Guardada noticia de CNN Español: Los estadounidenses tienen ansiedad y están haciendo compras compulsivas para al
+2025-11-06 23:24:19,591 [INFO] [OK] Guardada noticia de CNN Español: ¿Qué impacto tendría en la economía el plan de deportaciones de Trump?
+2025-11-06 23:24:19,595 [INFO] [OK] Guardada noticia de CNN Español: El recorte de tasas de la Reserva Federal es alivio limitado en medio de desafío
+2025-11-06 23:24:19,599 [INFO] [OK] Guardada noticia de CNN Español: ¿Cómo impacta en la economía mundial la victoria de Donald Trump?
+2025-11-06 23:24:19,603 [INFO] [OK] Guardada noticia de CNN Español: ANÁLISIS | La Reserva Federal tal como la conocemos podría pronto ser transforma
+2025-11-06 23:24:19,607 [INFO] [OK] Guardada noticia de CNN Español: ¿Por qué Walmart importa menos productos navideños?
+2025-11-06 23:24:19,612 [INFO] [OK] Guardada noticia de CNN Español: Las acciones estadounidenses suben mientras los inversionistas se preparan para 
+2025-11-06 23:24:19,615 [INFO] [OK] Guardada noticia de CNN Español: Histórica indemnización de Ikea a presos que fabricaron sus muebles
+2025-11-06 23:24:19,619 [INFO] [OK] Guardada noticia de CNN Español: IRS incrementa límites de contribución y elegibilidad para el 2025
+2025-11-06 23:24:19,623 [INFO] [OK] Guardada noticia de CNN Español: ¿Por qué bajaría el crecimiento de la economía global?
+2025-11-06 23:24:19,626 [INFO] [OK] Guardada noticia de CNN Español: ¿Cómo surgió la alianza de los BRICS y cuál es su importancia? Expertos nos lo e
+2025-11-06 23:24:19,630 [INFO] [OK] Guardada noticia de CNN Español: TGI Fridays se declara en bancarrota
+2025-11-06 23:24:19,633 [INFO] [OK] Guardada noticia de CNN Español: El último reporte de empleo antes de las elecciones muestra que la economía de E
+2025-11-06 23:24:19,637 [INFO] [OK] Guardada noticia de CNN Español: EE.UU.: ofertas de empleo caen a una semana de las elecciones
+2025-11-06 23:24:19,641 [INFO] [OK] Guardada noticia de CNN Español: Ford ajusta proyección de ganancias para 2024 y caen sus acciones
+2025-11-06 23:24:19,644 [INFO] [OK] Guardada noticia de CNN Español: Las acciones de TMTG aumentan más del 200% en 5 semanas
+2025-11-06 23:24:19,648 [INFO] [OK] Guardada noticia de CNN Español: 23 economistas ganadores del Premio Nobel califican el plan económico de Harris 
+2025-11-06 23:24:19,651 [INFO] [OK] Guardada noticia de CNN Español: Latam Airlines y sus nuevos horizontes, tras superar la crisis
+2025-11-06 23:24:19,655 [INFO] [OK] Guardada noticia de CNN Español: ¿Es la inmigración un problema para la economía de Estados Unidos?
+2025-11-06 23:24:19,659 [INFO] [OK] Guardada noticia de CNN Español: Anuncian un acuerdo tentativo que podría poner fin a la huelga de Boeing
+2025-11-06 23:24:19,663 [INFO] [OK] Guardada noticia de CNN Español: Meta despide a docenas de empleados por uso indebido de vales de comida
+2025-11-06 23:24:19,667 [INFO] [OK] Guardada noticia de CNN Español: Es un momento difícil para que los jóvenes estadounidenses encuentren trabajo. E
+2025-11-06 23:24:19,671 [INFO] [OK] Guardada noticia de CNN Español: Las autoridades federales descubrieron fraudes por valor de US$ 1.000 millones e
+2025-11-06 23:24:19,675 [INFO] [OK] Guardada noticia de CNN Español: ¿Por qué son tan distintas ciudades como Nogales en México y Estados Unidos?
+2025-11-06 23:24:19,679 [INFO] [OK] Guardada noticia de CNN Español: Trump Media & Technology Group muestra importante repunte en la bolsa, ¿por qué?
+2025-11-06 23:24:19,683 [INFO] [OK] Guardada noticia de CNN Español: "La economía de EE.UU. se encuentra en niveles consistentes”, dice experto
+2025-11-06 23:24:19,686 [INFO] [OK] Guardada noticia de CNN Español: Otorgan Premio Nobel de Economía 2024 a un trío por su trabajo sobre las diferen
+2025-11-06 23:24:19,690 [INFO] [OK] Guardada noticia de CNN Español: Un robot asistente y un taxi autónomo: así son los nuevos lanzamientos de Tesla 
+2025-11-06 23:24:19,693 [INFO] [OK] Guardada noticia de CNN Español: Las oportunidades para las economías de las Américas, según experto
+2025-11-06 23:24:19,697 [INFO] [OK] Guardada noticia de CNN Español: América Latina, ¿ante una nueva oportunidad para el desarrollo económico?
+2025-11-06 23:24:19,701 [INFO] [OK] Guardada noticia de CNN Español: Los adultos mayores en EE.UU. recibirán solo un pequeño aumento en los beneficio
+2025-11-06 23:24:19,704 [INFO] [OK] Guardada noticia de CNN Español: China presenta nuevo avión de pasajeros para competir contra gigantes de la indu
+2025-11-06 23:24:19,707 [INFO] [OK] Guardada noticia de CNN Español: América Latina tiene reservas de minerales críticos y alimentos para tener una e
+2025-11-06 23:24:19,711 [INFO] [OK] Guardada noticia de CNN Español: “Este podría ser el siglo latinoamericano”, dice experto sobre la economía
+2025-11-06 23:24:19,715 [INFO] [OK] Guardada noticia de CNN Español: CVS Health despedirá a 2.900 empleados para reducir gastos
+2025-11-06 23:24:19,718 [INFO] [OK] Guardada noticia de CNN Español: Por qué hay una huelga en los puertos en EE.UU., qué piden los trabajadores y có
+2025-11-06 23:24:19,722 [INFO] [OK] Guardada noticia de CNN Español: Mark Zuckerberg accede al club exclusivo de los US$ 200.000 millones
+2025-11-06 23:24:19,725 [INFO] [OK] Guardada noticia de CNN Español: La emergencia económica que Trump y Harris están ignorando: la deuda federal de 
+2025-11-06 23:24:19,729 [INFO] [OK] Guardada noticia de CNN Español: El Departamento de Justicia de EE.UU. acusa a Visa de ser un monopolio ilegal qu
+2025-11-06 23:24:19,732 [INFO] [OK] Guardada noticia de CNN Español: TikTok elimina cuentas vinculadas a medios rusos por intentos de ejercer "influe
+2025-11-06 23:24:19,736 [INFO] [OK] Guardada noticia de CNN Español: Las tasas hipotecarias caen a su nivel más bajo desde principios de febrero de 2
+2025-11-06 23:24:19,739 [INFO] [OK] Guardada noticia de CNN Español: Cómo sacar provecho del recorte en las tasas de interés de la Fed
+2025-11-06 23:24:19,743 [INFO] [OK] Guardada noticia de CNN Español: La Fed bajó la tasa de interés, ¿sigue sin ser el mejor momento para comprar una
+2025-11-06 23:24:19,746 [INFO] [OK] Guardada noticia de CNN Español: El tan esperado recorte de tasas de la Fed choca con la política presidencial
+2025-11-06 23:24:19,750 [INFO] [OK] Guardada noticia de CNN Español: Reserva Federal de EE.UU. anuncia recorte drástico de las tasas de interés
+2025-11-06 23:24:19,753 [INFO] [OK] Guardada noticia de CNN Español: Sam’s Club aumentará el salario mínimo a US$ 16 la hora
+2025-11-06 23:24:19,757 [INFO] [OK] Guardada noticia de CNN Español: Amazon pide a sus empleados regresar a la presencialidad 5 días a la semana
+2025-11-06 23:24:19,761 [INFO] [OK] Guardada noticia de CNN Español: Gobierno de Perú busca contener la crisis de Petroperú
+2025-11-06 23:24:19,765 [INFO] [OK] Guardada noticia de CNN Español: Estados Unidos registra su inflación más baja desde febrero de 2021, abriendo la
+2025-11-06 23:24:19,769 [INFO] [OK] Guardada noticia de CNN Español: El Banco Central de Argentina confirma que envió oro al exterior, pero no especi
+2025-11-06 23:24:19,773 [INFO] [OK] Guardada noticia de CNN Español: Baltimore se suma a la huelga de trabajadores hoteleros en EE.UU.
+2025-11-06 23:24:19,777 [INFO] [OK] Guardada noticia de CNN Español: ¿Cómo se encuentran las principales economías?
+2025-11-06 23:24:22,159 [INFO] [FACEBOOK] Iniciando extracción de publicaciones...
+2025-11-06 23:24:22,159 [INFO] ====== WebDriver manager ======
+2025-11-06 23:24:23,588 [INFO] Get LATEST chromedriver version for google-chrome
+2025-11-06 23:24:24,170 [INFO] Get LATEST chromedriver version for google-chrome
+2025-11-06 23:24:24,719 [INFO] Driver [C:\Users\hola\.wdm\drivers\chromedriver\win64\142.0.7444.61\chromedriver-win32/chromedriver.exe] found in cache
+2025-11-06 23:24:42,853 [INFO] [FACEBOOK] RPP Noticias: 3 publicaciones detectadas.
+2025-11-06 23:24:42,853 [WARNING] [SKIP] Noticia sin título o URL (Facebook)
+2025-11-06 23:24:58,534 [INFO] [FACEBOOK] América Televisión: 3 publicaciones detectadas.
+2025-11-06 23:24:58,541 [INFO] [OK] Guardada noticia de Facebook: América Televisión Verified account 1m · Shared with Public ¡ENFRENTAMIENTO INES
+2025-11-06 23:25:13,938 [INFO] [FACEBOOK] La República: 3 publicaciones detectadas.
+2025-11-06 23:25:13,945 [INFO] [OK] Guardada noticia de Facebook: La República Verified account 4m · Shared with Public Suplemento Domingo 2h · Sh
+2025-11-06 23:25:16,104 [INFO] \u2705 Total guardadas: 3
+2025-11-06 23:25:16,105 [INFO] [FACEBOOK] Extracción completada correctamente.
+2025-11-06 23:25:16,105 [INFO] \u2705 Scraping finalizado. 7/7 fuentes procesadas, 0 errores.
+2025-11-06 23:25:16,105 [INFO] === FIN DE SCRAPING ===
+
+2025-11-06 23:25:16,105 [INFO] \u23f1 Scraper programado cada 3 horas.

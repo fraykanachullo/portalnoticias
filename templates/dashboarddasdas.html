@@ -1,0 +1,374 @@
+{% extends "base.html" %}
+{% block title %}Panel de Usuario - Portal de Noticias{% endblock %}
+
+{% block content %}
+<style>
+/* ======================================================
+   DISEÑO MEJORADO - GLASS UI PRO 2025
+====================================================== */
+:root {
+    --primary: #3b82f6;
+    --primary-dark: #2563eb;
+    --secondary: #8b5cf6;
+    --success: #10b981;
+    --danger: #ef4444;
+    --warning: #f59e0b;
+    --dark: #111827;
+    --light: #f3f4f6;
+    --border: rgba(255, 255, 255, 0.45);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dashboard-wrapper {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 280px;
+    background: rgba(20, 20, 30, 0.95);
+    backdrop-filter: blur(10px);
+    padding: 2rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+    border-right: 1px solid var(--border);
+    z-index: 100;
+}
+
+.sidebar-logo {
+    padding: 0 1.5rem 2rem;
+    text-align: center;
+    border-bottom: 1px solid var(--border);
+}
+
+.sidebar-logo i {
+    font-size: 2.5rem;
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+}
+
+.sidebar-logo h4 {
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.sidebar-menu {
+    margin-top: 2rem;
+    list-style: none;
+}
+
+.sidebar-menu li {
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-left: 3px solid transparent;
+}
+
+.sidebar-menu li:hover,
+.sidebar-menu li.active {
+    background: rgba(59, 130, 246, 0.1);
+    border-left-color: var(--primary);
+    color: var(--primary);
+}
+
+.sidebar-menu li a {
+    color: #9ca3af;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    font-size: 0.95rem;
+    transition: color 0.3s ease;
+}
+
+.sidebar-menu li:hover a,
+.sidebar-menu li.active a {
+    color: var(--primary);
+}
+
+.sidebar-menu i {
+    font-size: 1.2rem;
+    width: 20px;
+}
+
+/* MAIN CONTENT */
+.main-content {
+    margin-left: 280px;
+    flex: 1;
+    padding: 2rem;
+    overflow-y: auto;
+}
+
+/* HEADER CON NOTIFICACIONES */
+.top-bar {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid var(--border);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.top-bar-left h2 {
+    color: var(--dark);
+    font-weight: 700;
+}
+
+.top-bar-right {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.notification-bell {
+    position: relative;
+    cursor: pointer;
+    font-size: 1.3rem;
+    color: #6b7280;
+    transition: all 0.3s ease;
+}
+
+.notification-bell:hover {
+    color: var(--primary);
+    transform: scale(1.1);
+}
+
+.notification-badge {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background: var(--danger);
+    color: white;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-left: 1rem;
+    border-left: 1px solid #e5e7eb;
+}
+
+.user-profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+}
+
+.user-info span {
+    color: var(--dark);
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+/* Welcome Section */
+.welcome-section {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 20px;
+    padding: 3rem;
+    margin-bottom: 2rem;
+    color: white;
+    box-shadow: 0 12px 32px rgba(102, 126, 234, 0.3);
+    position: relative;
+    overflow: hidden;
+}
+
+.welcome-section::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -50%;
+    width: 500px;
+    height: 500px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+
+.welcome-content {
+    position: relative;
+    z-index: 1;
+}
+
+.welcome-title {
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+}
+
+.welcome-subtitle {
+    font-size: 1rem;
+    opacity: 0.9;
+    margin-bottom: 1.5rem;
+}
+
+/* STATS GRID */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.stat-card {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    padding: 1.8rem;
+    border: 1px solid var(--border);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.stat-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
+}
+
+.stat-content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.stat-icon {
+    font-size: 2.5rem;
+    opacity: 0.8;
+    flex-shrink: 0;
+}
+
+.stat-info {
+    flex: 1;
+}
+
+.stat-number {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--dark);
+}
+
+.stat-label {
+    color: #6b7280;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-top: 0.3rem;
+}
+
+/* CHARTS SECTION */
+.charts-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.chart-card {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    padding: 2rem;
+    border: 1px solid var(--border);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.chart-header {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.chart-header i {
+    font-size: 1.5rem;
+    color: var(--primary);
+}
+
+.chart-header h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--dark);
+}
+</style>
+
+<!-- Dashboard Content -->
+<div class="dashboard-wrapper">
+    <div class="sidebar">
+        <div class="sidebar-logo">
+            <i class="fa-solid fa-newspaper"></i>
+            <h4>Portal Noticias</h4>
+        </div>
+        <ul class="sidebar-menu">
+            <li class="active"><a href="#dashboard"><i class="fa-solid fa-gauge"></i> Dashboard</a></li>
+            <li><a href="#noticias"><i class="fa-solid fa-newspaper"></i> Noticias</a></li>
+            <li><a href="#favoritos"><i class="fa-solid fa-heart"></i> Favoritos</a></li>
+            <li><a href="#settings"><i class="fa-solid fa-gear"></i> Configuración</a></li>
+            <li><a href="/auth/logout"><i class="fa-solid fa-sign-out-alt"></i> Salir</a></li>
+        </ul>
+    </div>
+
+    <div class="main-content">
+        <!-- Top Bar with Notifications -->
+        <div class="top-bar">
+            <div class="top-bar-left"><h2>Dashboard</h2></div>
+            <div class="top-bar-right">
+                <div class="notification-bell"><i class="fa-solid fa-bell"></i><span class="notification-badge">0</span></div>
+                <div class="user-profile">
+                    <img src="https://via.placeholder.com/40" alt="Avatar">
+                    <div class="user-info"><span>{{ session['nombre'] }}</span></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Stats & Charts -->
+        <div class="charts-section">
+            <div class="chart-card">
+                <div class="chart-header">
+                    <i class="fa-solid fa-chart-bar"></i><h3>Estadísticas Generales</h3>
+                </div>
+                <canvas id="graficoGeneral" height="250"></canvas>
+            </div>
+            <div class="chart-card">
+                <div class="chart-header">
+                    <i class="fa-solid fa-chart-pie"></i><h3>Análisis de Sentimiento</h3>
+                </div>
+                <canvas id="graficoSentimiento" height="250"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="/static/js/dashboard.js"></script>
+
+{% endblock %}

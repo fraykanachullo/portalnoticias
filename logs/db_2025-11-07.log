@@ -1,0 +1,1124 @@
+2025-11-07 00:07:43,787 [INFO] \u2705 Pool de conexiones MySQL inicializado correctamente.
+2025-11-07 00:07:44,506 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.101:5000
+2025-11-07 00:07:44,506 [INFO] [33mPress CTRL+C to quit[0m
+2025-11-07 00:07:44,509 [INFO]  * Restarting with stat
+2025-11-07 00:07:44,908 [INFO] \u2705 Pool de conexiones MySQL inicializado correctamente.
+2025-11-07 00:07:45,288 [WARNING]  * Debugger is active!
+2025-11-07 00:07:45,293 [INFO]  * Debugger PIN: 609-565-685
+2025-11-07 00:07:57,842 [INFO] 127.0.0.1 - - [07/Nov/2025 00:07:57] "GET / HTTP/1.1" 200 -
+2025-11-07 00:07:58,701 [INFO] 127.0.0.1 - - [07/Nov/2025 00:07:58] "GET /api/facebook?limit=5 HTTP/1.1" 200 -
+2025-11-07 00:08:13,395 [INFO] 127.0.0.1 - - [07/Nov/2025 00:08:13] "GET /api/noticias?fuente=America%20TV&categoria=&page=1&per_page=10 HTTP/1.1" 200 -
+2025-11-07 00:08:17,575 [INFO] 127.0.0.1 - - [07/Nov/2025 00:08:17] "GET /api/noticias?fuente=America%20TV&categoria=Actualidad&page=1&per_page=10 HTTP/1.1" 200 -
+2025-11-07 00:08:19,082 [INFO] 127.0.0.1 - - [07/Nov/2025 00:08:19] "GET /api/noticias?fuente=America%20TV&categoria=Deportes&page=1&per_page=10 HTTP/1.1" 200 -
+2025-11-07 00:08:22,599 [INFO] 127.0.0.1 - - [07/Nov/2025 00:08:22] "GET /api/noticias?fuente=America%20TV&categoria=Actualidad&page=1&per_page=10 HTTP/1.1" 200 -
+2025-11-07 00:08:24,031 [INFO] 127.0.0.1 - - [07/Nov/2025 00:08:24] "GET /api/noticias?fuente=America%20TV&categoria=Deportes&page=1&per_page=10 HTTP/1.1" 200 -
+2025-11-07 00:08:26,025 [INFO] 127.0.0.1 - - [07/Nov/2025 00:08:26] "GET /api/noticias?fuente=Andina&categoria=Deportes&page=1&per_page=10 HTTP/1.1" 200 -
+2025-11-07 00:08:28,431 [INFO] 127.0.0.1 - - [07/Nov/2025 00:08:28] "GET /api/noticias?fuente=CNN%20Español&categoria=Deportes&page=1&per_page=10 HTTP/1.1" 200 -
+2025-11-07 00:08:32,641 [INFO] 127.0.0.1 - - [07/Nov/2025 00:08:32] "GET /api/noticias?fuente=CNN%20Español&categoria=Entretenimiento&page=1&per_page=10 HTTP/1.1" 200 -
+2025-11-07 00:08:34,414 [INFO] 127.0.0.1 - - [07/Nov/2025 00:08:34] "GET /api/noticias?fuente=CNN%20Español&categoria=Espectáculos&page=1&per_page=10 HTTP/1.1" 200 -
+2025-11-07 00:08:35,536 [INFO] 127.0.0.1 - - [07/Nov/2025 00:08:35] "GET /api/noticias?fuente=CNN%20Español&categoria=Mundo&page=1&per_page=10 HTTP/1.1" 200 -
+2025-11-07 00:08:38,672 [INFO] 127.0.0.1 - - [07/Nov/2025 00:08:38] "GET /api/noticias?fuente=CNN%20Español&categoria=Últimas%20Noticias&page=1&per_page=10 HTTP/1.1" 200 -
+2025-11-07 00:08:39,603 [INFO] 127.0.0.1 - - [07/Nov/2025 00:08:39] "GET /api/noticias?fuente=CNN%20Español&categoria=Portada&page=1&per_page=10 HTTP/1.1" 200 -
+2025-11-07 00:08:43,750 [INFO] 127.0.0.1 - - [07/Nov/2025 00:08:43] "GET /api/noticias?fuente=CNN%20Español&categoria=Actualidad&page=1&per_page=10 HTTP/1.1" 200 -
+2025-11-07 00:08:45,815 [INFO] 127.0.0.1 - - [07/Nov/2025 00:08:45] "GET /api/noticias?fuente=Diario%20Sin%20Fronteras&categoria=Actualidad&page=1&per_page=10 HTTP/1.1" 200 -
+2025-11-07 00:08:46,959 [INFO] 127.0.0.1 - - [07/Nov/2025 00:08:46] "GET /api/noticias?fuente=America%20TV&categoria=Actualidad&page=1&per_page=10 HTTP/1.1" 200 -
+2025-11-07 00:08:47,983 [INFO] 127.0.0.1 - - [07/Nov/2025 00:08:47] "GET /api/noticias?fuente=America%20TV&categoria=&page=1&per_page=10 HTTP/1.1" 200 -
+2025-11-07 00:08:50,341 [INFO] 127.0.0.1 - - [07/Nov/2025 00:08:50] "GET /api/noticias?fuente=&categoria=&page=1&per_page=10 HTTP/1.1" 200 -
+2025-11-07 00:08:51,915 [INFO] 127.0.0.1 - - [07/Nov/2025 00:08:51] "GET /api/noticias?fuente=&categoria=&page=1&per_page=10 HTTP/1.1" 200 -
+2025-11-07 00:08:53,588 [INFO] 127.0.0.1 - - [07/Nov/2025 00:08:53] "GET /api/noticias?fuente=America%20TV&categoria=&page=1&per_page=10 HTTP/1.1" 200 -
+2025-11-07 00:08:54,823 [INFO] 127.0.0.1 - - [07/Nov/2025 00:08:54] "GET /api/noticias?fuente=&categoria=&page=1&per_page=10 HTTP/1.1" 200 -
+2025-11-07 00:09:03,607 [INFO] 127.0.0.1 - - [07/Nov/2025 00:09:03] "GET /api/noticias?fuente=Facebook&categoria=&page=1&per_page=10 HTTP/1.1" 200 -
+2025-11-07 00:09:07,959 [INFO] 127.0.0.1 - - [07/Nov/2025 00:09:07] "GET /api/noticias?fuente=Facebook&categoria=Actualidad&page=1&per_page=10 HTTP/1.1" 200 -
+2025-11-07 00:09:09,055 [INFO] 127.0.0.1 - - [07/Nov/2025 00:09:09] "GET /api/noticias?fuente=Facebook&categoria=Actualidad&page=1&per_page=10 HTTP/1.1" 200 -
+2025-11-07 00:09:09,378 [INFO] 127.0.0.1 - - [07/Nov/2025 00:09:09] "GET /api/noticias?fuente=Facebook&categoria=Deportes&page=1&per_page=10 HTTP/1.1" 200 -
+2025-11-07 00:09:10,032 [INFO] 127.0.0.1 - - [07/Nov/2025 00:09:10] "GET /api/noticias?fuente=Facebook&categoria=Economía&page=1&per_page=10 HTTP/1.1" 200 -
+2025-11-07 00:09:10,513 [INFO] 127.0.0.1 - - [07/Nov/2025 00:09:10] "GET /api/noticias?fuente=Facebook&categoria=Noticias&page=1&per_page=10 HTTP/1.1" 200 -
+2025-11-07 00:09:10,893 [INFO] 127.0.0.1 - - [07/Nov/2025 00:09:10] "GET /api/noticias?fuente=Facebook&categoria=Mundo&page=1&per_page=10 HTTP/1.1" 200 -
+2025-11-07 00:09:11,286 [INFO] 127.0.0.1 - - [07/Nov/2025 00:09:11] "GET /api/noticias?fuente=Facebook&categoria=Espectáculos&page=1&per_page=10 HTTP/1.1" 200 -
+2025-11-07 00:09:11,686 [INFO] 127.0.0.1 - - [07/Nov/2025 00:09:11] "GET /api/noticias?fuente=Facebook&categoria=Entretenimiento&page=1&per_page=10 HTTP/1.1" 200 -
+2025-11-07 00:09:12,317 [INFO] 127.0.0.1 - - [07/Nov/2025 00:09:12] "GET /api/noticias?fuente=Facebook&categoria=Política&page=1&per_page=10 HTTP/1.1" 200 -
+2025-11-07 00:09:12,642 [INFO] 127.0.0.1 - - [07/Nov/2025 00:09:12] "GET /api/noticias?fuente=Facebook&categoria=Portada&page=1&per_page=10 HTTP/1.1" 200 -
+2025-11-07 00:09:13,037 [INFO] 127.0.0.1 - - [07/Nov/2025 00:09:13] "GET /api/noticias?fuente=Facebook&categoria=Últimas%20Noticias&page=1&per_page=10 HTTP/1.1" 200 -
+2025-11-07 00:09:13,369 [INFO] 127.0.0.1 - - [07/Nov/2025 00:09:13] "GET /api/noticias?fuente=Facebook&categoria=Publicación&page=1&per_page=10 HTTP/1.1" 200 -
+2025-11-07 00:09:17,430 [INFO] 127.0.0.1 - - [07/Nov/2025 00:09:17] "GET /api/noticias?fuente=Facebook&categoria=Últimas%20Noticias&page=1&per_page=10 HTTP/1.1" 200 -
+2025-11-07 00:09:21,142 [INFO] 127.0.0.1 - - [07/Nov/2025 00:09:21] "GET /api/noticias?fuente=Facebook&categoria=Sociedad&page=1&per_page=10 HTTP/1.1" 200 -
+2025-11-07 00:10:00,939 [INFO] 127.0.0.1 - - [07/Nov/2025 00:10:00] "GET /api/noticias?fuente=Facebook&categoria=Espectáculos&page=1&per_page=10 HTTP/1.1" 200 -
+2025-11-07 00:10:01,576 [INFO] 127.0.0.1 - - [07/Nov/2025 00:10:01] "GET /api/noticias?fuente=Facebook&categoria=Actualidad&page=1&per_page=10 HTTP/1.1" 200 -
+2025-11-07 00:10:02,799 [INFO] 127.0.0.1 - - [07/Nov/2025 00:10:02] "GET /api/noticias?fuente=La%20República&categoria=Actualidad&page=1&per_page=10 HTTP/1.1" 200 -
+2025-11-07 00:10:03,974 [INFO] 127.0.0.1 - - [07/Nov/2025 00:10:03] "GET /api/noticias?fuente=CNN%20Español&categoria=Actualidad&page=1&per_page=10 HTTP/1.1" 200 -
+2025-11-07 00:10:04,989 [INFO] 127.0.0.1 - - [07/Nov/2025 00:10:04] "GET /api/noticias?fuente=CNN%20Español&categoria=Entretenimiento&page=1&per_page=10 HTTP/1.1" 200 -
+2025-11-07 00:10:05,767 [INFO] 127.0.0.1 - - [07/Nov/2025 00:10:05] "GET /api/noticias?fuente=CNN%20Español&categoria=Espectáculos&page=1&per_page=10 HTTP/1.1" 200 -
+2025-11-07 00:10:06,671 [INFO] 127.0.0.1 - - [07/Nov/2025 00:10:06] "GET /api/noticias?fuente=CNN%20Español&categoria=Deportes&page=1&per_page=10 HTTP/1.1" 200 -
+2025-11-07 00:10:12,367 [INFO] 127.0.0.1 - - [07/Nov/2025 00:10:12] "GET /api/noticias?fuente=CNN%20Español&categoria=Economía&page=1&per_page=10 HTTP/1.1" 200 -
+2025-11-07 00:10:18,603 [INFO] 127.0.0.1 - - [07/Nov/2025 00:10:18] "GET /api/noticias?fuente=&categoria=Economía&page=1&per_page=10 HTTP/1.1" 200 -
+2025-11-07 00:10:23,590 [INFO] 127.0.0.1 - - [07/Nov/2025 00:10:23] "GET /api/noticias?fuente=&categoria=Actualidad&page=1&per_page=10 HTTP/1.1" 200 -
+2025-11-07 03:11:44,980 [INFO] === INICIO DE SCRAPING GENERAL ===
+2025-11-07 03:11:45,018 [INFO] [SCRAPER] Iniciando: RPP
+2025-11-07 03:11:45,347 [INFO] === INICIO DE SCRAPING GENERAL ===
+2025-11-07 03:11:45,357 [INFO] [SCRAPER] Iniciando: RPP
+2025-11-07 03:11:46,925 [INFO] [OK] Guardada noticia de RPP: LaLiga EA Sports: Girona se concentra para salir del último lugar ante Alavés
+2025-11-07 03:11:46,941 [INFO] [OK] Guardada noticia de RPP: Premier League: Por la fecha 11, Tottenham recibirá a Manchester United
+2025-11-07 03:11:46,953 [INFO] [OK] Guardada noticia de RPP: LaLiga EA Sports: Girona se concentra para salir del último lugar ante Alavés
+2025-11-07 03:11:46,954 [INFO] [OK] Guardada noticia de RPP: Temblor en Chile hoy 7 de noviembre: Epicentro del sismo según CSN
+2025-11-07 03:11:46,962 [INFO] [OK] Guardada noticia de RPP: Premier League: Por la fecha 11, Tottenham recibirá a Manchester United
+2025-11-07 03:11:46,963 [INFO] [OK] Guardada noticia de RPP: Cúal fue el último temblor en México hoy 7 de noviembre según SSN
+2025-11-07 03:11:46,970 [INFO] [OK] Guardada noticia de RPP: Junín: pobladores de Miguel Grau quedan incomunicados tras deslizamientos ocasio
+2025-11-07 03:11:46,971 [INFO] [OK] Guardada noticia de RPP: Temblor en Chile hoy 7 de noviembre: Epicentro del sismo según CSN
+2025-11-07 03:11:46,978 [INFO] [OK] Guardada noticia de RPP: Temblor en Perú, hoy 6 de noviembre: magnitud y epicentro del sismo según IGP
+2025-11-07 03:11:46,978 [INFO] [OK] Guardada noticia de RPP: Cúal fue el último temblor en México hoy 7 de noviembre según SSN
+2025-11-07 03:11:46,985 [INFO] [OK] Guardada noticia de RPP: Alfonso López Chau promete propiciar la derogación de las leyes "procrimen" si l
+2025-11-07 03:11:46,987 [INFO] [OK] Guardada noticia de RPP: Junín: pobladores de Miguel Grau quedan incomunicados tras deslizamientos ocasio
+2025-11-07 03:11:46,992 [INFO] [OK] Guardada noticia de RPP: Alejandro Muñante defiende declaración de persona no grata a Claudia Sheinbaum y
+2025-11-07 03:11:46,995 [INFO] [OK] Guardada noticia de RPP: Temblor en Perú, hoy 6 de noviembre: magnitud y epicentro del sismo según IGP
+2025-11-07 03:11:47,000 [INFO] [OK] Guardada noticia de RPP: Alejandro Muñante señala que México ha vulnerado normas internacionales al otorg
+2025-11-07 03:11:47,003 [INFO] [OK] Guardada noticia de RPP: Alfonso López Chau promete propiciar la derogación de las leyes "procrimen" si l
+2025-11-07 03:11:47,009 [INFO] [OK] Guardada noticia de RPP: Huánuco: pobladores reportan que huaico afectó la pista del Centro Poblado Villa
+2025-11-07 03:11:47,012 [INFO] [OK] Guardada noticia de RPP: Alejandro Muñante defiende declaración de persona no grata a Claudia Sheinbaum y
+2025-11-07 03:11:47,016 [INFO] [OK] Guardada noticia de RPP: Perú suma 16 medallas y se ubica dentro del top ten del medallero de los VI Jueg
+2025-11-07 03:11:47,022 [INFO] [OK] Guardada noticia de RPP: Alejandro Muñante señala que México ha vulnerado normas internacionales al otorg
+2025-11-07 03:11:47,025 [INFO] [OK] Guardada noticia de RPP: El Gobierno aprueba decreto de urgencia con medidas extraordinarias para la aust
+2025-11-07 03:11:47,029 [INFO] [OK] Guardada noticia de RPP: Huánuco: pobladores reportan que huaico afectó la pista del Centro Poblado Villa
+2025-11-07 03:11:47,032 [INFO] [OK] Guardada noticia de RPP: Alfonso López Chau promete propiciar la derogación de las leyes "procrimen" si l
+2025-11-07 03:11:47,038 [INFO] [OK] Guardada noticia de RPP: Perú suma 16 medallas y se ubica dentro del top ten del medallero de los VI Jueg
+2025-11-07 03:11:47,039 [INFO] [OK] Guardada noticia de RPP: Partidos de hoy, viernes 7 de noviembre del 2025: horarios y canales TV para ver
+2025-11-07 03:11:47,047 [INFO] [OK] Guardada noticia de RPP: El Gobierno aprueba decreto de urgencia con medidas extraordinarias para la aust
+2025-11-07 03:11:47,048 [INFO] [OK] Guardada noticia de RPP: Reducción del tráfico aéreo y vuelos cancelados: así afecta el cierre del gobier
+2025-11-07 03:11:47,055 [INFO] [OK] Guardada noticia de RPP: Alfonso López Chau promete propiciar la derogación de las leyes "procrimen" si l
+2025-11-07 03:11:47,056 [INFO] [OK] Guardada noticia de RPP: "El respeto por delante de todo": Luciana Fuster se pronuncia tras conflicto ent
+2025-11-07 03:11:47,063 [INFO] [OK] Guardada noticia de RPP: Partidos de hoy, viernes 7 de noviembre del 2025: horarios y canales TV para ver
+2025-11-07 03:11:47,064 [INFO] [OK] Guardada noticia de RPP: Ignacio Buse eliminado: cayó ante Reis Da Silva en octavos del Challenger de Lim
+2025-11-07 03:11:47,070 [INFO] [OK] Guardada noticia de RPP: Reducción del tráfico aéreo y vuelos cancelados: así afecta el cierre del gobier
+2025-11-07 03:11:47,071 [INFO] [OK] Guardada noticia de RPP: Exjefe de la Policía critica implementación del estado de emergencia y advierte 
+2025-11-07 03:11:47,079 [INFO] [OK] Guardada noticia de RPP: "El respeto por delante de todo": Luciana Fuster se pronuncia tras conflicto ent
+2025-11-07 03:11:47,079 [INFO] [OK] Guardada noticia de RPP: Eduardo Pérez Rocha cuestiona estado de emergencia decretado por el Gobierno
+2025-11-07 03:11:47,087 [INFO] [OK] Guardada noticia de RPP: Gonzalo Bueno vs Cristian Garín: ¿a qué hora juegan y dónde ver duelo por cuarto
+2025-11-07 03:11:47,088 [INFO] [OK] Guardada noticia de RPP: Ignacio Buse eliminado: cayó ante Reis Da Silva en octavos del Challenger de Lim
+2025-11-07 03:11:47,093 [INFO] [OK] Guardada noticia de RPP: La Libertad: un pescador desaparecido y otro herido tras volcadura de embarcació
+2025-11-07 03:11:47,094 [INFO] [OK] Guardada noticia de RPP: Exjefe de la Policía critica implementación del estado de emergencia y advierte 
+2025-11-07 03:11:47,101 [INFO] [OK] Guardada noticia de RPP: Áncash: hombre es condenado a 8 años de prisión por minería ilegal en el Parque 
+2025-11-07 03:11:47,102 [INFO] [OK] Guardada noticia de RPP: Eduardo Pérez Rocha cuestiona estado de emergencia decretado por el Gobierno
+2025-11-07 03:11:47,108 [INFO] [OK] Guardada noticia de RPP: Edwin Martínez presentó denuncia contra jefa del Reniec por presunta exposición 
+2025-11-07 03:11:47,110 [INFO] [OK] Guardada noticia de RPP: Gonzalo Bueno vs Cristian Garín: ¿a qué hora juegan y dónde ver duelo por cuarto
+2025-11-07 03:11:47,116 [INFO] [OK] Guardada noticia de RPP: El tricampeón va por el triunfo: el once de Universitario para enfrentar a Garci
+2025-11-07 03:11:47,117 [INFO] [OK] Guardada noticia de RPP: La Libertad: un pescador desaparecido y otro herido tras volcadura de embarcació
+2025-11-07 03:11:47,124 [INFO] [OK] Guardada noticia de RPP: Corte Suprema rechaza recusación para apartar al juez Checkley de investigación 
+2025-11-07 03:11:47,125 [INFO] [OK] Guardada noticia de RPP: Áncash: hombre es condenado a 8 años de prisión por minería ilegal en el Parque 
+2025-11-07 03:11:47,133 [INFO] [OK] Guardada noticia de RPP: Ayacucho: detienen a tres efectivos de la Policía por presuntamente pedir coima 
+2025-11-07 03:11:47,134 [INFO] [OK] Guardada noticia de RPP: Edwin Martínez presentó denuncia contra jefa del Reniec por presunta exposición 
+2025-11-07 03:11:47,140 [INFO] [OK] Guardada noticia de RPP: "Confío en mi hija": Susy Díaz muestra su apoyo a Flor Polo en su postulación al
+2025-11-07 03:11:47,144 [INFO] [OK] Guardada noticia de RPP: El tricampeón va por el triunfo: el once de Universitario para enfrentar a Garci
+2025-11-07 03:11:47,149 [INFO] [OK] Guardada noticia de RPP: Congreso declara de interés nacional recuperación de la goleta chilena Covadonga
+2025-11-07 03:11:47,152 [INFO] [OK] Guardada noticia de RPP: Corte Suprema rechaza recusación para apartar al juez Checkley de investigación 
+2025-11-07 03:11:47,156 [INFO] [OK] Guardada noticia de RPP: ¿Con quiénes compiten? Cristiano y Messi nominados al once ideal del premio The 
+2025-11-07 03:11:47,159 [INFO] [OK] Guardada noticia de RPP: Ayacucho: detienen a tres efectivos de la Policía por presuntamente pedir coima 
+2025-11-07 03:11:47,165 [INFO] [OK] Guardada noticia de RPP: Áncash: detienen a fiscal que protagonizó pelea con abogado en local de Casma
+2025-11-07 03:11:47,168 [INFO] [OK] Guardada noticia de RPP: "Confío en mi hija": Susy Díaz muestra su apoyo a Flor Polo en su postulación al
+2025-11-07 03:11:47,172 [INFO] [OK] Guardada noticia de RPP: Farid Kahhat: "No queda mayor posibilidad que conceder el salvoconducto" a Betss
+2025-11-07 03:11:47,177 [INFO] [OK] Guardada noticia de RPP: Congreso declara de interés nacional recuperación de la goleta chilena Covadonga
+2025-11-07 03:11:47,179 [INFO] [OK] Guardada noticia de RPP: México rechaza declaración de persona no grata contra la presidenta Claudia Shei
+2025-11-07 03:11:47,183 [INFO] [OK] Guardada noticia de RPP: ¿Con quiénes compiten? Cristiano y Messi nominados al once ideal del premio The 
+2025-11-07 03:11:47,185 [INFO] [OK] Guardada noticia de RPP: Farid Kahhat: "No queda mayor posibilidad que conceder el salvoconducto" a Betss
+2025-11-07 03:11:47,191 [INFO] [OK] Guardada noticia de RPP: Áncash: detienen a fiscal que protagonizó pelea con abogado en local de Casma
+2025-11-07 03:11:47,193 [INFO] [OK] Guardada noticia de RPP: Detonan explosivo en casa de alcalde de Huarmey y dejan carta extorsiva con bala
+2025-11-07 03:11:47,199 [INFO] [OK] Guardada noticia de RPP: Farid Kahhat: "No queda mayor posibilidad que conceder el salvoconducto" a Betss
+2025-11-07 03:11:47,200 [INFO] [OK] Guardada noticia de RPP: Alcalde de Huarmey evalúa renunciar al cargo y a la política tras atentado con e
+2025-11-07 03:11:47,207 [INFO] [OK] Guardada noticia de RPP: Korina Rivadeneira presenta a su padre con emotivo video y revela a qué se dedic
+2025-11-07 03:11:47,208 [INFO] [OK] Guardada noticia de RPP: México rechaza declaración de persona no grata contra la presidenta Claudia Shei
+2025-11-07 03:11:47,214 [INFO] [OK] Guardada noticia de RPP: Carlos Zambrano tras la no convocatoria de Paolo Guerrero: "Es un delantero de n
+2025-11-07 03:11:47,221 [INFO] [OK] Guardada noticia de RPP: Detonan explosivo en casa de alcalde de Huarmey y dejan carta extorsiva con bala
+2025-11-07 03:11:47,223 [INFO] [OK] Guardada noticia de RPP: "Ella sabe que la amo": Samahara Lobatón reacciona ante ruptura de Melissa Klug 
+2025-11-07 03:11:47,229 [INFO] [OK] Guardada noticia de RPP: Alcalde de Huarmey evalúa renunciar al cargo y a la política tras atentado con e
+2025-11-07 03:11:47,230 [INFO] [OK] Guardada noticia de RPP: Loreto: 3 efectivos de la Marina de Guerra resultaron heridos tras manipular exp
+2025-11-07 03:11:47,235 [INFO] [OK] Guardada noticia de RPP: Korina Rivadeneira presenta a su padre con emotivo video y revela a qué se dedic
+2025-11-07 03:11:47,238 [INFO] [OK] Guardada noticia de RPP: CADE 2025: las reacciones de los empresarios ante la cédula electoral más grande
+2025-11-07 03:11:47,242 [INFO] [OK] Guardada noticia de RPP: Carlos Zambrano tras la no convocatoria de Paolo Guerrero: "Es un delantero de n
+2025-11-07 03:11:47,244 [INFO] [OK] Guardada noticia de RPP: Pisco bajo fuertes vientos: vehículos avanzan lentamente por baja visibilidad
+2025-11-07 03:11:47,249 [INFO] [OK] Guardada noticia de RPP: "Ella sabe que la amo": Samahara Lobatón reacciona ante ruptura de Melissa Klug 
+2025-11-07 03:11:47,252 [INFO] [OK] Guardada noticia de RPP: Guns N' Roses en Lima: tres horas y media de rock para la posteridad [CRÓNICA]
+2025-11-07 03:11:47,256 [INFO] [OK] Guardada noticia de RPP: Loreto: 3 efectivos de la Marina de Guerra resultaron heridos tras manipular exp
+2025-11-07 03:11:47,259 [INFO] [OK] Guardada noticia de RPP: Alfonso López Chau en CADE 2025: “La primera tarea no es económica, es moral”
+2025-11-07 03:11:47,263 [INFO] [OK] Guardada noticia de RPP: CADE 2025: las reacciones de los empresarios ante la cédula electoral más grande
+2025-11-07 03:11:47,266 [INFO] [OK] Guardada noticia de RPP: Elecciones 2026: ¿cuándo y dónde podrás elegir tu local de votación, según la ON
+2025-11-07 03:11:47,291 [INFO] [OK] Guardada noticia de RPP: Pisco bajo fuertes vientos: vehículos avanzan lentamente por baja visibilidad
+2025-11-07 03:11:47,291 [INFO] [OK] Guardada noticia de RPP: ONPE: partidos políticos tienen hasta el 7 de noviembre para  informar sobre pre
+2025-11-07 03:11:47,297 [INFO] [OK] Guardada noticia de RPP: El presidente de Bolivia, Luis Arce, fue expulsado del partido oficialista MAS
+2025-11-07 03:11:47,298 [INFO] [OK] Guardada noticia de RPP: Guns N' Roses en Lima: tres horas y media de rock para la posteridad [CRÓNICA]
+2025-11-07 03:11:47,304 [INFO] [OK] Guardada noticia de RPP: Perupetro cierra proceso de adjudicación en Talara: Lote I inicia operaciones y 
+2025-11-07 03:11:47,305 [INFO] [OK] Guardada noticia de RPP: Alfonso López Chau en CADE 2025: “La primera tarea no es económica, es moral”
+2025-11-07 03:11:47,310 [INFO] [OK] Guardada noticia de RPP: Clínica Aviva construye nueva sede en San Juan de Miraflores: Este es su plan pa
+2025-11-07 03:11:47,311 [INFO] [OK] Guardada noticia de RPP: Elecciones 2026: ¿cuándo y dónde podrás elegir tu local de votación, según la ON
+2025-11-07 03:11:47,316 [INFO] [OK] Guardada noticia de RPP: Jefe de Nvidia afirma que China ganará la carrera global de la inteligencia arti
+2025-11-07 03:11:47,317 [INFO] [OK] Guardada noticia de RPP: ONPE: partidos políticos tienen hasta el 7 de noviembre para  informar sobre pre
+2025-11-07 03:11:47,323 [INFO] [OK] Guardada noticia de RPP: 'Los 4 Fantásticos: Primeros pasos' en streaming: cuándo y dónde ver online la p
+2025-11-07 03:11:47,324 [INFO] [OK] Guardada noticia de RPP: El presidente de Bolivia, Luis Arce, fue expulsado del partido oficialista MAS
+2025-11-07 03:11:47,329 [INFO] [OK] Guardada noticia de RPP: Universitario, a otra casa: Lozano se pronunció sobre nuevos derechos de televis
+2025-11-07 03:11:47,331 [INFO] [OK] Guardada noticia de RPP: Perupetro cierra proceso de adjudicación en Talara: Lote I inicia operaciones y 
+2025-11-07 03:11:47,335 [INFO] [OK] Guardada noticia de RPP: Hospital Loayza: piden ayuda para paciente que necesita catéter para ser operado
+2025-11-07 03:11:47,338 [INFO] [OK] Guardada noticia de RPP: Clínica Aviva construye nueva sede en San Juan de Miraflores: Este es su plan pa
+2025-11-07 03:11:47,343 [INFO] [OK] Guardada noticia de RPP: Tribunal Supremo de EE.UU. avala política de Donald Trump de exigir que el sexo 
+2025-11-07 03:11:47,345 [INFO] [OK] Guardada noticia de RPP: Jefe de Nvidia afirma que China ganará la carrera global de la inteligencia arti
+2025-11-07 03:11:47,350 [INFO] [OK] Guardada noticia de RPP: Perú será sede de la 60ª Asamblea Anual de FELABAN en 2026: ¿Cuál es el impacto 
+2025-11-07 03:11:47,352 [INFO] [OK] Guardada noticia de RPP: 'Los 4 Fantásticos: Primeros pasos' en streaming: cuándo y dónde ver online la p
+2025-11-07 03:11:47,357 [INFO] [OK] Guardada noticia de RPP: ¿Quién lo ganará? Lamine Yamal, Mbappé y Dembélé en lista de nominados al The Be
+2025-11-07 03:11:47,358 [INFO] [OK] Guardada noticia de RPP: Universitario, a otra casa: Lozano se pronunció sobre nuevos derechos de televis
+2025-11-07 03:11:47,363 [INFO] [OK] Guardada noticia de RPP: Congreso declara persona no grata a Claudia Sheinbaum, presidenta de México
+2025-11-07 03:11:47,364 [INFO] [OK] Guardada noticia de RPP: Hospital Loayza: piden ayuda para paciente que necesita catéter para ser operado
+2025-11-07 03:11:47,370 [INFO] [OK] Guardada noticia de RPP: "Se trata de una campaña política": Rospigliosi sobre moción de censura por uso 
+2025-11-07 03:11:47,372 [INFO] [OK] Guardada noticia de RPP: Tribunal Supremo de EE.UU. avala política de Donald Trump de exigir que el sexo 
+2025-11-07 03:11:47,377 [INFO] [OK] Guardada noticia de RPP: Secretario general de la OTAN advierte que Rusia será una fuerza desestabilizado
+2025-11-07 03:11:47,379 [INFO] [OK] Guardada noticia de RPP: Perú será sede de la 60ª Asamblea Anual de FELABAN en 2026: ¿Cuál es el impacto 
+2025-11-07 03:11:47,384 [INFO] [OK] Guardada noticia de RPP: Macaulay Culkin vuelve a ser Kevin McCallister de 'Mi pobre angelito' en un emot
+2025-11-07 03:11:47,386 [INFO] [OK] Guardada noticia de RPP: ¿Quién lo ganará? Lamine Yamal, Mbappé y Dembélé en lista de nominados al The Be
+2025-11-07 03:11:47,391 [INFO] [OK] Guardada noticia de RPP: Mibanco proyecta fortalecer su oferta con mejoras en vivienda y créditos inclusi
+2025-11-07 03:11:47,392 [INFO] [SCRAPER] Iniciando: América TV
+2025-11-07 03:11:47,392 [INFO] [SCRAPER] Iniciando: Diario Sin Fronteras
+2025-11-07 03:11:47,395 [INFO] [OK] Guardada noticia de RPP: Congreso declara persona no grata a Claudia Sheinbaum, presidenta de México
+2025-11-07 03:11:47,402 [INFO] [OK] Guardada noticia de RPP: "Se trata de una campaña política": Rospigliosi sobre moción de censura por uso 
+2025-11-07 03:11:47,410 [INFO] [OK] Guardada noticia de RPP: Secretario general de la OTAN advierte que Rusia será una fuerza desestabilizado
+2025-11-07 03:11:47,417 [INFO] [OK] Guardada noticia de RPP: Macaulay Culkin vuelve a ser Kevin McCallister de 'Mi pobre angelito' en un emot
+2025-11-07 03:11:47,423 [INFO] [OK] Guardada noticia de RPP: Mibanco proyecta fortalecer su oferta con mejoras en vivienda y créditos inclusi
+2025-11-07 03:11:47,424 [INFO] [SCRAPER] Iniciando: América TV
+2025-11-07 03:11:47,425 [INFO] [SCRAPER] Iniciando: Diario Sin Fronteras
+2025-11-07 03:11:48,700 [INFO] [OK] Guardada noticia de Diario Sin Fronteras: Salvoconducto para Betssy Chávez podría activarse esta medianoche
+2025-11-07 03:11:48,715 [INFO] [OK] Guardada noticia de Diario Sin Fronteras: Peruanos podrán elegir su local de votación desde el 23 de noviembre
+2025-11-07 03:11:48,725 [INFO] [OK] Guardada noticia de Diario Sin Fronteras: Arequipa: Inicia el Hay Festival con homenaje a Mario Vargas Llosa
+2025-11-07 03:11:48,732 [INFO] [OK] Guardada noticia de Diario Sin Fronteras: Delincuentes roban con total tranquilad y a plena luz del día una vivienda
+2025-11-07 03:11:48,742 [INFO] [OK] Guardada noticia de Diario Sin Fronteras: Arequipa registra 15.600 denuncias por vi0lencia
+2025-11-07 03:11:48,746 [INFO] [OK] Guardada noticia de Diario Sin Fronteras: Salvoconducto para Betssy Chávez podría activarse esta medianoche
+2025-11-07 03:11:48,749 [INFO] [OK] Guardada noticia de Diario Sin Fronteras: Arequipa: Serenos denuncian abusos laborales y falta de interés
+2025-11-07 03:11:48,752 [INFO] [OK] Guardada noticia de Diario Sin Fronteras: Peruanos podrán elegir su local de votación desde el 23 de noviembre
+2025-11-07 03:11:48,756 [INFO] [OK] Guardada noticia de Diario Sin Fronteras: Advierten falta de equipos en hospitales de Arequipa
+2025-11-07 03:11:48,758 [INFO] [OK] Guardada noticia de Diario Sin Fronteras: Arequipa: Inicia el Hay Festival con homenaje a Mario Vargas Llosa
+2025-11-07 03:11:48,763 [INFO] [OK] Guardada noticia de Diario Sin Fronteras: Arequipa: Muere y compañeros de mina alteraron la escena
+2025-11-07 03:11:48,765 [INFO] [OK] Guardada noticia de Diario Sin Fronteras: Delincuentes roban con total tranquilad y a plena luz del día una vivienda
+2025-11-07 03:11:48,769 [INFO] [OK] Guardada noticia de Diario Sin Fronteras: Arequipa: Recompensa de S/40 mil por profesor acusado de vi0lación
+2025-11-07 03:11:48,771 [INFO] [OK] Guardada noticia de Diario Sin Fronteras: Arequipa registra 15.600 denuncias por vi0lencia
+2025-11-07 03:11:48,777 [INFO] [OK] Guardada noticia de Diario Sin Fronteras: Festividad Virgen de la Candelaria en Lima este 9 de noviembre
+2025-11-07 03:11:48,777 [INFO] [SCRAPER] Iniciando: Perú21
+2025-11-07 03:11:48,779 [INFO] [OK] Guardada noticia de Diario Sin Fronteras: Arequipa: Serenos denuncian abusos laborales y falta de interés
+2025-11-07 03:11:48,789 [INFO] [OK] Guardada noticia de Diario Sin Fronteras: Advierten falta de equipos en hospitales de Arequipa
+2025-11-07 03:11:48,797 [INFO] [OK] Guardada noticia de Diario Sin Fronteras: Arequipa: Muere y compañeros de mina alteraron la escena
+2025-11-07 03:11:48,806 [INFO] [OK] Guardada noticia de Diario Sin Fronteras: Arequipa: Recompensa de S/40 mil por profesor acusado de vi0lación
+2025-11-07 03:11:48,814 [INFO] [OK] Guardada noticia de Diario Sin Fronteras: Festividad Virgen de la Candelaria en Lima este 9 de noviembre
+2025-11-07 03:11:48,814 [INFO] [SCRAPER] Iniciando: Perú21
+2025-11-07 03:11:49,560 [INFO] [OK] Guardada noticia de Perú21: Tráiler que transportaba retroexcavadora quedó atascado en el puente Balta (VIDE
+2025-11-07 03:11:49,561 [INFO] [OK] Guardada noticia de Perú21: Tráiler que transportaba retroexcavadora quedó atascado en el puente Balta (VIDE
+2025-11-07 03:11:49,567 [INFO] [OK] Guardada noticia de Perú21: Estados Unidos presenta texto para respaldar en la ONU el plan de Trump para Gaz
+2025-11-07 03:11:49,601 [INFO] [OK] Guardada noticia de Perú21: Natalia Salas contrajo matrimonio con Sergio Coloma: "Juntos para siempre"
+ Gaz
+2025-11-07 03:11:49,608 [INFO] [OK] Guardada noticia de Perú21: CADE 2025: Empresas mantienen planes de inversión pese a incertidumbre electoral
+2025-11-07 03:11:49,609 [INFO] [OK] Guardada noticia de Perú21: Natalia Salas contrajo matrimonio con Sergio Coloma: "Juntos para siempre"
+2025-11-07 03:11:49,615 [INFO] [OK] Guardada noticia de Perú21: CADE 2025: Empresas mantienen planes de inversión pese a incertidumbre electoral
+2025-11-07 03:11:49,615 [INFO] [OK] Guardada noticia de Perú21: María Corina Machado cierra segundo día del CADE 2025 con un mensaje de defensa 
+2025-11-07 03:11:49,621 [INFO] [OK] Guardada noticia de Perú21: Luna del Castor en Perú: ¿A qué hora se podrá ver la superluna?
+2025-11-07 03:11:49,621 [INFO] [OK] Guardada noticia de Perú21: María Corina Machado cierra segundo día del CADE 2025 con un mensaje de defensa 
+2025-11-07 03:11:49,626 [INFO] [OK] Guardada noticia de Perú21: CADE 2025: Ejecutivos consideran la lucha contra la corrupción como la prioridad
+2025-11-07 03:11:49,628 [INFO] [OK] Guardada noticia de Perú21: Luna del Castor en Perú: ¿A qué hora se podrá ver la superluna?
+2025-11-07 03:11:49,632 [INFO] [OK] Guardada noticia de Perú21: Paul Van Dyk vuelve al Perú diez años después de su legendario concierto
+2025-11-07 03:11:49,634 [INFO] [OK] Guardada noticia de Perú21: CADE 2025: Ejecutivos consideran la lucha contra la corrupción como la prioridad
+2025-11-07 03:11:49,638 [INFO] [OK] Guardada noticia de Perú21: CADE Ejecutivos 2025: “Necesitamos una reforma estructural de Essalud”
+2025-11-07 03:11:49,663 [INFO] [OK] Guardada noticia de Perú21: Paul Van Dyk vuelve al Perú diez años después de su legendario concierto
+2025-11-07 03:11:49,664 [INFO] [OK] Guardada noticia de Perú21: Cae 'Negro Marín' en España: rival de 'El Monstruo' era el terror de empresarios
+2025-11-07 03:11:49,683 [INFO] [OK] Guardada noticia de Perú21: CADE Ejecutivos 2025: “Necesitamos una reforma estructural de Essalud”
+2025-11-07 03:11:49,696 [INFO] [OK] Guardada noticia de Perú21: CADE 2025: Ejecutivos proyectan crecimiento moderado en 2026 pero optimista resp
+2025-11-07 03:11:49,701 [INFO] [OK] Guardada noticia de Perú21: Cae 'Negro Marín' en España: rival de 'El Monstruo' era el terror de empresarios
+2025-11-07 03:11:49,707 [INFO] [OK] Guardada noticia de Perú21: Ministra de Economía en CADE 2025: "Necesitamos ser más confiables"
+2025-11-07 03:11:49,724 [INFO] [OK] Guardada noticia de Perú21: CADE 2025: Ejecutivos proyectan crecimiento moderado en 2026 pero optimista resp
+2025-11-07 03:11:49,735 [INFO] [OK] Guardada noticia de Perú21: CADE 2025: La delincuencia e inseguridad encabezan la lista de preocupaciones en
+2025-11-07 03:11:49,747 [INFO] [OK] Guardada noticia de Perú21: Ministra de Economía en CADE 2025: "Necesitamos ser más confiables"
+2025-11-07 03:11:49,750 [INFO] [OK] Guardada noticia de Perú21: CADE 2025: Ejecutivos se muestran optimistas sobre el progreso del país según en
+2025-11-07 03:11:49,852 [INFO] [OK] Guardada noticia de Perú21: CADE 2025: La delincuencia e inseguridad encabezan la lista de preocupaciones en
+2025-11-07 03:11:49,862 [INFO] [OK] Guardada noticia de Perú21: Con doblete de Guerrero: Alianza Lima venció 2-1 a Los Chankas en Andahuaylas
+2025-11-07 03:11:49,876 [INFO] [OK] Guardada noticia de Perú21: CADE 2025: Ejecutivos se muestran optimistas sobre el progreso del país según en
+2025-11-07 03:11:49,877 [INFO] [OK] Guardada noticia de Perú21: Aviones de guerra: Comandante General de la FAP pasa al retiro
+2025-11-07 03:11:49,889 [INFO] [OK] Guardada noticia de Perú21: Con doblete de Guerrero: Alianza Lima venció 2-1 a Los Chankas en Andahuaylas
+2025-11-07 03:11:49,890 [INFO] [OK] Guardada noticia de Perú21: CADE 2025: DÍA 2 ¿Cómo generamos empleo de calidad?
+2025-11-07 03:11:49,896 [INFO] [OK] Guardada noticia de Perú21: Expertos consideran que la seguridad jurídica es clave para la inversión
+2025-11-07 03:11:49,905 [INFO] [OK] Guardada noticia de Perú21: CADE 2025: DÍA 2 ¿Cómo generamos empleo de calidad?
+2025-11-07 03:11:49,905 [INFO] [OK] Guardada noticia de Perú21: Tine van den Wall Bake, de Repsol: “Queremos acompañar a los emprendimientos”
+2025-11-07 03:11:49,911 [INFO] [OK] Guardada noticia de Perú21: Expertos consideran que la seguridad jurídica es clave para la inversión
+2025-11-07 03:11:49,912 [INFO] [OK] Guardada noticia de Perú21: CADE 2025: mypes necesitan mejorar su productividad
+2025-11-07 03:11:49,976 [INFO] [OK] Guardada noticia de Perú21: Tine van den Wall Bake, de Repsol: “Queremos acompañar a los emprendimientos”
+2025-11-07 03:11:49,985 [INFO] [OK] Guardada noticia de Perú21: CADE 2025: mypes necesitan mejorar su productividad
+2025-11-07 03:11:53,427 [INFO] [SCRAPER] Iniciando: La República
+2025-11-07 03:11:53,465 [INFO] [SCRAPER] Iniciando: La República
+2025-11-07 03:11:53,717 [INFO] [SCRAPER] Iniciando: Andina
+2025-11-07 03:11:53,755 [INFO] [SCRAPER] Iniciando: Andina
+2025-11-07 03:11:53,778 [WARNING] Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000132334FC6E0>: Failed to resolve 'andina.pe' ([Errno 11001] getaddrinfo failed)")': /
+2025-11-07 03:11:53,884 [WARNING] Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001AF07D01160>: Failed to resolve 'andina.pe' ([Errno 11001] getaddrinfo failed)")': /
+2025-11-07 08:32:47,286 [WARNING] Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000132334C8F50>: Failed to resolve 'andina.pe' ([Errno 11001] getaddrinfo failed)")': /
+2025-11-07 08:32:47,391 [WARNING] Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001AF07DE8CD0>: Failed to resolve 'andina.pe' ([Errno 11001] getaddrinfo failed)")': /
+2025-11-07 08:32:51,288 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000132334C9310>: Failed to resolve 'andina.pe' ([Errno 11001] getaddrinfo failed)")': /
+2025-11-07 08:32:51,393 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001AF07DE8F50>: Failed to resolve 'andina.pe' ([Errno 11001] getaddrinfo failed)")': /
+2025-11-07 08:32:59,291 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000132334C9450>: Failed to resolve 'andina.pe' ([Errno 11001] getaddrinfo failed)")': /
+2025-11-07 08:32:59,396 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001AF07DE91D0>: Failed to resolve 'andina.pe' ([Errno 11001] getaddrinfo failed)")': /
+2025-11-07 08:33:17,850 [INFO] [SCRAPER] Iniciando: CNN Español
+2025-11-07 08:33:18,143 [INFO] [SCRAPER] Iniciando: CNN Español
+2025-11-07 08:33:19,967 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias del cierre del aeropuerto de Heathrow en Londres, 21 de marz
+2025-11-07 08:33:19,973 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la guerra entre Israel y Hamas del 18 de marzo
+2025-11-07 08:33:19,979 [INFO] [OK] Guardada noticia de CNN Español: Resumen de la reunión entre EE.UU. y Ucrania en Arabia Saudita: noticias, avance
+2025-11-07 08:33:19,986 [INFO] [OK] Guardada noticia de CNN Español: ¿Por qué se conmemora el 8 de marzo el Día Internacional de la Mujer? ¿Cuál es s
+2025-11-07 08:33:19,992 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias del Gobierno de Trump y los aranceles de EE.UU. a México, 6 
+2025-11-07 08:33:19,998 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias del discurso de Trump ante el Congreso y reacciones a los ar
+2025-11-07 08:33:20,004 [INFO] [OK] Guardada noticia de CNN Español: Resumen de los premios Oscar 2025: ganadores, looks discursos y más
+2025-11-07 08:33:20,011 [INFO] [OK] Guardada noticia de CNN Español: ¿Cuáles son las películas que más Premios Oscar han ganado en la historia?
+2025-11-07 08:33:20,017 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la disputa entre Trump y Zelensky tras su reunión, 1 de m
+2025-11-07 08:33:20,024 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la disputa entre Trump y Zelensky tras su reunión del 28 
+2025-11-07 08:33:20,030 [INFO] [OK] Guardada noticia de CNN Español: ¿Quién era Enrique “Kiki” Camarena? La historia del agente de la DEA por cuyo as
+2025-11-07 08:33:20,038 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias del cierre del aeropuerto de Heathrow en Londres, 21 de marz
+2025-11-07 08:33:20,039 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de Caro Quintero y los narcos de México extraditados a EE.UU
+2025-11-07 08:33:20,044 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la guerra entre Israel y Hamas del 18 de marzo
+2025-11-07 08:33:20,045 [INFO] [OK] Guardada noticia de CNN Español: Una ley poco conocida de 1798 podría ser clave para los planes de deportación de
+2025-11-07 08:33:20,051 [INFO] [OK] Guardada noticia de CNN Español: Resumen de la reunión entre EE.UU. y Ucrania en Arabia Saudita: noticias, avance
+2025-11-07 08:33:20,053 [INFO] [OK] Guardada noticia de CNN Español: Este es el origen de la bandera de México y por qué se celebra el 24 febrero
+2025-11-07 08:33:20,058 [INFO] [OK] Guardada noticia de CNN Español: ¿Por qué se conmemora el 8 de marzo el Día Internacional de la Mujer? ¿Cuál es s
+2025-11-07 08:33:20,062 [INFO] [OK] Guardada noticia de CNN Español: Resultados de las elecciones en Alemania 2025
+2025-11-07 08:33:20,064 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias del Gobierno de Trump y los aranceles de EE.UU. a México, 6 
+2025-11-07 08:33:20,069 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la reunión entre EE.UU. y Rusia en Arabia Saudita y guerr
+2025-11-07 08:33:20,071 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias del discurso de Trump ante el Congreso y reacciones a los ar
+2025-11-07 08:33:20,077 [INFO] [OK] Guardada noticia de CNN Español: Resumen de los premios Oscar 2025: ganadores, looks discursos y más
+2025-11-07 08:33:20,078 [INFO] [OK] Guardada noticia de CNN Español: ¿Quién era Paquita la del Barrio, emblemática cantautora mexicana fallecida a lo
+2025-11-07 08:33:20,083 [INFO] [OK] Guardada noticia de CNN Español: ¿Cuáles son las películas que más Premios Oscar han ganado en la historia?
+2025-11-07 08:33:20,086 [INFO] [OK] Guardada noticia de CNN Español: Día de los Presidentes: ¿qué se celebra y cuál es el origen de este feriado de E
+2025-11-07 08:33:20,089 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la disputa entre Trump y Zelensky tras su reunión, 1 de m
+2025-11-07 08:33:20,094 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la guerra de Rusia en Ucrania el 17 de febrero
+2025-11-07 08:33:20,096 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la disputa entre Trump y Zelensky tras su reunión del 28 
+2025-11-07 08:33:20,101 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la guerra entre Rusia y Ucrania y la reunión de Zelensky 
+2025-11-07 08:33:20,101 [INFO] [OK] Guardada noticia de CNN Español: ¿Quién era Enrique “Kiki” Camarena? La historia del agente de la DEA por cuyo as
+2025-11-07 08:33:20,108 [INFO] [OK] Guardada noticia de CNN Español: ¿En qué orden hay que ver todas las películas y series de Marvel del MCU?
+2025-11-07 08:33:20,108 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de Caro Quintero y los narcos de México extraditados a EE.UU
+2025-11-07 08:33:20,114 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la guerra entre Rusia y Ucrania tras llamada entre Trump 
+2025-11-07 08:33:20,115 [INFO] [OK] Guardada noticia de CNN Español: Una ley poco conocida de 1798 podría ser clave para los planes de deportación de
+2025-11-07 08:33:20,121 [INFO] [OK] Guardada noticia de CNN Español: Este es el origen de la bandera de México y por qué se celebra el 24 febrero
+2025-11-07 08:33:20,122 [INFO] [OK] Guardada noticia de CNN Español: ¿Quién era San Valentín? Esta es la retorcida historia del origen de esta celebr
+2025-11-07 08:33:20,128 [INFO] [OK] Guardada noticia de CNN Español: Resultados de las elecciones en Alemania 2025
+2025-11-07 08:33:20,129 [INFO] [OK] Guardada noticia de CNN Español: Así fue el Super Bowl 2025 y el halftime show: resumen y resultado de la contund
+2025-11-07 08:33:20,134 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la reunión entre EE.UU. y Rusia en Arabia Saudita y guerr
+2025-11-07 08:33:20,136 [INFO] [OK] Guardada noticia de CNN Español: Resumen de las elecciones en Ecuador 2025: habrá segunda vuelta entre Noboa y Go
+2025-11-07 08:33:20,141 [INFO] [OK] Guardada noticia de CNN Español: ¿Quién era Paquita la del Barrio, emblemática cantautora mexicana fallecida a lo
+2025-11-07 08:33:20,143 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la guerra en Gaza: liberación de rehenes, reacciones y má
+2025-11-07 08:33:20,147 [INFO] [OK] Guardada noticia de CNN Español: Día de los Presidentes: ¿qué se celebra y cuál es el origen de este feriado de E
+2025-11-07 08:33:20,149 [INFO] [OK] Guardada noticia de CNN Español: ¿Quién es Patrick Mahomes, el quarterback estrella de los Kansas City Chiefs?
+2025-11-07 08:33:20,156 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la guerra de Rusia en Ucrania el 17 de febrero
+2025-11-07 08:33:20,159 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la guerra en Gaza: Trump dice que tomará el control, reac
+2025-11-07 08:33:20,162 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la guerra entre Rusia y Ucrania y la reunión de Zelensky 
+2025-11-07 08:33:20,165 [INFO] [OK] Guardada noticia de CNN Español: Estos son los nominados a los Premios Grammy 2025: lista por categorías
+2025-11-07 08:33:20,168 [INFO] [OK] Guardada noticia de CNN Español: ¿En qué orden hay que ver todas las películas y series de Marvel del MCU?
+2025-11-07 08:33:20,171 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de los aranceles que Trump impone a México, Canadá y China
+2025-11-07 08:33:20,174 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la guerra entre Rusia y Ucrania tras llamada entre Trump 
+2025-11-07 08:33:20,178 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias sobre la guerra en Gaza: liberación de rehenes, noticias, re
+2025-11-07 08:33:20,179 [INFO] [OK] Guardada noticia de CNN Español: ¿Quién era San Valentín? Esta es la retorcida historia del origen de esta celebr
+2025-11-07 08:33:20,184 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias del choque de un avión con un helicóptero en Washington de 3
+2025-11-07 08:33:20,185 [INFO] [OK] Guardada noticia de CNN Español: Así fue el Super Bowl 2025 y el halftime show: resumen y resultado de la contund
+2025-11-07 08:33:20,191 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de deportaciones en EE.UU., medidas de Trump sobre migración
+2025-11-07 08:33:20,191 [INFO] [OK] Guardada noticia de CNN Español: Resumen de las elecciones en Ecuador 2025: habrá segunda vuelta entre Noboa y Go
+2025-11-07 08:33:20,197 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la guerra en Gaza del 30 de enero de 2025
+2025-11-07 08:33:20,198 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la guerra en Gaza: liberación de rehenes, reacciones y má
+2025-11-07 08:33:20,204 [INFO] [OK] Guardada noticia de CNN Español: ¿Quién es Patrick Mahomes, el quarterback estrella de los Kansas City Chiefs?
+2025-11-07 08:33:20,204 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias del choque de un avión con un helicóptero en Washington del 
+2025-11-07 08:33:20,211 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la guerra en Gaza: Trump dice que tomará el control, reac
+2025-11-07 08:33:20,212 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de deportaciones en EE.UU., migración y otras medidas de Tru
+2025-11-07 08:33:20,218 [INFO] [OK] Guardada noticia de CNN Español: Estos son los nominados a los Premios Grammy 2025: lista por categorías
+2025-11-07 08:33:20,219 [INFO] [OK] Guardada noticia de CNN Español: ¿Qué es el Año Nuevo chino? Las 7 cosas que debes saber sobre la popular celebra
+2025-11-07 08:33:20,225 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de los aranceles que Trump impone a México, Canadá y China
+2025-11-07 08:33:20,228 [INFO] [OK] Guardada noticia de CNN Español: ¿Qué animales hay en el horóscopo chino, cómo saber cuál soy y qué significa?
+2025-11-07 08:33:20,234 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias sobre la guerra en Gaza: liberación de rehenes, noticias, re
+2025-11-07 08:33:20,235 [INFO] [OK] Guardada noticia de CNN Español: ¿Quién no tiene que declarar impuestos en EE.UU. y cuál es el límite de ingresos
+2025-11-07 08:33:20,241 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias del choque de un avión con un helicóptero en Washington de 3
+2025-11-07 08:33:20,242 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias sobre deportaciones en EE.UU. y medidas de Trump sobre migra
+2025-11-07 08:33:20,248 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de deportaciones en EE.UU., medidas de Trump sobre migración
+2025-11-07 08:33:20,251 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de las medidas de EE.UU. sobre inmigración y la crisis con C
+2025-11-07 08:33:20,255 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la guerra en Gaza del 30 de enero de 2025
+2025-11-07 08:33:20,258 [INFO] [OK] Guardada noticia de CNN Español: Cómo presentar tu declaración de impuestos en EE.UU. en 2025: link, formularios,
+2025-11-07 08:33:20,262 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias del choque de un avión con un helicóptero en Washington del 
+2025-11-07 08:33:20,265 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la guerra entre Israel y Hamas del 25 de enero
+2025-11-07 08:33:20,269 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de deportaciones en EE.UU., migración y otras medidas de Tru
+2025-11-07 08:33:20,273 [INFO] [OK] Guardada noticia de CNN Español: ¿Qué son los programas de diversidad, equidad e inclusión (DEI) que Trump quiere
+2025-11-07 08:33:20,276 [INFO] [OK] Guardada noticia de CNN Español: ¿Qué es el Año Nuevo chino? Las 7 cosas que debes saber sobre la popular celebra
+2025-11-07 08:33:20,280 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la presidencia de Donald Trump del día 21 de enero de 202
+2025-11-07 08:33:20,283 [INFO] [OK] Guardada noticia de CNN Español: ¿Qué animales hay en el horóscopo chino, cómo saber cuál soy y qué significa?
+2025-11-07 08:33:20,288 [INFO] [OK] Guardada noticia de CNN Español: A quiénes podría deportar Trump en su segundo mandato
+2025-11-07 08:33:20,290 [INFO] [OK] Guardada noticia de CNN Español: ¿Quién no tiene que declarar impuestos en EE.UU. y cuál es el límite de ingresos
+2025-11-07 08:33:20,296 [INFO] [OK] Guardada noticia de CNN Español: ¿Quién es J. D. Vance, vicepresidente de Donald Trump?
+2025-11-07 08:33:20,297 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias sobre deportaciones en EE.UU. y medidas de Trump sobre migra
+2025-11-07 08:33:20,304 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de las medidas de EE.UU. sobre inmigración y la crisis con C
+2025-11-07 08:33:20,304 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la toma de posesión de Trump como presidente de EE.UU. de
+2025-11-07 08:33:20,311 [INFO] [OK] Guardada noticia de CNN Español: Cómo presentar tu declaración de impuestos en EE.UU. en 2025: link, formularios,
+2025-11-07 08:33:20,312 [INFO] [OK] Guardada noticia de CNN Español: Estas son las personas elegidas por Donald Trump para cargos clave de su Gabinet
+2025-11-07 08:33:20,317 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la guerra entre Israel y Hamas del 25 de enero
+2025-11-07 08:33:20,319 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias sobre la guerra entre Israel y Hamas del 20 de enero de 2025
+2025-11-07 08:33:20,323 [INFO] [OK] Guardada noticia de CNN Español: ¿Qué son los programas de diversidad, equidad e inclusión (DEI) que Trump quiere
+2025-11-07 08:33:20,326 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la guerra entre Israel y Hamas este domingo 19 de enero
+2025-11-07 08:33:20,329 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la presidencia de Donald Trump del día 21 de enero de 202
+2025-11-07 08:33:20,333 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la guerra entre Israel y Hamas este sábado 18 de enero
+2025-11-07 08:33:20,336 [INFO] [OK] Guardada noticia de CNN Español: A quiénes podría deportar Trump en su segundo mandato
+2025-11-07 08:33:20,340 [INFO] [OK] Guardada noticia de CNN Español: El clima extremo llegó para quedarse. Cómo prepararse financieramente para un de
+2025-11-07 08:33:20,342 [INFO] [OK] Guardada noticia de CNN Español: ¿Quién es J. D. Vance, vicepresidente de Donald Trump?
+2025-11-07 08:33:20,347 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de los incendios en Los Ángeles, California, del 17 de enero
+2025-11-07 08:33:20,347 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la toma de posesión de Trump como presidente de EE.UU. de
+2025-11-07 08:33:20,353 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la guerra entre Israel y Hamas del 17 de enero
+2025-11-07 08:33:20,354 [INFO] [OK] Guardada noticia de CNN Español: Estas son las personas elegidas por Donald Trump para cargos clave de su Gabinet
+2025-11-07 08:33:20,359 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de los incendios en Los Ángeles, California, del 16 de enero
+2025-11-07 08:33:20,360 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias sobre la guerra entre Israel y Hamas del 20 de enero de 2025
+2025-11-07 08:33:20,365 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la guerra entre Israel y Hamas del 16 de enero de 2025
+2025-11-07 08:33:20,366 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la guerra entre Israel y Hamas este domingo 19 de enero
+2025-11-07 08:33:20,372 [INFO] [OK] Guardada noticia de CNN Español: Resumen de la guerra y el acuerdo de cese el fuego entre Israel y Hamas, 15 de e
+2025-11-07 08:33:20,372 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la guerra entre Israel y Hamas este sábado 18 de enero
+2025-11-07 08:33:20,378 [INFO] [OK] Guardada noticia de CNN Español: El clima extremo llegó para quedarse. Cómo prepararse financieramente para un de
+2025-11-07 08:33:20,379 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de incendios en Los Ángeles, California del 15 de enero 2025
+2025-11-07 08:33:20,384 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de los incendios en Los Ángeles, California, del 17 de enero
+2025-11-07 08:33:20,385 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la guerra en Gaza del 14 de enero
+2025-11-07 08:33:20,390 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la guerra entre Israel y Hamas del 17 de enero
+2025-11-07 08:33:20,393 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de incendios en Los Ángeles, California del 14 de enero de 2
+2025-11-07 08:33:20,397 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de los incendios en Los Ángeles, California, del 16 de enero
+2025-11-07 08:33:20,401 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de incendios en Los Ángeles, California del 13 de enero de 2
+2025-11-07 08:33:20,403 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la guerra entre Israel y Hamas del 16 de enero de 2025
+2025-11-07 08:33:20,408 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias sobre los incendios en Los Ángeles, California, el 12 de ene
+2025-11-07 08:33:20,410 [INFO] [OK] Guardada noticia de CNN Español: Resumen de la guerra y el acuerdo de cese el fuego entre Israel y Hamas, 15 de e
+2025-11-07 08:33:20,415 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de los incendios en Los Ángeles, California este sábado 11 d
+2025-11-07 08:33:20,416 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de incendios en Los Ángeles, California del 15 de enero 2025
+2025-11-07 08:33:20,422 [INFO] [OK] Guardada noticia de CNN Español: Estatus de Protección Temporal (TPS): qué es, quién es elegible, precio y cómo s
+2025-11-07 08:33:20,423 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la guerra en Gaza del 14 de enero
+2025-11-07 08:33:20,434 [INFO] [OK] Guardada noticia de CNN Español: Qué pasó en el juicio penal contra Donald Trump por supuestos pagos por silencio
+2025-11-07 08:33:20,435 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de incendios en Los Ángeles, California del 14 de enero de 2
+2025-11-07 08:33:20,441 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la toma de posesión del presidente de Venezuela del 10 de
+2025-11-07 08:33:20,442 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de incendios en Los Ángeles, California del 13 de enero de 2
+2025-11-07 08:33:20,447 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias sobre los incendios en Los Ángeles, California, el 12 de ene
+2025-11-07 08:33:20,449 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de los incendios en Los Ángeles, California del 10 de enero 
+2025-11-07 08:33:20,454 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de los incendios en Los Ángeles, California este sábado 11 d
+2025-11-07 08:33:20,456 [INFO] [OK] Guardada noticia de CNN Español: ¿Qué problemas de salud ha tenido José "Pepe" Mujica?
+2025-11-07 08:33:20,459 [INFO] [OK] Guardada noticia de CNN Español: Estatus de Protección Temporal (TPS): qué es, quién es elegible, precio y cómo s
+2025-11-07 08:33:20,462 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de las protestas en Venezuela, Machado y Maduro del 9 de ene
+2025-11-07 08:33:20,465 [INFO] [OK] Guardada noticia de CNN Español: Qué pasó en el juicio penal contra Donald Trump por supuestos pagos por silencio
+2025-11-07 08:33:20,468 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de los incendios en Los Ángeles, California del 9 de enero d
+2025-11-07 08:33:20,471 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la toma de posesión del presidente de Venezuela del 10 de
+2025-11-07 08:33:20,475 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de Venezuela, Maduro y González del 8 de enero
+2025-11-07 08:33:20,477 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de los incendios en Los Ángeles, California del 10 de enero 
+2025-11-07 08:33:20,481 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de los incendios en Los Ángeles, California, del 8 de enero
+2025-11-07 08:33:20,483 [INFO] [OK] Guardada noticia de CNN Español: ¿Qué problemas de salud ha tenido José "Pepe" Mujica?
+2025-11-07 08:33:20,488 [INFO] [OK] Guardada noticia de CNN Español: De los inicios políticos a las presidencias cuestionadas: los años de Nicolás Ma
+2025-11-07 08:33:20,489 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de las protestas en Venezuela, Machado y Maduro del 9 de ene
+2025-11-07 08:33:20,494 [INFO] [OK] Guardada noticia de CNN Español: ANÁLISIS | ¿Cuál es el peso de la Fuerza Armada en la política de Venezuela y qu
+2025-11-07 08:33:20,495 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de los incendios en Los Ángeles, California del 9 de enero d
+2025-11-07 08:33:20,501 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias del ataque en Nueva Orleans del 3 de enero de 2025
+2025-11-07 08:33:20,502 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de Venezuela, Maduro y González del 8 de enero
+2025-11-07 08:33:20,508 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias del ataque en Nueva Orleans del 2 de enero de 2025
+2025-11-07 08:33:20,508 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de los incendios en Los Ángeles, California, del 8 de enero
+2025-11-07 08:33:20,514 [INFO] [OK] Guardada noticia de CNN Español: De los inicios políticos a las presidencias cuestionadas: los años de Nicolás Ma
+2025-11-07 08:33:20,515 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias del ataque en Nueva Orleans este 1 de enero del 2025
+2025-11-07 08:33:20,520 [INFO] [OK] Guardada noticia de CNN Español: ANÁLISIS | ¿Cuál es el peso de la Fuerza Armada en la política de Venezuela y qu
+2025-11-07 08:33:20,521 [INFO] [OK] Guardada noticia de CNN Español: ¿Por qué es importante el Concierto de Año Nuevo de Viena?
+2025-11-07 08:33:20,525 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias del ataque en Nueva Orleans del 3 de enero de 2025
+2025-11-07 08:33:20,527 [INFO] [OK] Guardada noticia de CNN Español: ¿Cuál es el país que primero recibe el Año Nuevo?
+2025-11-07 08:33:20,531 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias del ataque en Nueva Orleans del 2 de enero de 2025
+2025-11-07 08:33:20,535 [INFO] [OK] Guardada noticia de CNN Español: ¿Cuál es el origen de Nochevieja y por qué se celebra?
+2025-11-07 08:33:20,538 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias del ataque en Nueva Orleans este 1 de enero del 2025
+2025-11-07 08:33:20,541 [INFO] [OK] Guardada noticia de CNN Español: ¿Quién fue Jimmy Carter y qué hizo como presidente de Estados Unidos?
+2025-11-07 08:33:20,543 [INFO] [OK] Guardada noticia de CNN Español: ¿Por qué es importante el Concierto de Año Nuevo de Viena?
+2025-11-07 08:33:20,548 [INFO] [OK] Guardada noticia de CNN Español: ¿De qué murió y qué problemas de salud tuvo Jimmy Carter?
+2025-11-07 08:33:20,549 [INFO] [OK] Guardada noticia de CNN Español: ¿Cuál es el país que primero recibe el Año Nuevo?
+2025-11-07 08:33:20,555 [INFO] [OK] Guardada noticia de CNN Español: La vida y familia de Jimmy Carter: carrera, hijos y más datos
+2025-11-07 08:33:20,555 [INFO] [OK] Guardada noticia de CNN Español: ¿Cuál es el origen de Nochevieja y por qué se celebra?
+2025-11-07 08:33:20,561 [INFO] [OK] Guardada noticia de CNN Español: ¿Quién fue Jimmy Carter y qué hizo como presidente de Estados Unidos?
+2025-11-07 08:33:20,562 [INFO] [OK] Guardada noticia de CNN Español: ¿Por qué ganó Jimmy Carter el Premio Nobel de la Paz en 2002?
+2025-11-07 08:33:20,567 [INFO] [OK] Guardada noticia de CNN Español: ¿De qué murió y qué problemas de salud tuvo Jimmy Carter?
+2025-11-07 08:33:20,568 [INFO] [OK] Guardada noticia de CNN Español: Todos los presidentes de la historia de EE.UU. de George Washington a Joe Biden
+2025-11-07 08:33:20,574 [INFO] [OK] Guardada noticia de CNN Español: La vida y familia de Jimmy Carter: carrera, hijos y más datos
+2025-11-07 08:33:20,575 [INFO] [OK] Guardada noticia de CNN Español: La historia de amor de Rosalynn y Jimmy Carter
+2025-11-07 08:33:20,580 [INFO] [OK] Guardada noticia de CNN Español: ¿Por qué ganó Jimmy Carter el Premio Nobel de la Paz en 2002?
+2025-11-07 08:33:20,581 [INFO] [OK] Guardada noticia de CNN Español: Los 7 momentos más relevantes de la presidencia de Jimmy Carter
+2025-11-07 08:33:20,586 [INFO] [OK] Guardada noticia de CNN Español: Todos los presidentes de la historia de EE.UU. de George Washington a Joe Biden
+2025-11-07 08:33:20,587 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la muerte del expresidente de EE.UU. Jimmy Carter este do
+2025-11-07 08:33:20,592 [INFO] [OK] Guardada noticia de CNN Español: La historia de amor de Rosalynn y Jimmy Carter
+2025-11-07 08:33:20,593 [INFO] [OK] Guardada noticia de CNN Español: Jimmy Carter, el expresidente que se dedicó a la paz, murió a los 100 años
+2025-11-07 08:33:20,597 [INFO] [OK] Guardada noticia de CNN Español: Los 7 momentos más relevantes de la presidencia de Jimmy Carter
+2025-11-07 08:33:20,600 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias del avión que se estrelló en Corea del Sur
+2025-11-07 08:33:20,603 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la muerte del expresidente de EE.UU. Jimmy Carter este do
+2025-11-07 08:33:20,605 [INFO] [OK] Guardada noticia de CNN Español: ¿Cuántos números hay que tener para ganar el Mega Millions? ¿Cuánto se gana con 
+2025-11-07 08:33:20,609 [INFO] [OK] Guardada noticia de CNN Español: Jimmy Carter, el expresidente que se dedicó a la paz, murió a los 100 años
+2025-11-07 08:33:20,611 [INFO] [OK] Guardada noticia de CNN Español: Estas son las propuestas que ha hecho Donald Trump para su regreso a la presiden
+2025-11-07 08:33:20,614 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias del avión que se estrelló en Corea del Sur
+2025-11-07 08:33:20,618 [INFO] [OK] Guardada noticia de CNN Español: La verdadera historia del origen de la Navidad
+2025-11-07 08:33:20,620 [INFO] [OK] Guardada noticia de CNN Español: ¿Cuántos números hay que tener para ganar el Mega Millions? ¿Cuánto se gana con 
+2025-11-07 08:33:20,625 [INFO] [OK] Guardada noticia de CNN Español: Así fue como El Grinch, una sorprendente película de Navidad, se convirtió en un
+2025-11-07 08:33:20,627 [INFO] [OK] Guardada noticia de CNN Español: Estas son las propuestas que ha hecho Donald Trump para su regreso a la presiden
+2025-11-07 08:33:20,631 [INFO] [OK] Guardada noticia de CNN Español: La historia del "ugly sweater" o suéter navideño
+2025-11-07 08:33:20,633 [INFO] [OK] Guardada noticia de CNN Español: La verdadera historia del origen de la Navidad
+2025-11-07 08:33:20,638 [INFO] [OK] Guardada noticia de CNN Español: "Como viajar a la luna": el cruce oceánico más aterrador del mundo
+2025-11-07 08:33:20,639 [INFO] [OK] Guardada noticia de CNN Español: Así fue como El Grinch, una sorprendente película de Navidad, se convirtió en un
+2025-11-07 08:33:20,644 [INFO] [OK] Guardada noticia de CNN Español: Ni China ni Corea del Norte: la historia del país de América Latina que "eliminó
+2025-11-07 08:33:20,645 [INFO] [OK] Guardada noticia de CNN Español: La historia del "ugly sweater" o suéter navideño
+2025-11-07 08:33:20,651 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias del atropello en el mercado navideño de Alemania del 21 de d
+2025-11-07 08:33:20,651 [INFO] [OK] Guardada noticia de CNN Español: "Como viajar a la luna": el cruce oceánico más aterrador del mundo
+2025-11-07 08:33:20,657 [INFO] [OK] Guardada noticia de CNN Español: Solsticio de invierno 2024: el día más corto del año y el inicio oficial del inv
+2025-11-07 08:33:20,657 [INFO] [OK] Guardada noticia de CNN Español: Ni China ni Corea del Norte: la historia del país de América Latina que "eliminó
+2025-11-07 08:33:20,662 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias del atropello en el mercado navideño de Alemania del 21 de d
+2025-11-07 08:33:20,666 [INFO] [OK] Guardada noticia de CNN Español: Solsticio de invierno 2024: el día más corto del año y el inicio oficial del inv
+2025-11-07 08:33:21,277 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la disputa entre Trump y Zelensky tras su reunión, 1 de m
+2025-11-07 08:33:21,278 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la disputa entre Trump y Zelensky tras su reunión, 1 de m
+2025-11-07 08:33:21,283 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la guerra entre Israel y Hamas del 17 de enero
+2025-11-07 08:33:21,284 [INFO] [OK] Guardada noticia de CNN Español: Resumen de noticias de la guerra entre Israel y Hamas del 17 de enero
+2025-11-07 08:33:21,289 [INFO] [OK] Guardada noticia de CNN Español: Captan erupción del volcán Kanlaon en Filipinas
+2025-11-07 08:33:21,290 [INFO] [OK] Guardada noticia de CNN Español: Captan erupción del volcán Kanlaon en Filipinas
+2025-11-07 08:33:21,294 [INFO] [OK] Guardada noticia de CNN Español: "Vamos a vivir un proceso sumamente complicado para definir el futuro de Siria",
+2025-11-07 08:33:21,295 [INFO] [OK] Guardada noticia de CNN Español: "Vamos a vivir un proceso sumamente complicado para definir el futuro de Siria",
+2025-11-07 08:33:21,300 [INFO] [OK] Guardada noticia de CNN Español: "Tiene que ser una farsa": la reacción del líder de la oposición surcoreana sobr
+2025-11-07 08:33:21,301 [INFO] [OK] Guardada noticia de CNN Español: "Tiene que ser una farsa": la reacción del líder de la oposición surcoreana sobr
+2025-11-07 08:33:21,308 [INFO] [OK] Guardada noticia de CNN Español: La consola PlayStation cumple 30 años en el mercado
+2025-11-07 08:33:21,310 [INFO] [OK] Guardada noticia de CNN Español: La consola PlayStation cumple 30 años en el mercado
+2025-11-07 08:33:21,314 [INFO] [OK] Guardada noticia de CNN Español: Un alud cubrió de barro las viviendas del estado indio de Tamil Nadu
+2025-11-07 08:33:21,315 [INFO] [OK] Guardada noticia de CNN Español: Un alud cubrió de barro las viviendas del estado indio de Tamil Nadu
+2025-11-07 08:33:21,320 [INFO] [OK] Guardada noticia de CNN Español: Las 25 páginas de Wikipedia más vistas de 2024
+2025-11-07 08:33:21,322 [INFO] [OK] Guardada noticia de CNN Español: Las 25 páginas de Wikipedia más vistas de 2024
+2025-11-07 08:33:21,327 [INFO] [OK] Guardada noticia de CNN Español: La Policía de Georgia reprime a manifestantes con cañones de agua
+2025-11-07 08:33:21,328 [INFO] [OK] Guardada noticia de CNN Español: La Policía de Georgia reprime a manifestantes con cañones de agua
+2025-11-07 08:33:21,333 [INFO] [OK] Guardada noticia de CNN Español: Una escultura de mimbre similar al emoji “poop” genera controversias entre sus e
+2025-11-07 08:33:21,334 [INFO] [OK] Guardada noticia de CNN Español: Una escultura de mimbre similar al emoji “poop” genera controversias entre sus e
+2025-11-07 08:33:21,340 [INFO] [OK] Guardada noticia de CNN Español: “Reciclar no es una solución completa”, dice experta en el tratado mundial de pl
+2025-11-07 08:33:21,341 [INFO] [OK] Guardada noticia de CNN Español: “Reciclar no es una solución completa”, dice experta en el tratado mundial de pl
+2025-11-07 08:33:21,346 [INFO] [OK] Guardada noticia de CNN Español: Un candidato de extrema derecha y crítico de la OTAN llega a la segunda vuelta p
+2025-11-07 08:33:21,347 [INFO] [OK] Guardada noticia de CNN Español: Un candidato de extrema derecha y crítico de la OTAN llega a la segunda vuelta p
+2025-11-07 08:33:21,352 [INFO] [OK] Guardada noticia de CNN Español: Muere a los 39 años el actor surcoreano Song Jae-lim
+2025-11-07 08:33:21,353 [INFO] [OK] Guardada noticia de CNN Español: Muere a los 39 años el actor surcoreano Song Jae-lim
+2025-11-07 08:33:21,357 [INFO] [OK] Guardada noticia de CNN Español: Crisis climática: ¿Qué están haciendo los líderes mundiales en la COP29?
+2025-11-07 08:33:21,358 [INFO] [OK] Guardada noticia de CNN Español: Crisis climática: ¿Qué están haciendo los líderes mundiales en la COP29?
+2025-11-07 08:33:21,363 [INFO] [OK] Guardada noticia de CNN Español: COP29: esto es lo que debes saber sobre el segundo día de la cumbre del clima
+2025-11-07 08:33:21,364 [INFO] [OK] Guardada noticia de CNN Español: COP29: esto es lo que debes saber sobre el segundo día de la cumbre del clima
+2025-11-07 08:33:21,369 [INFO] [OK] Guardada noticia de CNN Español: ¿Cuál será el rol de Trump en el escenario mundial?
+2025-11-07 08:33:21,369 [INFO] [OK] Guardada noticia de CNN Español: ¿Cuál será el rol de Trump en el escenario mundial?
+2025-11-07 08:33:21,376 [INFO] [OK] Guardada noticia de CNN Español: Netanyahu despidió a su ministro de Defensa. ¿Qué pasará ahora?
+2025-11-07 08:33:21,376 [INFO] [OK] Guardada noticia de CNN Español: Netanyahu despidió a su ministro de Defensa. ¿Qué pasará ahora?
+2025-11-07 08:33:21,382 [INFO] [OK] Guardada noticia de CNN Español: Un pequeño pueblo de la India reza por Kamala Harris
+2025-11-07 08:33:21,383 [INFO] [OK] Guardada noticia de CNN Español: Un pequeño pueblo de la India reza por Kamala Harris
+2025-11-07 08:33:21,389 [INFO] [OK] Guardada noticia de CNN Español: Así lanzó Corea del Norte un misil balístico “perfeccionado”
+2025-11-07 08:33:21,389 [INFO] [OK] Guardada noticia de CNN Español: Así lanzó Corea del Norte un misil balístico “perfeccionado”
+2025-11-07 08:33:21,395 [INFO] [OK] Guardada noticia de CNN Español: Las noticias del mundo del 31 de octubre en CNN en español
+2025-11-07 08:33:21,396 [INFO] [OK] Guardada noticia de CNN Español: Las noticias del mundo del 31 de octubre en CNN en español
+2025-11-07 08:33:21,401 [INFO] [OK] Guardada noticia de CNN Español: Lo que dejó la cumbre de los BRICS
+2025-11-07 08:33:21,402 [INFO] [OK] Guardada noticia de CNN Español: Lo que dejó la cumbre de los BRICS
+2025-11-07 08:33:21,406 [INFO] [OK] Guardada noticia de CNN Español: A Netanyahu no le conviene un cese del fuego, dice analista
+2025-11-07 08:33:21,408 [INFO] [OK] Guardada noticia de CNN Español: A Netanyahu no le conviene un cese del fuego, dice analista
+2025-11-07 08:33:21,412 [INFO] [OK] Guardada noticia de CNN Español: Una caminata anual de zombis toma las calles de Bolivia
+2025-11-07 08:33:21,413 [INFO] [OK] Guardada noticia de CNN Español: Una caminata anual de zombis toma las calles de Bolivia
+2025-11-07 08:33:21,419 [INFO] [OK] Guardada noticia de CNN Español: Lluvias torrenciales provocan graves daños en el sur de Francia
+2025-11-07 08:33:21,419 [INFO] [OK] Guardada noticia de CNN Español: Lluvias torrenciales provocan graves daños en el sur de Francia
+2025-11-07 08:33:21,425 [INFO] [OK] Guardada noticia de CNN Español: Maduro: “Un banco de los Brics es una necesidad de los pueblos del sur”
+2025-11-07 08:33:21,425 [INFO] [OK] Guardada noticia de CNN Español: Maduro: “Un banco de los Brics es una necesidad de los pueblos del sur”
+2025-11-07 08:33:21,432 [INFO] [OK] Guardada noticia de CNN Español: Maduro critica a la Corte Internacional de Justicia: "¿Y las vidas de los niños 
+2025-11-07 08:33:21,432 [INFO] [OK] Guardada noticia de CNN Español: Maduro critica a la Corte Internacional de Justicia: "¿Y las vidas de los niños 
+2025-11-07 08:33:21,438 [INFO] [OK] Guardada noticia de CNN Español: El lago más grande del planeta se está achicando rápidamente y los expertos teme
+2025-11-07 08:33:21,439 [INFO] [OK] Guardada noticia de CNN Español: El lago más grande del planeta se está achicando rápidamente y los expertos teme
+2025-11-07 08:33:21,444 [INFO] [OK] Guardada noticia de CNN Español: Países en cumbre de los BRICS buscan fortalecer su influencia mundial
+2025-11-07 08:33:21,445 [INFO] [OK] Guardada noticia de CNN Español: Países en cumbre de los BRICS buscan fortalecer su influencia mundial
+2025-11-07 08:33:21,450 [INFO] [OK] Guardada noticia de CNN Español: El caótico momento posterior al derrumbe de la pasarela de un muelle de embarcac
+2025-11-07 08:33:21,451 [INFO] [OK] Guardada noticia de CNN Español: El caótico momento posterior al derrumbe de la pasarela de un muelle de embarcac
+2025-11-07 08:33:21,455 [INFO] [OK] Guardada noticia de CNN Español: Muere un niño palestino de 3 años por ayuda lanzada desde el aire
+2025-11-07 08:33:21,456 [INFO] [OK] Guardada noticia de CNN Español: Muere un niño palestino de 3 años por ayuda lanzada desde el aire
+2025-11-07 08:33:21,461 [INFO] [OK] Guardada noticia de CNN Español: Explosión en Nigeria deja 147 muertos y más de 70 heridos
+2025-11-07 08:33:21,462 [INFO] [OK] Guardada noticia de CNN Español: Explosión en Nigeria deja 147 muertos y más de 70 heridos
+2025-11-07 08:33:21,467 [INFO] [OK] Guardada noticia de CNN Español: Reportero de CNN se disfraza y se baña en orina de panda para acercarse a pandas
+2025-11-07 08:33:21,468 [INFO] [OK] Guardada noticia de CNN Español: Reportero de CNN se disfraza y se baña en orina de panda para acercarse a pandas
+2025-11-07 08:33:21,472 [INFO] [OK] Guardada noticia de CNN Español: Otorgan el Nobel de la Paz a Nihon Hidankyo, grupo de sobrevivientes de Hiroshim
+2025-11-07 08:33:21,474 [INFO] [OK] Guardada noticia de CNN Español: Otorgan el Nobel de la Paz a Nihon Hidankyo, grupo de sobrevivientes de Hiroshim
+2025-11-07 08:33:21,478 [INFO] [OK] Guardada noticia de CNN Español: El Minuto Internacional del 10 de octubre en CNN en Español
+2025-11-07 08:33:21,479 [INFO] [OK] Guardada noticia de CNN Español: El Minuto Internacional del 10 de octubre en CNN en Español
+2025-11-07 08:33:21,484 [INFO] [OK] Guardada noticia de CNN Español: Nadie debería ganar el Premio Nobel de la Paz que se entrega mañana, dice el dir
+2025-11-07 08:33:21,485 [INFO] [OK] Guardada noticia de CNN Español: Nadie debería ganar el Premio Nobel de la Paz que se entrega mañana, dice el dir
+2025-11-07 08:33:21,490 [INFO] [OK] Guardada noticia de CNN Español: Interpol busca resolver 46 casos de mujeres sin identificar
+2025-11-07 08:33:21,491 [INFO] [OK] Guardada noticia de CNN Español: Interpol busca resolver 46 casos de mujeres sin identificar
+2025-11-07 08:33:21,495 [INFO] [OK] Guardada noticia de CNN Español: Conoce la cultura de la India con Destinos
+2025-11-07 08:33:21,496 [INFO] [OK] Guardada noticia de CNN Español: Conoce la cultura de la India con Destinos
+2025-11-07 08:33:21,501 [INFO] [OK] Guardada noticia de CNN Español: La democracia, amenazada globalmente
+2025-11-07 08:33:21,503 [INFO] [OK] Guardada noticia de CNN Español: La democracia, amenazada globalmente
+2025-11-07 08:33:21,507 [INFO] [OK] Guardada noticia de CNN Español: Fuego y humo en el cielo de Beirut tras un nuevo ataque aéreo israelí
+2025-11-07 08:33:21,508 [INFO] [OK] Guardada noticia de CNN Español: Fuego y humo en el cielo de Beirut tras un nuevo ataque aéreo israelí
+2025-11-07 08:33:21,513 [INFO] [OK] Guardada noticia de CNN Español: Hemos visto un deterioro del equilibrio de poderes en el mundo: Michael E. Shift
+2025-11-07 08:33:21,514 [INFO] [OK] Guardada noticia de CNN Español: Hemos visto un deterioro del equilibrio de poderes en el mundo: Michael E. Shift
+2025-11-07 08:33:21,519 [INFO] [OK] Guardada noticia de CNN Español: Julian Assange reaparece tras su liberación y defiende la libertad de prensa
+2025-11-07 08:33:21,520 [INFO] [OK] Guardada noticia de CNN Español: Julian Assange reaparece tras su liberación y defiende la libertad de prensa
+2025-11-07 08:33:21,526 [INFO] [OK] Guardada noticia de CNN Español: Analistas estiman que el iPhone 16 no ha tenido un buen comienzo, pero algunos t
+2025-11-07 08:33:21,527 [INFO] [OK] Guardada noticia de CNN Español: Analistas estiman que el iPhone 16 no ha tenido un buen comienzo, pero algunos t
+2025-11-07 08:33:21,531 [INFO] [OK] Guardada noticia de CNN Español: El cannabis podría reclasificarse pronto como una droga menos peligrosa. Cinco c
+2025-11-07 08:33:21,532 [INFO] [OK] Guardada noticia de CNN Español: El cannabis podría reclasificarse pronto como una droga menos peligrosa. Cinco c
+2025-11-07 08:33:21,538 [INFO] [OK] Guardada noticia de CNN Español: “Hay mucho descontento en el mundo y hay líderes que lo aprovechan para su agend
+2025-11-07 08:33:21,539 [INFO] [OK] Guardada noticia de CNN Español: “Hay mucho descontento en el mundo y hay líderes que lo aprovechan para su agend
+2025-11-07 08:33:21,544 [INFO] [OK] Guardada noticia de CNN Español: Análisis de CNN muestra que bombas de 907 kg fabricadas en Estados Unidos probab
+2025-11-07 08:33:21,545 [INFO] [OK] Guardada noticia de CNN Español: Análisis de CNN muestra que bombas de 907 kg fabricadas en Estados Unidos probab
+2025-11-07 08:33:21,549 [INFO] [OK] Guardada noticia de CNN Español: Mira las explosiones durante un ataque de Israel sobre un puerto en Yemen contro
+2025-11-07 08:33:21,588 [INFO] [OK] Guardada noticia de CNN Español: Mira las explosiones durante un ataque de Israel sobre un puerto en Yemen contro
+2025-11-07 08:33:21,589 [INFO] [OK] Guardada noticia de CNN Español: Se llevaron bien en vacaciones, pero luego él no la buscó y ella decidió llamarl
+2025-11-07 08:33:21,594 [INFO] [OK] Guardada noticia de CNN Español: Se llevaron bien en vacaciones, pero luego él no la buscó y ella decidió llamarl
+2025-11-07 08:33:21,595 [INFO] [OK] Guardada noticia de CNN Español: Así construyen el primer hotel impreso en 3D del mundo
+2025-11-07 08:33:21,601 [INFO] [OK] Guardada noticia de CNN Español: Así construyen el primer hotel impreso en 3D del mundo
+2025-11-07 08:33:21,602 [INFO] [OK] Guardada noticia de CNN Español: El “cerebro” de Bengasi, Ahmed Abu Khatallah, condenado a 28 años de prisión en 
+2025-11-07 08:33:21,606 [INFO] [OK] Guardada noticia de CNN Español: El “cerebro” de Bengasi, Ahmed Abu Khatallah, condenado a 28 años de prisión en 
+2025-11-07 08:33:21,607 [INFO] [OK] Guardada noticia de CNN Español: ¿Pueden los partidos de centro favorecer a los extremos en América Latina? La mi
+2025-11-07 08:33:21,611 [INFO] [OK] Guardada noticia de CNN Español: ¿Pueden los partidos de centro favorecer a los extremos en América Latina? La mi
+2025-11-07 08:33:21,612 [INFO] [OK] Guardada noticia de CNN Español: Meryl Streep: “Una ardilla tiene más derechos que una niña en Afganistán”
+2025-11-07 08:33:21,617 [INFO] [OK] Guardada noticia de CNN Español: Meryl Streep: “Una ardilla tiene más derechos que una niña en Afganistán”
+2025-11-07 08:33:21,617 [INFO] [OK] Guardada noticia de CNN Español: Bukele: “Mientras El Salvador se volvió más seguro, el mundo se volvió más inseg
+2025-11-07 08:33:21,622 [INFO] [OK] Guardada noticia de CNN Español: Bukele: “Mientras El Salvador se volvió más seguro, el mundo se volvió más inseg
+2025-11-07 08:33:21,623 [INFO] [OK] Guardada noticia de CNN Español: “La cápsula suicida no cumple legalmente”, dice ministra de Suiza tras muerte de
+2025-11-07 08:33:21,627 [INFO] [OK] Guardada noticia de CNN Español: “La cápsula suicida no cumple legalmente”, dice ministra de Suiza tras muerte de
+2025-11-07 08:33:21,628 [INFO] [OK] Guardada noticia de CNN Español: Zelensky en la ONU sobre guerra con Rusia: Nos quieren dejar a oscuras en este i
+2025-11-07 08:33:21,633 [INFO] [OK] Guardada noticia de CNN Español: Zelensky en la ONU sobre guerra con Rusia: Nos quieren dejar a oscuras en este i
+2025-11-07 08:33:21,634 [INFO] [OK] Guardada noticia de CNN Español: El discurso de Lula da Silva en la ONU: Terminar con el hambre en Brasil es el c
+2025-11-07 08:33:21,639 [INFO] [OK] Guardada noticia de CNN Español: El discurso de Lula da Silva en la ONU: Terminar con el hambre en Brasil es el c
+2025-11-07 08:33:21,640 [INFO] [OK] Guardada noticia de CNN Español: El discurso de Biden ante la ONU: “Reconozco los desafíos desde Ucrania hasta Ga
+2025-11-07 08:33:21,644 [INFO] [OK] Guardada noticia de CNN Español: El discurso de Biden ante la ONU: “Reconozco los desafíos desde Ucrania hasta Ga
+2025-11-07 08:33:21,645 [INFO] [OK] Guardada noticia de CNN Español: Líderes mundiales se suman a la Asamblea General de las Naciones Unidas
+2025-11-07 08:33:21,649 [INFO] [OK] Guardada noticia de CNN Español: Líderes mundiales se suman a la Asamblea General de las Naciones Unidas
+2025-11-07 08:33:21,650 [INFO] [OK] Guardada noticia de CNN Español: Cambian las formas de relacionarse: ¿está en crisis la monogamia?
+2025-11-07 08:33:21,655 [INFO] [OK] Guardada noticia de CNN Español: Cambian las formas de relacionarse: ¿está en crisis la monogamia?
+2025-11-07 08:33:21,655 [INFO] [OK] Guardada noticia de CNN Español: Los principales desafíos que rodean a la nueva Asamblea General de la ONU
+2025-11-07 08:33:21,660 [INFO] [OK] Guardada noticia de CNN Español: Los principales desafíos que rodean a la nueva Asamblea General de la ONU
+2025-11-07 08:33:21,661 [INFO] [OK] Guardada noticia de CNN Español: La compañía que construyó el Titanic se declara insolvente
+2025-11-07 08:33:21,665 [INFO] [OK] Guardada noticia de CNN Español: La compañía que construyó el Titanic se declara insolvente
+2025-11-07 08:33:21,666 [INFO] [OK] Guardada noticia de CNN Español: Manifestantes y policía chocan las afueras de una convención de defensa en Austr
+2025-11-07 08:33:21,671 [INFO] [OK] Guardada noticia de CNN Español: Manifestantes y policía chocan las afueras de una convención de defensa en Austr
+2025-11-07 08:33:21,671 [INFO] [OK] Guardada noticia de CNN Español: Imágenes de la multitudinaria recepción al Papa Francisco en su visita a Timor O
+2025-11-07 08:33:21,676 [INFO] [OK] Guardada noticia de CNN Español: Imágenes de la multitudinaria recepción al Papa Francisco en su visita a Timor O
+2025-11-07 08:33:21,677 [INFO] [OK] Guardada noticia de CNN Español: Impresionante derrumbe de un puente en Vietnam tras tifón Yagi
+2025-11-07 08:33:21,681 [INFO] [OK] Guardada noticia de CNN Español: Impresionante derrumbe de un puente en Vietnam tras tifón Yagi
+2025-11-07 08:33:21,682 [INFO] [OK] Guardada noticia de CNN Español: El pueblo maorí de Nueva Zelandia tiene una nueva reina
+2025-11-07 08:33:21,686 [INFO] [OK] Guardada noticia de CNN Español: El pueblo maorí de Nueva Zelandia tiene una nueva reina
+2025-11-07 08:33:21,687 [INFO] [OK] Guardada noticia de CNN Español: Subastarán icónica camiseta que usó LeBron James
+2025-11-07 08:33:21,691 [INFO] [OK] Guardada noticia de CNN Español: Subastarán icónica camiseta que usó LeBron James
+2025-11-07 08:33:21,693 [INFO] [OK] Guardada noticia de CNN Español: Graves inundaciones en la India dejan casas y vehículos bajo el agua
+2025-11-07 08:33:21,696 [INFO] [OK] Guardada noticia de CNN Español: Graves inundaciones en la India dejan casas y vehículos bajo el agua
+2025-11-07 08:33:21,698 [INFO] [OK] Guardada noticia de CNN Español: La brutal masacre contra el pueblo rohinyá
+2025-11-07 08:33:21,703 [INFO] [OK] Guardada noticia de CNN Español: La brutal masacre contra el pueblo rohinyá
+2025-11-07 08:33:21,705 [INFO] [OK] Guardada noticia de CNN Español: Niño rompe accidentalmente jarrón de 3.500 años de antigüedad
+2025-11-07 08:33:21,708 [INFO] [OK] Guardada noticia de CNN Español: Niño rompe accidentalmente jarrón de 3.500 años de antigüedad
+2025-11-07 08:33:21,710 [INFO] [OK] Guardada noticia de CNN Español: Los 5 países en América Latina donde peor se habla inglés, según EF
+2025-11-07 08:33:21,714 [INFO] [OK] Guardada noticia de CNN Español: Los 5 países en América Latina donde peor se habla inglés, según EF
+2025-11-07 08:33:21,716 [INFO] [OK] Guardada noticia de CNN Español: OPINIÓN | Jorge Dávila Miguel|¿Puede escalar el conflicto entre Israel y Hamas?
+2025-11-07 08:33:21,720 [INFO] [OK] Guardada noticia de CNN Español: OPINIÓN | Jorge Dávila Miguel|¿Puede escalar el conflicto entre Israel y Hamas?
+2025-11-07 08:33:21,722 [INFO] [OK] Guardada noticia de CNN Español: Lego remplazará los combustibles fósiles para fabricar sus ladrillos
+2025-11-07 08:33:21,725 [INFO] [OK] Guardada noticia de CNN Español: Lego remplazará los combustibles fósiles para fabricar sus ladrillos
+2025-11-07 08:33:21,727 [INFO] [OK] Guardada noticia de CNN Español: Video muestra los daños al noroeste de Sudán tras colapso de una presa
+2025-11-07 08:33:21,731 [INFO] [OK] Guardada noticia de CNN Español: Video muestra los daños al noroeste de Sudán tras colapso de una presa
+2025-11-07 08:33:21,732 [INFO] [OK] Guardada noticia de CNN Español: Perros surfistas entrenan en las playas de California
+2025-11-07 08:33:21,736 [INFO] [OK] Guardada noticia de CNN Español: Perros surfistas entrenan en las playas de California
+2025-11-07 08:33:21,738 [INFO] [OK] Guardada noticia de CNN Español: Así es el campeonato mundial de snorkel en pantano de Gales
+2025-11-07 08:33:21,742 [INFO] [OK] Guardada noticia de CNN Español: Así es el campeonato mundial de snorkel en pantano de Gales
+2025-11-07 08:33:21,743 [INFO] [OK] Guardada noticia de CNN Español: Ataques separatistas en el suroeste de Pakistán dejan al menos 48 personas muert
+2025-11-07 08:33:21,747 [INFO] [OK] Guardada noticia de CNN Español: Ataques separatistas en el suroeste de Pakistán dejan al menos 48 personas muert
+2025-11-07 08:33:21,749 [INFO] [OK] Guardada noticia de CNN Español: Francia tiene todo listo para el comienzo de los Juegos Paralímpicos
+2025-11-07 08:33:21,752 [INFO] [OK] Guardada noticia de CNN Español: Francia tiene todo listo para el comienzo de los Juegos Paralímpicos
+2025-11-07 08:33:21,754 [INFO] [OK] Guardada noticia de CNN Español: India se prepara para celebrar el festival Ganesh Chaturthi
+2025-11-07 08:33:21,758 [INFO] [OK] Guardada noticia de CNN Español: India se prepara para celebrar el festival Ganesh Chaturthi
+2025-11-07 08:33:21,759 [INFO] [OK] Guardada noticia de CNN Español: Ucranianos huyen de una ciudad destrozada mientras los rusos se acercan
+2025-11-07 08:33:21,764 [INFO] [OK] Guardada noticia de CNN Español: Ucranianos huyen de una ciudad destrozada mientras los rusos se acercan
+2025-11-07 08:33:21,765 [INFO] [OK] Guardada noticia de CNN Español: Rusia investiga a periodista de CNN por reportar desde área de incursión ucrania
+2025-11-07 08:33:21,770 [INFO] [OK] Guardada noticia de CNN Español: Rusia investiga a periodista de CNN por reportar desde área de incursión ucrania
+2025-11-07 08:33:21,770 [INFO] [OK] Guardada noticia de CNN Español: Noticias del mundo: buques de China y Filipinas colisionan en zona de disputa
+2025-11-07 08:33:21,775 [INFO] [OK] Guardada noticia de CNN Español: Noticias del mundo: buques de China y Filipinas colisionan en zona de disputa
+2025-11-07 08:33:21,776 [INFO] [OK] Guardada noticia de CNN Español: La primera superluna azul del año fue vista desde el cielo de Sydney
+2025-11-07 08:33:21,780 [INFO] [OK] Guardada noticia de CNN Español: La primera superluna azul del año fue vista desde el cielo de Sydney
+2025-11-07 08:33:21,781 [INFO] [OK] Guardada noticia de CNN Español: Así rescatan a 19 personas y a un perro de un hotel atrapados por las inundacion
+2025-11-07 08:33:21,785 [INFO] [OK] Guardada noticia de CNN Español: Así rescatan a 19 personas y a un perro de un hotel atrapados por las inundacion
+2025-11-07 08:33:21,786 [INFO] [OK] Guardada noticia de CNN Español: El primer ministro de Japón anuncia que renunciará al cargo
+2025-11-07 08:33:21,792 [INFO] [OK] Guardada noticia de CNN Español: El primer ministro de Japón anuncia que renunciará al cargo
+2025-11-07 08:33:21,793 [INFO] [OK] Guardada noticia de CNN Español: Unos 300.000 médicos se declaran en huelga en la India para exigir protección pa
+2025-11-07 08:33:21,797 [INFO] [OK] Guardada noticia de CNN Español: Unos 300.000 médicos se declaran en huelga en la India para exigir protección pa
+2025-11-07 08:33:21,798 [INFO] [OK] Guardada noticia de CNN Español: Video muestra camiones militares que parecen contener cadáveres de personal mili
+2025-11-07 08:33:21,802 [INFO] [OK] Guardada noticia de CNN Español: Video muestra camiones militares que parecen contener cadáveres de personal mili
+2025-11-07 08:33:21,803 [INFO] [OK] Guardada noticia de CNN Español: Un video de vigilancia capta la gran explosión de un carguero
+2025-11-07 08:33:21,807 [INFO] [OK] Guardada noticia de CNN Español: Un video de vigilancia capta la gran explosión de un carguero
+2025-11-07 08:33:21,808 [INFO] [OK] Guardada noticia de CNN Español: Al menos 32 muertos tras atentado suicida contra un restaurante de playa en la c
+2025-11-07 08:33:21,813 [INFO] [OK] Guardada noticia de CNN Español: Al menos 32 muertos tras atentado suicida contra un restaurante de playa en la c
+2025-11-07 08:33:21,814 [INFO] [OK] Guardada noticia de CNN Español: Estos hijos de espías liberados hablan español y no sabían que son rusos, según 
+2025-11-07 08:33:21,818 [INFO] [OK] Guardada noticia de CNN Español: Estos hijos de espías liberados hablan español y no sabían que son rusos, según 
+2025-11-07 08:33:21,819 [INFO] [OK] Guardada noticia de CNN Español: Analista explica cómo la muerte del líder político de Hamas podría impactar las 
+2025-11-07 08:33:21,823 [INFO] [OK] Guardada noticia de CNN Español: Analista explica cómo la muerte del líder político de Hamas podría impactar las 
+2025-11-07 08:33:21,824 [INFO] [OK] Guardada noticia de CNN Español: Observa cómo un poderoso tifón “rebota” en Taiwán como si fuera un "pinball"
+2025-11-07 08:33:21,828 [INFO] [OK] Guardada noticia de CNN Español: Observa cómo un poderoso tifón “rebota” en Taiwán como si fuera un "pinball"
+2025-11-07 08:33:21,829 [INFO] [OK] Guardada noticia de CNN Español: Descubren en Brasil un fósil de dinosaurio de más de 200 millones de años
+2025-11-07 08:33:21,833 [INFO] [OK] Guardada noticia de CNN Español: Descubren en Brasil un fósil de dinosaurio de más de 200 millones de años
+2025-11-07 08:33:21,834 [INFO] [OK] Guardada noticia de CNN Español: Israel lanzó ataques aéreos a hutíes en Yemen
+2025-11-07 08:33:21,838 [INFO] [OK] Guardada noticia de CNN Español: Israel lanzó ataques aéreos a hutíes en Yemen
+2025-11-07 08:33:21,840 [INFO] [OK] Guardada noticia de CNN Español: Guardia Civil española encuentra cuerpo de Jay Slater
+2025-11-07 08:33:21,843 [INFO] [OK] Guardada noticia de CNN Español: Guardia Civil española encuentra cuerpo de Jay Slater
+2025-11-07 08:33:21,845 [INFO] [OK] Guardada noticia de CNN Español: Kate, princesa de Gales, recibe ovación en Wimbledon
+2025-11-07 08:33:21,848 [INFO] [OK] Guardada noticia de CNN Español: Kate, princesa de Gales, recibe ovación en Wimbledon
+2025-11-07 08:33:21,850 [INFO] [OK] Guardada noticia de CNN Español: Los mejores aeropuertos del mundo 2024, según AirHelp
+2025-11-07 08:33:21,854 [INFO] [OK] Guardada noticia de CNN Español: Los mejores aeropuertos del mundo 2024, según AirHelp
+2025-11-07 08:33:21,855 [INFO] [OK] Guardada noticia de CNN Español: ¿Qué cambios propone el nuevo proyecto de ley contra el maltrato animal en Argen
+2025-11-07 08:33:21,859 [INFO] [OK] Guardada noticia de CNN Español: ¿Qué cambios propone el nuevo proyecto de ley contra el maltrato animal en Argen
+2025-11-07 08:33:21,860 [INFO] [OK] Guardada noticia de CNN Español: Un video muestra el ataque mortal de Israel a desplazados de Gaza que veían un p
+2025-11-07 08:33:21,864 [INFO] [OK] Guardada noticia de CNN Español: Un video muestra el ataque mortal de Israel a desplazados de Gaza que veían un p
+2025-11-07 08:33:21,865 [INFO] [OK] Guardada noticia de CNN Español: "No se trata de origen", Le Pen defiende la controvertida política de "prioridad
+2025-11-07 08:33:21,869 [INFO] [OK] Guardada noticia de CNN Español: "No se trata de origen", Le Pen defiende la controvertida política de "prioridad
+2025-11-07 08:33:21,870 [INFO] [OK] Guardada noticia de CNN Español: Video muestra a pasajero de avión bajar del compartimento superior para equipaje
+2025-11-07 08:33:21,874 [INFO] [OK] Guardada noticia de CNN Español: Video muestra a pasajero de avión bajar del compartimento superior para equipaje
+2025-11-07 08:33:21,875 [INFO] [OK] Guardada noticia de CNN Español: Conoce a Carlo Acutis, el llamado Influencer de Dios
+2025-11-07 08:33:21,879 [INFO] [OK] Guardada noticia de CNN Español: Conoce a Carlo Acutis, el llamado Influencer de Dios
+2025-11-07 08:33:22,517 [INFO] [OK] Guardada noticia de CNN Español: Los eventos deportivos y atletas con el mayor número de búsquedas en Google en 2
+2025-11-07 08:33:22,519 [INFO] [OK] Guardada noticia de CNN Español: Los eventos deportivos y atletas con el mayor número de búsquedas en Google en 2
+2025-11-07 08:33:22,524 [INFO] [OK] Guardada noticia de CNN Español: Continúa la crisis del City mientras el Barcelona se mantiene cerca de la punta 
+2025-11-07 08:33:22,526 [INFO] [OK] Guardada noticia de CNN Español: Continúa la crisis del City mientras el Barcelona se mantiene cerca de la punta 
+2025-11-07 08:33:22,530 [INFO] [OK] Guardada noticia de CNN Español: ¿Qué necesita el Real Madrid para avanzar de forma directa a octavos de la Liga 
+2025-11-07 08:33:22,533 [INFO] [OK] Guardada noticia de CNN Español: ¿Qué necesita el Real Madrid para avanzar de forma directa a octavos de la Liga 
+2025-11-07 08:33:22,537 [INFO] [OK] Guardada noticia de CNN Español: Qué debe hacer el Real Madrid para pasar de ronda en la Champions
+2025-11-07 08:33:22,540 [INFO] [OK] Guardada noticia de CNN Español: Qué debe hacer el Real Madrid para pasar de ronda en la Champions
+2025-11-07 08:33:22,544 [INFO] [OK] Guardada noticia de CNN Español: Real Madrid logra una importante victoria sobre Atalanta en la Champions League
+2025-11-07 08:33:22,548 [INFO] [OK] Guardada noticia de CNN Español: Real Madrid logra una importante victoria sobre Atalanta en la Champions League
+2025-11-07 08:33:22,550 [INFO] [OK] Guardada noticia de CNN Español: Tras el contrato histórico de Juan Soto, así queda la lista de los mejores pagad
+2025-11-07 08:33:22,555 [INFO] [OK] Guardada noticia de CNN Español: Tras el contrato histórico de Juan Soto, así queda la lista de los mejores pagad
+2025-11-07 08:33:22,556 [INFO] [OK] Guardada noticia de CNN Español: Análisis: Los motivos que llevaron a Juan Soto a firmar con los Mets de Nueva Yo
+2025-11-07 08:33:22,562 [INFO] [OK] Guardada noticia de CNN Español: Análisis: Los motivos que llevaron a Juan Soto a firmar con los Mets de Nueva Yo
+2025-11-07 08:33:22,563 [INFO] [OK] Guardada noticia de CNN Español: El estado de salud de Michail Antonio tras sufrir aparatoso accidente vial
+2025-11-07 08:33:22,568 [INFO] [OK] Guardada noticia de CNN Español: El estado de salud de Michail Antonio tras sufrir aparatoso accidente vial
+2025-11-07 08:33:22,569 [INFO] [OK] Guardada noticia de CNN Español: Sedes de los juegos más atractivos del Mundial de Clubes 2025
+2025-11-07 08:33:22,576 [INFO] [OK] Guardada noticia de CNN Español: Sedes de los juegos más atractivos del Mundial de Clubes 2025
+2025-11-07 08:33:22,577 [INFO] [OK] Guardada noticia de CNN Español: Análisis: Los pros y contras del Mundial de Clubes 2025
+2025-11-07 08:33:22,584 [INFO] [OK] Guardada noticia de CNN Español: Análisis: Los pros y contras del Mundial de Clubes 2025
+2025-11-07 08:33:22,584 [INFO] [OK] Guardada noticia de CNN Español: ¿Neymar al Inter Miami? Esto dice Jorge Más sobre la posibilidad de que llegue e
+2025-11-07 08:33:22,591 [INFO] [OK] Guardada noticia de CNN Español: ¿Neymar al Inter Miami? Esto dice Jorge Más sobre la posibilidad de que llegue e
+2025-11-07 08:33:22,592 [INFO] [OK] Guardada noticia de CNN Español: Por estos números, Lionel Messi ganó el premio al Jugador Más Valioso de la MLS 
+2025-11-07 08:33:22,598 [INFO] [OK] Guardada noticia de CNN Español: Por estos números, Lionel Messi ganó el premio al Jugador Más Valioso de la MLS 
+2025-11-07 08:33:22,598 [INFO] [OK] Guardada noticia de CNN Español: Roaldo Nazario: "Me hubiese gustado jugar el Mundial con Real Madrid"
+2025-11-07 08:33:22,604 [INFO] [OK] Guardada noticia de CNN Español: Roaldo Nazario: "Me hubiese gustado jugar el Mundial con Real Madrid"
+2025-11-07 08:33:22,604 [INFO] [OK] Guardada noticia de CNN Español: Zanetti: Real Madrid y Manchester City son rivales duros para el Inter
+2025-11-07 08:33:22,610 [INFO] [OK] Guardada noticia de CNN Español: Zanetti: Real Madrid y Manchester City son rivales duros para el Inter
+2025-11-07 08:33:22,610 [INFO] [OK] Guardada noticia de CNN Español: Gloria y Emilio Estefan celebran la llegada del Mundial de Clubes a Miami
+2025-11-07 08:33:22,616 [INFO] [OK] Guardada noticia de CNN Español: Gloria y Emilio Estefan celebran la llegada del Mundial de Clubes a Miami
+2025-11-07 08:33:22,616 [INFO] [OK] Guardada noticia de CNN Español: Gran competencia de sumo regresa a Londres tras 34 años
+2025-11-07 08:33:22,623 [INFO] [OK] Guardada noticia de CNN Español: Gran competencia de sumo regresa a Londres tras 34 años
+A
+2025-11-07 08:33:22,629 [INFO] [OK] Guardada noticia de CNN Español: Cruz Azul logra la hazaña y avanza a semifinales para enfrentar al América
+2025-11-07 08:33:22,630 [INFO] [OK] Guardada noticia de CNN Español: Así son los bombos de la Copa Mundial de Clubes de la FIFA
+2025-11-07 08:33:22,635 [INFO] [OK] Guardada noticia de CNN Español: Premios The Best: la comparación entre Messi, nominado, y Cristiano Ronaldo, des
+2025-11-07 08:33:22,636 [INFO] [OK] Guardada noticia de CNN Español: Cruz Azul logra la hazaña y avanza a semifinales para enfrentar al América
+2025-11-07 08:33:22,642 [INFO] [OK] Guardada noticia de CNN Español: El América avanza a semifinales y sigue en busca del tricampeonato en México
+2025-11-07 08:33:22,643 [INFO] [OK] Guardada noticia de CNN Español: Premios The Best: la comparación entre Messi, nominado, y Cristiano Ronaldo, des
+2025-11-07 08:33:22,648 [INFO] [OK] Guardada noticia de CNN Español: Lou Carnesecca, entrenador del Salón de la Fama del Baloncesto que dirigió a St.
+2025-11-07 08:33:22,649 [INFO] [OK] Guardada noticia de CNN Español: El América avanza a semifinales y sigue en busca del tricampeonato en México
+2025-11-07 08:33:22,654 [INFO] [OK] Guardada noticia de CNN Español: Botafogo se coronó campeón de la Copa Libertadores 2024
+2025-11-07 08:33:22,655 [INFO] [OK] Guardada noticia de CNN Español: Lou Carnesecca, entrenador del Salón de la Fama del Baloncesto que dirigió a St.
+2025-11-07 08:33:22,661 [INFO] [OK] Guardada noticia de CNN Español: Los jugadores más valiosos de LaLiga en 2024, según Transfermarkt
+2025-11-07 08:33:22,662 [INFO] [OK] Guardada noticia de CNN Español: Botafogo se coronó campeón de la Copa Libertadores 2024
+2025-11-07 08:33:22,667 [INFO] [OK] Guardada noticia de CNN Español: Conor McGregor ya no será la imagen de la marca de whisky Proper No. Twelve tras
+2025-11-07 08:33:22,668 [INFO] [OK] Guardada noticia de CNN Español: Los jugadores más valiosos de LaLiga en 2024, según Transfermarkt
+2025-11-07 08:33:22,673 [INFO] [OK] Guardada noticia de CNN Español: Josep Guardiola explicó los arañazos en su rostro tras el empate del City
+2025-11-07 08:33:22,674 [INFO] [OK] Guardada noticia de CNN Español: Conor McGregor ya no será la imagen de la marca de whisky Proper No. Twelve tras
+2025-11-07 08:33:22,679 [INFO] [OK] Guardada noticia de CNN Español: Tras "años de silencio forzado", futbolistas españolas hablan abiertamente del i
+2025-11-07 08:33:22,680 [INFO] [OK] Guardada noticia de CNN Español: Josep Guardiola explicó los arañazos en su rostro tras el empate del City
+2025-11-07 08:33:22,685 [INFO] [OK] Guardada noticia de CNN Español: Conor McGregor apelará el veredicto civil por violación mientras crece el apoyo 
+2025-11-07 08:33:22,686 [INFO] [OK] Guardada noticia de CNN Español: Tras "años de silencio forzado", futbolistas españolas hablan abiertamente del i
+2025-11-07 08:33:22,692 [INFO] [OK] Guardada noticia de CNN Español: Inter Miami apuesta por Javier Mascherano para la próxima temporada de la MLS
+2025-11-07 08:33:22,693 [INFO] [OK] Guardada noticia de CNN Español: Conor McGregor apelará el veredicto civil por violación mientras crece el apoyo 
+2025-11-07 08:33:22,698 [INFO] [OK] Guardada noticia de CNN Español: Guardiola a sus jugadores: quiero compromiso, es la única manera que conozco
+2025-11-07 08:33:22,699 [INFO] [OK] Guardada noticia de CNN Español: Inter Miami apuesta por Javier Mascherano para la próxima temporada de la MLS
+2025-11-07 08:33:22,704 [INFO] [OK] Guardada noticia de CNN Español: ¿Es Javier Mascherano el técnico ideal para reemplazar a Gerardo Martino en el I
+2025-11-07 08:33:22,705 [INFO] [OK] Guardada noticia de CNN Español: Guardiola a sus jugadores: quiero compromiso, es la única manera que conozco
+2025-11-07 08:33:22,710 [INFO] [OK] Guardada noticia de CNN Español: Conor McGregor pagará indemnización por caso de abuso sexual
+2025-11-07 08:33:22,711 [INFO] [OK] Guardada noticia de CNN Español: ¿Es Javier Mascherano el técnico ideal para reemplazar a Gerardo Martino en el I
+2025-11-07 08:33:22,716 [INFO] [OK] Guardada noticia de CNN Español: Whoopi Goldberg lanza All Women’s Sports Network, un canal de televisión global 
+2025-11-07 08:33:22,718 [INFO] [OK] Guardada noticia de CNN Español: Conor McGregor pagará indemnización por caso de abuso sexual
+2025-11-07 08:33:22,722 [INFO] [OK] Guardada noticia de CNN Español: Gerardo "Tata" Martino dejará el Inter Miami, según una fuente del club
+2025-11-07 08:33:22,724 [INFO] [OK] Guardada noticia de CNN Español: Whoopi Goldberg lanza All Women’s Sports Network, un canal de televisión global 
+2025-11-07 08:33:22,728 [INFO] [OK] Guardada noticia de CNN Español: Los equipos más valiosos de la NBA en 2024, según Brand Finance
+2025-11-07 08:33:22,730 [INFO] [OK] Guardada noticia de CNN Español: Gerardo "Tata" Martino dejará el Inter Miami, según una fuente del club
+2025-11-07 08:33:22,733 [INFO] [OK] Guardada noticia de CNN Español: El baile de Donald Trump llega al mundo de los deportes
+2025-11-07 08:33:22,752 [INFO] [OK] Guardada noticia de CNN Español: Los equipos más valiosos de la NBA en 2024, según Brand Finance
+2025-11-07 08:33:22,754 [INFO] [OK] Guardada noticia de CNN Español: Harry Kane y las estatuas de figuras del deporte que no se parecen
+2025-11-07 08:33:22,758 [INFO] [OK] Guardada noticia de CNN Español: El baile de Donald Trump llega al mundo de los deportes
+2025-11-07 08:33:22,761 [INFO] [OK] Guardada noticia de CNN Español: El 'baile de Trump' arrasa en el mundo del deporte
+2025-11-07 08:33:22,764 [INFO] [OK] Guardada noticia de CNN Español: Harry Kane y las estatuas de figuras del deporte que no se parecen
+2025-11-07 08:33:22,767 [INFO] [OK] Guardada noticia de CNN Español: Concacaf sanciona a la selección de Honduras y anuncia investigación contra Javi
+2025-11-07 08:33:22,770 [INFO] [OK] Guardada noticia de CNN Español: El 'baile de Trump' arrasa en el mundo del deporte
+2025-11-07 08:33:22,773 [INFO] [OK] Guardada noticia de CNN Español: El piloto Jorge Martín, listo para hacer historia en la final de la temporada de
+2025-11-07 08:33:22,776 [INFO] [OK] Guardada noticia de CNN Español: Concacaf sanciona a la selección de Honduras y anuncia investigación contra Javi
+2025-11-07 08:33:22,779 [INFO] [OK] Guardada noticia de CNN Español: Cómo una mezcla tóxica de antisemitismo, racismo y xenofobia culminó en la viole
+2025-11-07 08:33:22,782 [INFO] [OK] Guardada noticia de CNN Español: El piloto Jorge Martín, listo para hacer historia en la final de la temporada de
+2025-11-07 08:33:22,784 [INFO] [OK] Guardada noticia de CNN Español: En Argentina creen que Paraguay será un rival duro
+2025-11-07 08:33:22,788 [INFO] [OK] Guardada noticia de CNN Español: Cómo una mezcla tóxica de antisemitismo, racismo y xenofobia culminó en la viole
+2025-11-07 08:33:22,790 [INFO] [OK] Guardada noticia de CNN Español: Kendry Páez y los consejos que recibió de parte de Moisés Caicedo y Piero Hincap
+2025-11-07 08:33:22,794 [INFO] [OK] Guardada noticia de CNN Español: En Argentina creen que Paraguay será un rival duro
+2025-11-07 08:33:22,796 [INFO] [OK] Guardada noticia de CNN Español: Eder Militao y Rodrygo serán bajas para Brasil en la fecha FIFA
+2025-11-07 08:33:22,800 [INFO] [OK] Guardada noticia de CNN Español: Kendry Páez y los consejos que recibió de parte de Moisés Caicedo y Piero Hincap
+2025-11-07 08:33:22,802 [INFO] [OK] Guardada noticia de CNN Español: Rachael "Raygun" Gunn se retira del "breaking" competitivo tras críticas en los 
+2025-11-07 08:33:22,806 [INFO] [OK] Guardada noticia de CNN Español: Eder Militao y Rodrygo serán bajas para Brasil en la fecha FIFA
+2025-11-07 08:33:22,808 [INFO] [OK] Guardada noticia de CNN Español: La bailarina de breakdance Raygun dejará de competir tras reacción negativa en l
+2025-11-07 08:33:22,812 [INFO] [OK] Guardada noticia de CNN Español: Rachael "Raygun" Gunn se retira del "breaking" competitivo tras críticas en los 
+2025-11-07 08:33:22,814 [INFO] [OK] Guardada noticia de CNN Español: Los Chiefs de Kansas City quieren extender su invicto a toda la temporada
+2025-11-07 08:33:22,818 [INFO] [OK] Guardada noticia de CNN Español: La bailarina de breakdance Raygun dejará de competir tras reacción negativa en l
+2025-11-07 08:33:22,819 [INFO] [OK] Guardada noticia de CNN Español: Ignacio Piatti revela el peligro por el que Inter Miami podría no ser campeón de
+2025-11-07 08:33:22,825 [INFO] [OK] Guardada noticia de CNN Español: Los Chiefs de Kansas City quieren extender su invicto a toda la temporada
+2025-11-07 08:33:22,825 [INFO] [OK] Guardada noticia de CNN Español: Sentido homenaje a las víctimas de la DANA en Valencia en partido de Champions L
+2025-11-07 08:33:22,831 [INFO] [OK] Guardada noticia de CNN Español: Ignacio Piatti revela el peligro por el que Inter Miami podría no ser campeón de
+2025-11-07 08:33:22,832 [INFO] [OK] Guardada noticia de CNN Español: Rommel Pacheco nos cuenta sus objetivos al frente de la CONADE en México
+2025-11-07 08:33:22,837 [INFO] [OK] Guardada noticia de CNN Español: Sentido homenaje a las víctimas de la DANA en Valencia en partido de Champions L
+2025-11-07 08:33:22,838 [INFO] [OK] Guardada noticia de CNN Español: LeBron James y Nick Bosa se pronuncian sobre las elecciones presidenciales de Es
+2025-11-07 08:33:22,843 [INFO] [OK] Guardada noticia de CNN Español: Rommel Pacheco nos cuenta sus objetivos al frente de la CONADE en México
+2025-11-07 08:33:22,844 [INFO] [OK] Guardada noticia de CNN Español: "No estoy orgulloso de ello": Jason Kelce se disculpa después de que un video lo
+2025-11-07 08:33:22,849 [INFO] [OK] Guardada noticia de CNN Español: LeBron James y Nick Bosa se pronuncian sobre las elecciones presidenciales de Es
+2025-11-07 08:33:22,850 [INFO] [OK] Guardada noticia de CNN Español: Cómo una mujer de 34 años de Indianápolis se convirtió en la primera campeona mu
+2025-11-07 08:33:22,855 [INFO] [OK] Guardada noticia de CNN Español: "No estoy orgulloso de ello": Jason Kelce se disculpa después de que un video lo
+2025-11-07 08:33:22,856 [INFO] [OK] Guardada noticia de CNN Español: Fluminense rescinde el contrato de Marcelo tras pelea con el entrenador
+2025-11-07 08:33:22,861 [INFO] [OK] Guardada noticia de CNN Español: Cómo una mujer de 34 años de Indianápolis se convirtió en la primera campeona mu
+2025-11-07 08:33:22,862 [INFO] [OK] Guardada noticia de CNN Español: Gerardo Martino niega la llegada de Neymar al Inter Miami para 2025
+2025-11-07 08:33:22,868 [INFO] [OK] Guardada noticia de CNN Español: Fluminense rescinde el contrato de Marcelo tras pelea con el entrenador
+2025-11-07 08:33:22,868 [INFO] [OK] Guardada noticia de CNN Español: La convocatoria de Brasil para las eliminatorias mundialistas de noviembre
+2025-11-07 08:33:22,874 [INFO] [OK] Guardada noticia de CNN Español: Gerardo Martino niega la llegada de Neymar al Inter Miami para 2025
+2025-11-07 08:33:22,875 [INFO] [OK] Guardada noticia de CNN Español: LeBron James respalda a Kamala Harris en la carrera presidencial contra Trump
+2025-11-07 08:33:22,880 [INFO] [OK] Guardada noticia de CNN Español: La convocatoria de Brasil para las eliminatorias mundialistas de noviembre
+2025-11-07 08:33:22,880 [INFO] [OK] Guardada noticia de CNN Español: Euforia y festejos: seguidores de los Dodgers celebran en Los Ángeles su octava 
+2025-11-07 08:33:22,886 [INFO] [OK] Guardada noticia de CNN Español: LeBron James respalda a Kamala Harris en la carrera presidencial contra Trump
+2025-11-07 08:33:22,887 [INFO] [OK] Guardada noticia de CNN Español: Mira la eufórica celebración de los Dodgers de Los Ángeles tras ganar su octava 
+2025-11-07 08:33:22,892 [INFO] [OK] Guardada noticia de CNN Español: Euforia y festejos: seguidores de los Dodgers celebran en Los Ángeles su octava 
+2025-11-07 08:33:22,893 [INFO] [OK] Guardada noticia de CNN Español: Dos fans de los Yankees fueron expulsados, luego de intentar evitar un out por p
+2025-11-07 08:33:22,897 [INFO] [OK] Guardada noticia de CNN Español: Mira la eufórica celebración de los Dodgers de Los Ángeles tras ganar su octava 
+2025-11-07 08:33:22,898 [INFO] [OK] Guardada noticia de CNN Español: Fiesta en Los Ángeles: Los Dodgers logran su octavo título de Serie Mundial
+2025-11-07 08:33:22,903 [INFO] [OK] Guardada noticia de CNN Español: Dos fans de los Yankees fueron expulsados, luego de intentar evitar un out por p
+2025-11-07 08:33:22,904 [INFO] [OK] Guardada noticia de CNN Español: Así han sido los ocho títulos de Serie Mundial de los Dodgers de Los Ángeles
+2025-11-07 08:33:22,909 [INFO] [OK] Guardada noticia de CNN Español: Fiesta en Los Ángeles: Los Dodgers logran su octavo título de Serie Mundial
+2025-11-07 08:33:22,910 [INFO] [OK] Guardada noticia de CNN Español: María Fernanda Timms y su rol en el desarrollo del patinaje de velocidad
+2025-11-07 08:33:22,916 [INFO] [OK] Guardada noticia de CNN Español: Así han sido los ocho títulos de Serie Mundial de los Dodgers de Los Ángeles
+2025-11-07 08:33:22,917 [INFO] [OK] Guardada noticia de CNN Español: La nueva estatua de Dwyane Wade generó polémica; estas son otras seis estatuas d
+2025-11-07 08:33:22,924 [INFO] [OK] Guardada noticia de CNN Español: María Fernanda Timms y su rol en el desarrollo del patinaje de velocidad
+2025-11-07 08:33:22,925 [INFO] [OK] Guardada noticia de CNN Español: Vinicius Jr., favorito para llevarse el Balón de Oro de este año
+2025-11-07 08:33:22,931 [INFO] [OK] Guardada noticia de CNN Español: La nueva estatua de Dwyane Wade generó polémica; estas son otras seis estatuas d
+2025-11-07 08:33:22,932 [INFO] [OK] Guardada noticia de CNN Español: Así fue la victoria de los Dodgers sobre los Yankees para aumentar su ventaja en
+2025-11-07 08:33:22,937 [INFO] [OK] Guardada noticia de CNN Español: Vinicius Jr., favorito para llevarse el Balón de Oro de este año
+2025-11-07 08:33:22,938 [INFO] [OK] Guardada noticia de CNN Español: La estrella de los Dodgers Shohei Ohtani sufre una lesión en hombro izquierdo du
+2025-11-07 08:33:22,943 [INFO] [OK] Guardada noticia de CNN Español: Así fue la victoria de los Dodgers sobre los Yankees para aumentar su ventaja en
+2025-11-07 08:33:22,944 [INFO] [OK] Guardada noticia de CNN Español: Los Dodgers toman ventaja de 2 a 0 sobre los Yankees en la Serie Mundial
+2025-11-07 08:33:22,949 [INFO] [OK] Guardada noticia de CNN Español: La estrella de los Dodgers Shohei Ohtani sufre una lesión en hombro izquierdo du
+2025-11-07 08:33:22,950 [INFO] [OK] Guardada noticia de CNN Español: Barcelona superó ampliamente al Real Madrid y lo goleó en el Bernabéu
+2025-11-07 08:33:22,955 [INFO] [OK] Guardada noticia de CNN Español: Los Dodgers toman ventaja de 2 a 0 sobre los Yankees en la Serie Mundial
+2025-11-07 08:33:22,956 [INFO] [OK] Guardada noticia de CNN Español: Aficionados disfrutaron de la victoria de los Dodgers en la Serie Mundial
+2025-11-07 08:33:22,961 [INFO] [OK] Guardada noticia de CNN Español: Barcelona superó ampliamente al Real Madrid y lo goleó en el Bernabéu
+2025-11-07 08:33:22,962 [INFO] [OK] Guardada noticia de CNN Español: Fiesta, automóviles y mucho calor en el Gran Premio de México
+2025-11-07 08:33:22,968 [INFO] [OK] Guardada noticia de CNN Español: Aficionados disfrutaron de la victoria de los Dodgers en la Serie Mundial
+2025-11-07 08:33:22,968 [INFO] [OK] Guardada noticia de CNN Español: Fernando Valenzuela estuvo presente para los aficionados de Dodgers y Yankees
+2025-11-07 08:33:22,974 [INFO] [OK] Guardada noticia de CNN Español: Fiesta, automóviles y mucho calor en el Gran Premio de México
+2025-11-07 08:33:22,974 [INFO] [OK] Guardada noticia de CNN Español: Real Madrid vs. Barcelona: un clásico de pronóstico reservado este sábado
+2025-11-07 08:33:22,980 [INFO] [OK] Guardada noticia de CNN Español: Fernando Valenzuela estuvo presente para los aficionados de Dodgers y Yankees
+2025-11-07 08:33:22,981 [INFO] [OK] Guardada noticia de CNN Español: “Checo” Pérez aún mantiene a los fanáticos ilusionados por una victoria en el Gr
+2025-11-07 08:33:22,986 [INFO] [OK] Guardada noticia de CNN Español: Real Madrid vs. Barcelona: un clásico de pronóstico reservado este sábado
+2025-11-07 08:33:22,988 [INFO] [OK] Guardada noticia de CNN Español: Sergio “Checo” Pérez: Todavía tengo dos años más de contrato y seguiré
+2025-11-07 08:33:22,992 [INFO] [OK] Guardada noticia de CNN Español: “Checo” Pérez aún mantiene a los fanáticos ilusionados por una victoria en el Gr
+2025-11-07 08:33:22,993 [INFO] [OK] Guardada noticia de CNN Español: Los Dodgers homenajean a Fernando Valenzuela con un parche en la Serie Mundial
+2025-11-07 08:33:22,997 [INFO] [OK] Guardada noticia de CNN Español: Sergio “Checo” Pérez: Todavía tengo dos años más de contrato y seguiré
+2025-11-07 08:33:22,999 [INFO] [OK] Guardada noticia de CNN Español: Campos: Fernando Valenzuela fue increíble dentro y fuera del terreno
+2025-11-07 08:33:23,004 [INFO] [OK] Guardada noticia de CNN Español: Los Dodgers homenajean a Fernando Valenzuela con un parche en la Serie Mundial
+2025-11-07 08:33:23,005 [INFO] [OK] Guardada noticia de CNN Español: Barcelona goleó al Bayern Munich y quedó listo para jugar El Clásico este fin de
+2025-11-07 08:33:23,010 [INFO] [OK] Guardada noticia de CNN Español: Campos: Fernando Valenzuela fue increíble dentro y fuera del terreno
+2025-11-07 08:33:23,011 [INFO] [OK] Guardada noticia de CNN Español: Fernando Valenzuela desató la "Fernandomanía": el zurdo que descubrió la "virali
+2025-11-07 08:33:23,016 [INFO] [OK] Guardada noticia de CNN Español: Barcelona goleó al Bayern Munich y quedó listo para jugar El Clásico este fin de
+2025-11-07 08:33:23,016 [INFO] [OK] Guardada noticia de CNN Español: Así fue como el lanzador mexicano Fernando Valenzuela forjó su leyenda en el béi
+2025-11-07 08:33:23,022 [INFO] [OK] Guardada noticia de CNN Español: Fernando Valenzuela desató la "Fernandomanía": el zurdo que descubrió la "virali
+2025-11-07 08:33:23,022 [INFO] [OK] Guardada noticia de CNN Español: Sergio "Checo" Pérez: Todos nos sentimos orgullos del legado de Fernando Valenzu
+2025-11-07 08:33:23,028 [INFO] [OK] Guardada noticia de CNN Español: Así fue como el lanzador mexicano Fernando Valenzuela forjó su leyenda en el béi
+2025-11-07 08:33:23,029 [INFO] [OK] Guardada noticia de CNN Español: Remontada del Real Madrid ante el Borussia Dortmund en la Champions League
+2025-11-07 08:33:23,034 [INFO] [OK] Guardada noticia de CNN Español: Sergio "Checo" Pérez: Todos nos sentimos orgullos del legado de Fernando Valenzu
+2025-11-07 08:33:23,035 [INFO] [OK] Guardada noticia de CNN Español: El exfutbolista Diego Forlán debutará en el tenis profesional
+2025-11-07 08:33:23,040 [INFO] [OK] Guardada noticia de CNN Español: Remontada del Real Madrid ante el Borussia Dortmund en la Champions League
+2025-11-07 08:33:23,041 [INFO] [OK] Guardada noticia de CNN Español: Dodgers vs. Yankees: el duelo histórico de la Serie Mundial vuelve tras 43 años
+2025-11-07 08:33:23,046 [INFO] [OK] Guardada noticia de CNN Español: El exfutbolista Diego Forlán debutará en el tenis profesional
+2025-11-07 08:33:23,047 [INFO] [OK] Guardada noticia de CNN Español: La recuperación de Irene Aldana tras sufrir la peor herida en la historia de UFC
+2025-11-07 08:33:23,052 [INFO] [OK] Guardada noticia de CNN Español: Dodgers vs. Yankees: el duelo histórico de la Serie Mundial vuelve tras 43 años
+2025-11-07 08:33:23,053 [INFO] [OK] Guardada noticia de CNN Español: Tua Tagovailoa volverá a jugar en la NFL pese a historial de conmociones
+2025-11-07 08:33:23,058 [INFO] [OK] Guardada noticia de CNN Español: La recuperación de Irene Aldana tras sufrir la peor herida en la historia de UFC
+2025-11-07 08:33:23,059 [INFO] [OK] Guardada noticia de CNN Español: Sergio “Checo” Pérez niega los rumores sobre su retiro de la Fórmula 1
+2025-11-07 08:33:23,064 [INFO] [OK] Guardada noticia de CNN Español: Tua Tagovailoa volverá a jugar en la NFL pese a historial de conmociones
+2025-11-07 08:33:23,066 [INFO] [OK] Guardada noticia de CNN Español: Dos atletas mueren en el Campeonato Mundial de Triatlón en España
+2025-11-07 08:33:23,071 [INFO] [OK] Guardada noticia de CNN Español: Sergio “Checo” Pérez niega los rumores sobre su retiro de la Fórmula 1
+2025-11-07 08:33:23,072 [INFO] [OK] Guardada noticia de CNN Español: México cortó su mala racha ante Estados Unidos y se llevó la victoria en Guadala
+2025-11-07 08:33:23,078 [INFO] [OK] Guardada noticia de CNN Español: Dos atletas mueren en el Campeonato Mundial de Triatlón en España
+2025-11-07 08:33:23,079 [INFO] [OK] Guardada noticia de CNN Español: Expulsan de una competición al gran maestro de ajedrez Kirill Shevchenko por pre
+2025-11-07 08:33:23,085 [INFO] [OK] Guardada noticia de CNN Español: México cortó su mala racha ante Estados Unidos y se llevó la victoria en Guadala
+2025-11-07 08:33:23,085 [INFO] [OK] Guardada noticia de CNN Español: El pedido de Lula da Silva contra los futbolistas brasileños que juegan en Europ
+2025-11-07 08:33:23,090 [INFO] [OK] Guardada noticia de CNN Español: Carlos Mendoza: el manager que llevó a los Mets a la Serie de Campeonato en la N
+2025-11-07 08:33:23,091 [INFO] [OK] Guardada noticia de CNN Español: Expulsan de una competición al gran maestro de ajedrez Kirill Shevchenko por pre
+2025-11-07 08:33:23,096 [INFO] [OK] Guardada noticia de CNN Español: Lo que dejó la fecha 9 de las eliminatorias mundialistas de la Conmebol
+2025-11-07 08:33:23,097 [INFO] [OK] Guardada noticia de CNN Español: El pedido de Lula da Silva contra los futbolistas brasileños que juegan en Europ
+2025-11-07 08:33:23,102 [INFO] [OK] Guardada noticia de CNN Español: La última vez que Bolivia ganó 3 partidos seguidos de eliminatorias mundialistas
+2025-11-07 08:33:23,103 [INFO] [OK] Guardada noticia de CNN Español: Carlos Mendoza: el manager que llevó a los Mets a la Serie de Campeonato en la N
+2025-11-07 08:33:23,108 [INFO] [OK] Guardada noticia de CNN Español: 5 grandes logros de Rafael Nadal en el tenis profesional
+2025-11-07 08:33:23,109 [INFO] [OK] Guardada noticia de CNN Español: Lo que dejó la fecha 9 de las eliminatorias mundialistas de la Conmebol
+2025-11-07 08:33:23,114 [INFO] [OK] Guardada noticia de CNN Español: Este dispositivo ayuda a las personas ciegas a “vivir” los deportes cuando van a
+2025-11-07 08:33:23,115 [INFO] [OK] Guardada noticia de CNN Español: La última vez que Bolivia ganó 3 partidos seguidos de eliminatorias mundialistas
+2025-11-07 08:33:23,119 [INFO] [OK] Guardada noticia de CNN Español: Seis finales memorables en la carrera de Rafael Nadal
+2025-11-07 08:33:23,120 [INFO] [OK] Guardada noticia de CNN Español: 5 grandes logros de Rafael Nadal en el tenis profesional
+2025-11-07 08:33:23,124 [INFO] [OK] Guardada noticia de CNN Español: Los Mets de Nueva York regresan a la Serie de Campeonato de la Liga Nacional
+2025-11-07 08:33:23,125 [INFO] [OK] Guardada noticia de CNN Español: Este dispositivo ayuda a las personas ciegas a “vivir” los deportes cuando van a
+2025-11-07 08:33:23,129 [INFO] [OK] Guardada noticia de CNN Español: Este es el historial de Lionel Messi contra Venezuela en todas las competencias
+2025-11-07 08:33:23,130 [INFO] [OK] Guardada noticia de CNN Español: Seis finales memorables en la carrera de Rafael Nadal
+2025-11-07 08:33:23,134 [INFO] [OK] Guardada noticia de CNN Español: Milton no detuvo el viaje de Argentina para las eliminatorias sudamericanas
+2025-11-07 08:33:23,135 [INFO] [OK] Guardada noticia de CNN Español: Los Mets de Nueva York regresan a la Serie de Campeonato de la Liga Nacional
+2025-11-07 08:33:23,139 [INFO] [OK] Guardada noticia de CNN Español: Análisis: El legado de Luis Tiant en las Grandes Ligas
+2025-11-07 08:33:23,140 [INFO] [OK] Guardada noticia de CNN Español: Este es el historial de Lionel Messi contra Venezuela en todas las competencias
+2025-11-07 08:33:23,144 [INFO] [OK] Guardada noticia de CNN Español: Milton no detuvo el viaje de Argentina para las eliminatorias sudamericanas
+2025-11-07 08:33:23,149 [INFO] [OK] Guardada noticia de CNN Español: Análisis: El legado de Luis Tiant en las Grandes Ligas
+2025-11-07 08:33:23,990 [INFO] [OK] Guardada noticia de CNN Español: ¿Quién no tiene que declarar impuestos en EE.UU. y cuál es el límite de ingresos
+2025-11-07 08:33:23,995 [INFO] [OK] Guardada noticia de CNN Español: Cómo presentar tu declaración de impuestos en EE.UU. en 2025: link, formularios,
+2025-11-07 08:33:24,000 [INFO] [OK] Guardada noticia de CNN Español: Aumento del salario mínimo en México para 2025: ¿qué cantidad será y cuándo entr
+2025-11-07 08:33:24,006 [INFO] [OK] Guardada noticia de CNN Español: La falta de inversiones y la baja productividad en la economía de América Latina
+2025-11-07 08:33:24,009 [INFO] [OK] Guardada noticia de CNN Español: ¿Quién no tiene que declarar impuestos en EE.UU. y cuál es el límite de ingresos
+2025-11-07 08:33:24,011 [INFO] [OK] Guardada noticia de CNN Español: ¿Cuáles son los principales desafíos económicos de América Latina, según el últi
+2025-11-07 08:33:24,015 [INFO] [OK] Guardada noticia de CNN Español: Cómo presentar tu declaración de impuestos en EE.UU. en 2025: link, formularios,
+2025-11-07 08:33:24,017 [INFO] [OK] Guardada noticia de CNN Español: Mercosur y Unión Europea sellan acuerdo de libre comercio
+2025-11-07 08:33:24,020 [INFO] [OK] Guardada noticia de CNN Español: Aumento del salario mínimo en México para 2025: ¿qué cantidad será y cuándo entr
+2025-11-07 08:33:24,022 [INFO] [OK] Guardada noticia de CNN Español: La volatilidad, un riesgo para las criptomonedas
+2025-11-07 08:33:24,025 [INFO] [OK] Guardada noticia de CNN Español: La falta de inversiones y la baja productividad en la economía de América Latina
+2025-11-07 08:33:24,028 [INFO] [OK] Guardada noticia de CNN Español: Cyber Monday, el mayor día de compras en línea en la historia de Estados Unidos
+2025-11-07 08:33:24,031 [INFO] [OK] Guardada noticia de CNN Español: ¿Cuáles son los principales desafíos económicos de América Latina, según el últi
+2025-11-07 08:33:24,034 [INFO] [OK] Guardada noticia de CNN Español: En Argentina es posible ser millonario y pobre a la vez. Aquí la razón
+2025-11-07 08:33:24,036 [INFO] [OK] Guardada noticia de CNN Español: Mercosur y Unión Europea sellan acuerdo de libre comercio
+2025-11-07 08:33:24,039 [INFO] [OK] Guardada noticia de CNN Español: Renuncia el CEO de Intel, Pat Gelsinger, tras un mandato desastroso
+2025-11-07 08:33:24,042 [INFO] [OK] Guardada noticia de CNN Español: La volatilidad, un riesgo para las criptomonedas
+2025-11-07 08:33:24,044 [INFO] [OK] Guardada noticia de CNN Español: Esta es la situación de las principales economías del mundo, según experta
+2025-11-07 08:33:24,047 [INFO] [OK] Guardada noticia de CNN Español: Cyber Monday, el mayor día de compras en línea en la historia de Estados Unidos
+2025-11-07 08:33:24,050 [INFO] [OK] Guardada noticia de CNN Español: Alternativas para una cena de Acción de Gracias asequible
+2025-11-07 08:33:24,054 [INFO] [OK] Guardada noticia de CNN Español: En Argentina es posible ser millonario y pobre a la vez. Aquí la razón
+2025-11-07 08:33:24,056 [INFO] [OK] Guardada noticia de CNN Español: ANÁLISIS | La Constitución de EE.UU. no contempla que los presidentes impongan a
+2025-11-07 08:33:24,061 [INFO] [OK] Guardada noticia de CNN Español: Renuncia el CEO de Intel, Pat Gelsinger, tras un mandato desastroso
+2025-11-07 08:33:24,063 [INFO] [OK] Guardada noticia de CNN Español: "Una economía resiliente y normalizada" es lo que vive hoy Estados Unidos tras l
+2025-11-07 08:33:24,066 [INFO] [OK] Guardada noticia de CNN Español: Esta es la situación de las principales economías del mundo, según experta
+2025-11-07 08:33:24,069 [INFO] [OK] Guardada noticia de CNN Español: ¿Qué productos y servicios podrían ser más caros si Trump impone aranceles a Méx
+2025-11-07 08:33:24,072 [INFO] [OK] Guardada noticia de CNN Español: Alternativas para una cena de Acción de Gracias asequible
+2025-11-07 08:33:24,074 [INFO] [OK] Guardada noticia de CNN Español: Caen las acciones de General Motors, Ford y otras automotrices tras las amenazas
+2025-11-07 08:33:24,077 [INFO] [OK] Guardada noticia de CNN Español: ANÁLISIS | La Constitución de EE.UU. no contempla que los presidentes impongan a
+2025-11-07 08:33:24,079 [INFO] [OK] Guardada noticia de CNN Español: Walmart da marcha atrás en los programas DEI de diversidad, equidad e inclusión 
+2025-11-07 08:33:24,083 [INFO] [OK] Guardada noticia de CNN Español: "Una economía resiliente y normalizada" es lo que vive hoy Estados Unidos tras l
+2025-11-07 08:33:24,085 [INFO] [OK] Guardada noticia de CNN Español: Macy's descubrió que un solo empleado ocultó gastos por valor de hasta US$ 154 m
+2025-11-07 08:33:24,089 [INFO] [OK] Guardada noticia de CNN Español: ¿Qué productos y servicios podrían ser más caros si Trump impone aranceles a Méx
+2025-11-07 08:33:24,091 [INFO] [OK] Guardada noticia de CNN Español: "Es un tiempo de muchos retos", dice el nobel de economía, James Robinson
+2025-11-07 08:33:24,096 [INFO] [OK] Guardada noticia de CNN Español: Caen las acciones de General Motors, Ford y otras automotrices tras las amenazas
+2025-11-07 08:33:24,098 [INFO] [OK] Guardada noticia de CNN Español: "Las políticas de Trump no tienen nada que ver con lo que hoy se vive", dice nob
+2025-11-07 08:33:24,102 [INFO] [OK] Guardada noticia de CNN Español: Walmart da marcha atrás en los programas DEI de diversidad, equidad e inclusión 
+2025-11-07 08:33:24,104 [INFO] [OK] Guardada noticia de CNN Español: ¿Qué impacto tendrá el plan inmigratorio de Trump en el envío de remesas a Améri
+2025-11-07 08:33:24,107 [INFO] [OK] Guardada noticia de CNN Español: Macy's descubrió que un solo empleado ocultó gastos por valor de hasta US$ 154 m
+2025-11-07 08:33:24,110 [INFO] [OK] Guardada noticia de CNN Español: Elon Musk es más rico que nunca. Ahora su fortuna es de casi US$ 350.000 millone
+2025-11-07 08:33:24,112 [INFO] [OK] Guardada noticia de CNN Español: "Es un tiempo de muchos retos", dice el nobel de economía, James Robinson
+2025-11-07 08:33:24,115 [INFO] [OK] Guardada noticia de CNN Español: ¿Es seguro reservar un boleto aéreo con Spirit Airlines?
+2025-11-07 08:33:24,118 [INFO] [OK] Guardada noticia de CNN Español: "Las políticas de Trump no tienen nada que ver con lo que hoy se vive", dice nob
+2025-11-07 08:33:24,122 [INFO] [OK] Guardada noticia de CNN Español: "No veo ninguna razón para que haya menos volatilidad", dice nobel de Economía s
+2025-11-07 08:33:24,124 [INFO] [OK] Guardada noticia de CNN Español: ¿Qué impacto tendrá el plan inmigratorio de Trump en el envío de remesas a Améri
+2025-11-07 08:33:24,127 [INFO] [OK] Guardada noticia de CNN Español: "Las criptomonedas están muy lejos de ser una inversión segura", dice nobel de E
+2025-11-07 08:33:24,131 [INFO] [OK] Guardada noticia de CNN Español: Elon Musk es más rico que nunca. Ahora su fortuna es de casi US$ 350.000 millone
+2025-11-07 08:33:24,133 [INFO] [OK] Guardada noticia de CNN Español: Aranceles, impuestos, intereses... ¿Cuál será la política económica que podría a
+2025-11-07 08:33:24,138 [INFO] [OK] Guardada noticia de CNN Español: ¿Es seguro reservar un boleto aéreo con Spirit Airlines?
+2025-11-07 08:33:24,139 [INFO] [OK] Guardada noticia de CNN Español: ANÁLISIS | ¿Cuál será la realidad económica que heredará Donald Trump cuando asu
+2025-11-07 08:33:24,144 [INFO] [OK] Guardada noticia de CNN Español: "No veo ninguna razón para que haya menos volatilidad", dice nobel de Economía s
+2025-11-07 08:33:24,145 [INFO] [OK] Guardada noticia de CNN Español: ¿Serán menos volátiles las criptomonedas durante el Gobierno de Trump?
+2025-11-07 08:33:24,151 [INFO] [OK] Guardada noticia de CNN Español: "Las criptomonedas están muy lejos de ser una inversión segura", dice nobel de E
+2025-11-07 08:33:24,151 [INFO] [OK] Guardada noticia de CNN Español: Premio Nobel de Economía: No es suficiente distribuir lo que existe, se necesita
+2025-11-07 08:33:24,158 [INFO] [OK] Guardada noticia de CNN Español: Target advierte sobre una temporada navideña baja en ventas
+2025-11-07 08:33:24,159 [INFO] [OK] Guardada noticia de CNN Español: Aranceles, impuestos, intereses... ¿Cuál será la política económica que podría a
+2025-11-07 08:33:24,164 [INFO] [OK] Guardada noticia de CNN Español: ¿Quién es Elon Musk? Así es el dueño de SpaceX, Tesla y X que se ha erigido como
+2025-11-07 08:33:24,165 [INFO] [OK] Guardada noticia de CNN Español: ANÁLISIS | ¿Cuál será la realidad económica que heredará Donald Trump cuando asu
+2025-11-07 08:33:24,170 [INFO] [OK] Guardada noticia de CNN Español: Los “bitcoiners” aportaron millones a la campaña de Trump. Así es como podría de
+2025-11-07 08:33:24,171 [INFO] [OK] Guardada noticia de CNN Español: ¿Serán menos volátiles las criptomonedas durante el Gobierno de Trump?
+2025-11-07 08:33:24,176 [INFO] [OK] Guardada noticia de CNN Español: En América Latina hay desafíos, pero también grandes oportunidades, afirma organ
+2025-11-07 08:33:24,178 [INFO] [OK] Guardada noticia de CNN Español: Premio Nobel de Economía: No es suficiente distribuir lo que existe, se necesita
+2025-11-07 08:33:24,182 [INFO] [OK] Guardada noticia de CNN Español: Se espera que Trump elija a Howard Lutnick como secretario de Comercio
+2025-11-07 08:33:24,185 [INFO] [OK] Guardada noticia de CNN Español: Target advierte sobre una temporada navideña baja en ventas
+2025-11-07 08:33:24,189 [INFO] [OK] Guardada noticia de CNN Español: Deportaciones masivas causarían aumento de precios de alimentos
+2025-11-07 08:33:24,192 [INFO] [OK] Guardada noticia de CNN Español: ¿Quién es Elon Musk? Así es el dueño de SpaceX, Tesla y X que se ha erigido como
+2025-11-07 08:33:24,195 [INFO] [OK] Guardada noticia de CNN Español: Claudia Sheinbaum propone en el G20 que los países destinen el 1% del gasto mili
+2025-11-07 08:33:24,198 [INFO] [OK] Guardada noticia de CNN Español: Los “bitcoiners” aportaron millones a la campaña de Trump. Así es como podría de
+2025-11-07 08:33:24,201 [INFO] [OK] Guardada noticia de CNN Español: ¿Qué es el G20, quiénes lo integran y qué objetivos tiene?
+2025-11-07 08:33:24,205 [INFO] [OK] Guardada noticia de CNN Español: En América Latina hay desafíos, pero también grandes oportunidades, afirma organ
+2025-11-07 08:33:24,207 [INFO] [OK] Guardada noticia de CNN Español: El papel fundamental de la legislación y las políticas públicas en la economía c
+2025-11-07 08:33:24,215 [INFO] [OK] Guardada noticia de CNN Español: Se espera que Trump elija a Howard Lutnick como secretario de Comercio
+2025-11-07 08:33:24,217 [INFO] [OK] Guardada noticia de CNN Español: ¿Cuál será la importancia del nuevo puerto de Chancay, Perú?
+2025-11-07 08:33:24,222 [INFO] [OK] Guardada noticia de CNN Español: Deportaciones masivas causarían aumento de precios de alimentos
+2025-11-07 08:33:24,224 [INFO] [OK] Guardada noticia de CNN Español: Los altos precios de los alimentos hicieron que muchos estadounidenses votaran p
+2025-11-07 08:33:24,228 [INFO] [OK] Guardada noticia de CNN Español: Claudia Sheinbaum propone en el G20 que los países destinen el 1% del gasto mili
+2025-11-07 08:33:24,230 [INFO] [OK] Guardada noticia de CNN Español: La inflación se disparó en octubre después de desacelerarse durante seis meses c
+2025-11-07 08:33:24,235 [INFO] [OK] Guardada noticia de CNN Español: ¿Qué es el G20, quiénes lo integran y qué objetivos tiene?
+2025-11-07 08:33:24,236 [INFO] [OK] Guardada noticia de CNN Español: Larry Summer advierte sobre el riesgo de una inflación prolongada en EE.UU.
+2025-11-07 08:33:24,242 [INFO] [OK] Guardada noticia de CNN Español: El papel fundamental de la legislación y las políticas públicas en la economía c
+2025-11-07 08:33:24,243 [INFO] [OK] Guardada noticia de CNN Español: ANÁLISIS | Cómo la peor decisión empresarial que tomó Elon Musk lo acercó a Dona
+2025-11-07 08:33:24,248 [INFO] [OK] Guardada noticia de CNN Español: ¿Cuál será la importancia del nuevo puerto de Chancay, Perú?
+2025-11-07 08:33:24,249 [INFO] [OK] Guardada noticia de CNN Español: La inflación en EE.UU. aumenta en octubre tras seis meses consecutivos de desace
+2025-11-07 08:33:24,255 [INFO] [OK] Guardada noticia de CNN Español: Elon Musk quiere remodelar radicalmente quién controla el suministro de dinero d
+2025-11-07 08:33:24,255 [INFO] [OK] Guardada noticia de CNN Español: Los altos precios de los alimentos hicieron que muchos estadounidenses votaran p
+2025-11-07 08:33:24,261 [INFO] [OK] Guardada noticia de CNN Español: Cuatro formas en que los planes de deportación masiva de Trump podrían perjudica
+2025-11-07 08:33:24,261 [INFO] [OK] Guardada noticia de CNN Español: La inflación se disparó en octubre después de desacelerarse durante seis meses c
+2025-11-07 08:33:24,267 [INFO] [OK] Guardada noticia de CNN Español: Una “crisis financiera” en la sombra le ha costado al mundo US$ 2 billones
+2025-11-07 08:33:24,268 [INFO] [OK] Guardada noticia de CNN Español: Larry Summer advierte sobre el riesgo de una inflación prolongada en EE.UU.
+2025-11-07 08:33:24,273 [INFO] [OK] Guardada noticia de CNN Español: Qué estará abierto y cerrado el Día de los Veteranos de 2024
+2025-11-07 08:33:24,274 [INFO] [OK] Guardada noticia de CNN Español: ANÁLISIS | Cómo la peor decisión empresarial que tomó Elon Musk lo acercó a Dona
+2025-11-07 08:33:24,279 [INFO] [OK] Guardada noticia de CNN Español: Los estadounidenses tienen ansiedad y están haciendo compras compulsivas para al
+2025-11-07 08:33:24,280 [INFO] [OK] Guardada noticia de CNN Español: La inflación en EE.UU. aumenta en octubre tras seis meses consecutivos de desace
+2025-11-07 08:33:24,284 [INFO] [OK] Guardada noticia de CNN Español: ¿Qué impacto tendría en la economía el plan de deportaciones de Trump?
+2025-11-07 08:33:24,287 [INFO] [OK] Guardada noticia de CNN Español: Elon Musk quiere remodelar radicalmente quién controla el suministro de dinero d
+2025-11-07 08:33:24,294 [INFO] [OK] Guardada noticia de CNN Español: Cuatro formas en que los planes de deportación masiva de Trump podrían perjudica
+2025-11-07 08:33:24,295 [INFO] [OK] Guardada noticia de CNN Español: El recorte de tasas de la Reserva Federal es alivio limitado en medio de desafío
+2025-11-07 08:33:24,301 [INFO] [OK] Guardada noticia de CNN Español: Una “crisis financiera” en la sombra le ha costado al mundo US$ 2 billones
+2025-11-07 08:33:24,301 [INFO] [OK] Guardada noticia de CNN Español: ¿Cómo impacta en la economía mundial la victoria de Donald Trump?
+2025-11-07 08:33:24,307 [INFO] [OK] Guardada noticia de CNN Español: Qué estará abierto y cerrado el Día de los Veteranos de 2024
+2025-11-07 08:33:24,308 [INFO] [OK] Guardada noticia de CNN Español: ANÁLISIS | La Reserva Federal tal como la conocemos podría pronto ser transforma
+2025-11-07 08:33:24,314 [INFO] [OK] Guardada noticia de CNN Español: Los estadounidenses tienen ansiedad y están haciendo compras compulsivas para al
+2025-11-07 08:33:24,314 [INFO] [OK] Guardada noticia de CNN Español: ¿Por qué Walmart importa menos productos navideños?
+2025-11-07 08:33:24,320 [INFO] [OK] Guardada noticia de CNN Español: ¿Qué impacto tendría en la economía el plan de deportaciones de Trump?
+2025-11-07 08:33:24,321 [INFO] [OK] Guardada noticia de CNN Español: Las acciones estadounidenses suben mientras los inversionistas se preparan para 
+2025-11-07 08:33:24,327 [INFO] [OK] Guardada noticia de CNN Español: El recorte de tasas de la Reserva Federal es alivio limitado en medio de desafío
+2025-11-07 08:33:24,327 [INFO] [OK] Guardada noticia de CNN Español: Histórica indemnización de Ikea a presos que fabricaron sus muebles
+2025-11-07 08:33:24,334 [INFO] [OK] Guardada noticia de CNN Español: IRS incrementa límites de contribución y elegibilidad para el 2025
+2025-11-07 08:33:24,334 [INFO] [OK] Guardada noticia de CNN Español: ¿Cómo impacta en la economía mundial la victoria de Donald Trump?
+2025-11-07 08:33:24,341 [INFO] [OK] Guardada noticia de CNN Español: ANÁLISIS | La Reserva Federal tal como la conocemos podría pronto ser transforma
+2025-11-07 08:33:24,341 [INFO] [OK] Guardada noticia de CNN Español: ¿Por qué bajaría el crecimiento de la economía global?
+2025-11-07 08:33:24,348 [INFO] [OK] Guardada noticia de CNN Español: ¿Por qué Walmart importa menos productos navideños?
+2025-11-07 08:33:24,348 [INFO] [OK] Guardada noticia de CNN Español: ¿Cómo surgió la alianza de los BRICS y cuál es su importancia? Expertos nos lo e
+2025-11-07 08:33:24,355 [INFO] [OK] Guardada noticia de CNN Español: Las acciones estadounidenses suben mientras los inversionistas se preparan para 
+2025-11-07 08:33:24,355 [INFO] [OK] Guardada noticia de CNN Español: TGI Fridays se declara en bancarrota
+2025-11-07 08:33:24,360 [INFO] [OK] Guardada noticia de CNN Español: Histórica indemnización de Ikea a presos que fabricaron sus muebles
+2025-11-07 08:33:24,361 [INFO] [OK] Guardada noticia de CNN Español: El último reporte de empleo antes de las elecciones muestra que la economía de E
+2025-11-07 08:33:24,366 [INFO] [OK] Guardada noticia de CNN Español: IRS incrementa límites de contribución y elegibilidad para el 2025
+2025-11-07 08:33:24,367 [INFO] [OK] Guardada noticia de CNN Español: EE.UU.: ofertas de empleo caen a una semana de las elecciones
+2025-11-07 08:33:24,373 [INFO] [OK] Guardada noticia de CNN Español: ¿Por qué bajaría el crecimiento de la economía global?
+2025-11-07 08:33:24,373 [INFO] [OK] Guardada noticia de CNN Español: Ford ajusta proyección de ganancias para 2024 y caen sus acciones
+2025-11-07 08:33:24,379 [INFO] [OK] Guardada noticia de CNN Español: Las acciones de TMTG aumentan más del 200% en 5 semanas
+2025-11-07 08:33:24,380 [INFO] [OK] Guardada noticia de CNN Español: ¿Cómo surgió la alianza de los BRICS y cuál es su importancia? Expertos nos lo e
+2025-11-07 08:33:24,385 [INFO] [OK] Guardada noticia de CNN Español: 23 economistas ganadores del Premio Nobel califican el plan económico de Harris 
+2025-11-07 08:33:24,386 [INFO] [OK] Guardada noticia de CNN Español: TGI Fridays se declara en bancarrota
+2025-11-07 08:33:24,391 [INFO] [OK] Guardada noticia de CNN Español: Latam Airlines y sus nuevos horizontes, tras superar la crisis
+2025-11-07 08:33:24,392 [INFO] [OK] Guardada noticia de CNN Español: El último reporte de empleo antes de las elecciones muestra que la economía de E
+2025-11-07 08:33:24,397 [INFO] [OK] Guardada noticia de CNN Español: ¿Es la inmigración un problema para la economía de Estados Unidos?
+2025-11-07 08:33:24,399 [INFO] [OK] Guardada noticia de CNN Español: EE.UU.: ofertas de empleo caen a una semana de las elecciones
+2025-11-07 08:33:24,402 [INFO] [OK] Guardada noticia de CNN Español: Anuncian un acuerdo tentativo que podría poner fin a la huelga de Boeing
+2025-11-07 08:33:24,405 [INFO] [OK] Guardada noticia de CNN Español: Ford ajusta proyección de ganancias para 2024 y caen sus acciones
+2025-11-07 08:33:24,408 [INFO] [OK] Guardada noticia de CNN Español: Meta despide a docenas de empleados por uso indebido de vales de comida
+2025-11-07 08:33:24,411 [INFO] [OK] Guardada noticia de CNN Español: Las acciones de TMTG aumentan más del 200% en 5 semanas
+2025-11-07 08:33:24,414 [INFO] [OK] Guardada noticia de CNN Español: Es un momento difícil para que los jóvenes estadounidenses encuentren trabajo. E
+2025-11-07 08:33:24,417 [INFO] [OK] Guardada noticia de CNN Español: 23 economistas ganadores del Premio Nobel califican el plan económico de Harris 
+2025-11-07 08:33:24,419 [INFO] [OK] Guardada noticia de CNN Español: Las autoridades federales descubrieron fraudes por valor de US$ 1.000 millones e
+2025-11-07 08:33:24,423 [INFO] [OK] Guardada noticia de CNN Español: Latam Airlines y sus nuevos horizontes, tras superar la crisis
+2025-11-07 08:33:24,426 [INFO] [OK] Guardada noticia de CNN Español: ¿Por qué son tan distintas ciudades como Nogales en México y Estados Unidos?
+2025-11-07 08:33:24,429 [INFO] [OK] Guardada noticia de CNN Español: ¿Es la inmigración un problema para la economía de Estados Unidos?
+2025-11-07 08:33:24,431 [INFO] [OK] Guardada noticia de CNN Español: Trump Media & Technology Group muestra importante repunte en la bolsa, ¿por qué?
+2025-11-07 08:33:24,436 [INFO] [OK] Guardada noticia de CNN Español: Anuncian un acuerdo tentativo que podría poner fin a la huelga de Boeing
+2025-11-07 08:33:24,438 [INFO] [OK] Guardada noticia de CNN Español: "La economía de EE.UU. se encuentra en niveles consistentes”, dice experto
+2025-11-07 08:33:24,443 [INFO] [OK] Guardada noticia de CNN Español: Meta despide a docenas de empleados por uso indebido de vales de comida
+2025-11-07 08:33:24,444 [INFO] [OK] Guardada noticia de CNN Español: Otorgan Premio Nobel de Economía 2024 a un trío por su trabajo sobre las diferen
+2025-11-07 08:33:24,449 [INFO] [OK] Guardada noticia de CNN Español: Es un momento difícil para que los jóvenes estadounidenses encuentren trabajo. E
+2025-11-07 08:33:24,450 [INFO] [OK] Guardada noticia de CNN Español: Un robot asistente y un taxi autónomo: así son los nuevos lanzamientos de Tesla 
+2025-11-07 08:33:24,455 [INFO] [OK] Guardada noticia de CNN Español: Las autoridades federales descubrieron fraudes por valor de US$ 1.000 millones e
+2025-11-07 08:33:24,456 [INFO] [OK] Guardada noticia de CNN Español: Las oportunidades para las economías de las Américas, según experto
+2025-11-07 08:33:24,461 [INFO] [OK] Guardada noticia de CNN Español: ¿Por qué son tan distintas ciudades como Nogales en México y Estados Unidos?
+2025-11-07 08:33:24,462 [INFO] [OK] Guardada noticia de CNN Español: América Latina, ¿ante una nueva oportunidad para el desarrollo económico?
+2025-11-07 08:33:24,469 [INFO] [OK] Guardada noticia de CNN Español: Trump Media & Technology Group muestra importante repunte en la bolsa, ¿por qué?
+2025-11-07 08:33:24,469 [INFO] [OK] Guardada noticia de CNN Español: Los adultos mayores en EE.UU. recibirán solo un pequeño aumento en los beneficio
+2025-11-07 08:33:24,475 [INFO] [OK] Guardada noticia de CNN Español: "La economía de EE.UU. se encuentra en niveles consistentes”, dice experto
+2025-11-07 08:33:24,475 [INFO] [OK] Guardada noticia de CNN Español: China presenta nuevo avión de pasajeros para competir contra gigantes de la indu
+2025-11-07 08:33:24,481 [INFO] [OK] Guardada noticia de CNN Español: Otorgan Premio Nobel de Economía 2024 a un trío por su trabajo sobre las diferen
+2025-11-07 08:33:24,481 [INFO] [OK] Guardada noticia de CNN Español: América Latina tiene reservas de minerales críticos y alimentos para tener una e
+2025-11-07 08:33:24,487 [INFO] [OK] Guardada noticia de CNN Español: Un robot asistente y un taxi autónomo: así son los nuevos lanzamientos de Tesla 
+2025-11-07 08:33:24,488 [INFO] [OK] Guardada noticia de CNN Español: “Este podría ser el siglo latinoamericano”, dice experto sobre la economía
+2025-11-07 08:33:24,493 [INFO] [OK] Guardada noticia de CNN Español: Las oportunidades para las economías de las Américas, según experto
+2025-11-07 08:33:24,494 [INFO] [OK] Guardada noticia de CNN Español: CVS Health despedirá a 2.900 empleados para reducir gastos
+2025-11-07 08:33:24,499 [INFO] [OK] Guardada noticia de CNN Español: Por qué hay una huelga en los puertos en EE.UU., qué piden los trabajadores y có
+2025-11-07 08:33:24,501 [INFO] [OK] Guardada noticia de CNN Español: América Latina, ¿ante una nueva oportunidad para el desarrollo económico?
+2025-11-07 08:33:24,505 [INFO] [OK] Guardada noticia de CNN Español: Mark Zuckerberg accede al club exclusivo de los US$ 200.000 millones
+2025-11-07 08:33:24,507 [INFO] [OK] Guardada noticia de CNN Español: Los adultos mayores en EE.UU. recibirán solo un pequeño aumento en los beneficio
+2025-11-07 08:33:24,511 [INFO] [OK] Guardada noticia de CNN Español: La emergencia económica que Trump y Harris están ignorando: la deuda federal de 
+2025-11-07 08:33:24,513 [INFO] [OK] Guardada noticia de CNN Español: China presenta nuevo avión de pasajeros para competir contra gigantes de la indu
+2025-11-07 08:33:24,517 [INFO] [OK] Guardada noticia de CNN Español: El Departamento de Justicia de EE.UU. acusa a Visa de ser un monopolio ilegal qu
+2025-11-07 08:33:24,519 [INFO] [OK] Guardada noticia de CNN Español: América Latina tiene reservas de minerales críticos y alimentos para tener una e
+2025-11-07 08:33:24,523 [INFO] [OK] Guardada noticia de CNN Español: TikTok elimina cuentas vinculadas a medios rusos por intentos de ejercer "influe
+2025-11-07 08:33:24,526 [INFO] [OK] Guardada noticia de CNN Español: “Este podría ser el siglo latinoamericano”, dice experto sobre la economía
+2025-11-07 08:33:24,532 [INFO] [OK] Guardada noticia de CNN Español: Las tasas hipotecarias caen a su nivel más bajo desde principios de febrero de 2
+2025-11-07 08:33:24,534 [INFO] [OK] Guardada noticia de CNN Español: CVS Health despedirá a 2.900 empleados para reducir gastos
+2025-11-07 08:33:24,538 [INFO] [OK] Guardada noticia de CNN Español: Cómo sacar provecho del recorte en las tasas de interés de la Fed
+2025-11-07 08:33:24,541 [INFO] [OK] Guardada noticia de CNN Español: Por qué hay una huelga en los puertos en EE.UU., qué piden los trabajadores y có
+2025-11-07 08:33:24,544 [INFO] [OK] Guardada noticia de CNN Español: La Fed bajó la tasa de interés, ¿sigue sin ser el mejor momento para comprar una
+2025-11-07 08:33:24,548 [INFO] [OK] Guardada noticia de CNN Español: Mark Zuckerberg accede al club exclusivo de los US$ 200.000 millones
+2025-11-07 08:33:24,550 [INFO] [OK] Guardada noticia de CNN Español: El tan esperado recorte de tasas de la Fed choca con la política presidencial
+2025-11-07 08:33:24,554 [INFO] [OK] Guardada noticia de CNN Español: La emergencia económica que Trump y Harris están ignorando: la deuda federal de 
+2025-11-07 08:33:24,556 [INFO] [OK] Guardada noticia de CNN Español: Reserva Federal de EE.UU. anuncia recorte drástico de las tasas de interés
+2025-11-07 08:33:24,559 [INFO] [OK] Guardada noticia de CNN Español: El Departamento de Justicia de EE.UU. acusa a Visa de ser un monopolio ilegal qu
+2025-11-07 08:33:24,561 [INFO] [OK] Guardada noticia de CNN Español: Sam’s Club aumentará el salario mínimo a US$ 16 la hora
+2025-11-07 08:33:24,566 [INFO] [OK] Guardada noticia de CNN Español: TikTok elimina cuentas vinculadas a medios rusos por intentos de ejercer "influe
+2025-11-07 08:33:24,567 [INFO] [OK] Guardada noticia de CNN Español: Amazon pide a sus empleados regresar a la presencialidad 5 días a la semana
+2025-11-07 08:33:24,573 [INFO] [OK] Guardada noticia de CNN Español: Las tasas hipotecarias caen a su nivel más bajo desde principios de febrero de 2
+2025-11-07 08:33:24,573 [INFO] [OK] Guardada noticia de CNN Español: Gobierno de Perú busca contener la crisis de Petroperú
+2025-11-07 08:33:24,579 [INFO] [OK] Guardada noticia de CNN Español: Estados Unidos registra su inflación más baja desde febrero de 2021, abriendo la
+2025-11-07 08:33:24,580 [INFO] [OK] Guardada noticia de CNN Español: Cómo sacar provecho del recorte en las tasas de interés de la Fed
+2025-11-07 08:33:24,585 [INFO] [OK] Guardada noticia de CNN Español: El Banco Central de Argentina confirma que envió oro al exterior, pero no especi
+2025-11-07 08:33:24,586 [INFO] [OK] Guardada noticia de CNN Español: La Fed bajó la tasa de interés, ¿sigue sin ser el mejor momento para comprar una
+2025-11-07 08:33:24,591 [INFO] [OK] Guardada noticia de CNN Español: Baltimore se suma a la huelga de trabajadores hoteleros en EE.UU.
+2025-11-07 08:33:24,593 [INFO] [OK] Guardada noticia de CNN Español: El tan esperado recorte de tasas de la Fed choca con la política presidencial
+2025-11-07 08:33:24,597 [INFO] [OK] Guardada noticia de CNN Español: ¿Cómo se encuentran las principales economías?
+2025-11-07 08:33:24,599 [INFO] [OK] Guardada noticia de CNN Español: Reserva Federal de EE.UU. anuncia recorte drástico de las tasas de interés
+2025-11-07 08:33:24,605 [INFO] [OK] Guardada noticia de CNN Español: Sam’s Club aumentará el salario mínimo a US$ 16 la hora
+2025-11-07 08:33:24,611 [INFO] [OK] Guardada noticia de CNN Español: Amazon pide a sus empleados regresar a la presencialidad 5 días a la semana
+2025-11-07 08:33:24,616 [INFO] [OK] Guardada noticia de CNN Español: Gobierno de Perú busca contener la crisis de Petroperú
+2025-11-07 08:33:24,621 [INFO] [OK] Guardada noticia de CNN Español: Estados Unidos registra su inflación más baja desde febrero de 2021, abriendo la
+2025-11-07 08:33:24,626 [INFO] [OK] Guardada noticia de CNN Español: El Banco Central de Argentina confirma que envió oro al exterior, pero no especi
+2025-11-07 08:33:24,631 [INFO] [OK] Guardada noticia de CNN Español: Baltimore se suma a la huelga de trabajadores hoteleros en EE.UU.
+2025-11-07 08:33:24,637 [INFO] [OK] Guardada noticia de CNN Español: ¿Cómo se encuentran las principales economías?
+2025-11-07 08:33:29,722 [INFO] [FACEBOOK] Iniciando extracción de publicaciones...
+2025-11-07 08:33:29,730 [INFO] ====== WebDriver manager ======
+2025-11-07 08:33:29,816 [INFO] [FACEBOOK] Iniciando extracción de publicaciones...
+2025-11-07 08:33:29,822 [INFO] ====== WebDriver manager ======
+2025-11-07 08:33:31,616 [INFO] Get LATEST chromedriver version for google-chrome
+2025-11-07 08:33:31,628 [INFO] Get LATEST chromedriver version for google-chrome
+2025-11-07 08:33:32,809 [INFO] Get LATEST chromedriver version for google-chrome
+2025-11-07 08:33:32,817 [INFO] Get LATEST chromedriver version for google-chrome
+2025-11-07 08:33:33,819 [INFO] Get LATEST chromedriver version for google-chrome
+2025-11-07 08:33:33,825 [INFO] Get LATEST chromedriver version for google-chrome
+2025-11-07 08:33:36,959 [INFO] WebDriver version 142.0.7444.61 selected
+2025-11-07 08:33:36,968 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/142.0.7444.61/win32/chromedriver-win32.zip
+2025-11-07 08:33:36,968 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/142.0.7444.61/win32/chromedriver-win32.zip
+2025-11-07 08:33:37,613 [INFO] WebDriver version 142.0.7444.61 selected
+2025-11-07 08:33:37,624 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/142.0.7444.61/win32/chromedriver-win32.zip
+2025-11-07 08:33:37,624 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/142.0.7444.61/win32/chromedriver-win32.zip
+2025-11-07 08:33:39,001 [INFO] Driver downloading response is 200
+2025-11-07 08:33:39,080 [INFO] Driver downloading response is 200
+2025-11-07 08:33:47,809 [INFO] Get LATEST chromedriver version for google-chrome
+2025-11-07 08:33:49,650 [INFO] Get LATEST chromedriver version for google-chrome
+2025-11-07 08:33:50,241 [INFO] Driver has been saved in cache [C:\Users\hola\.wdm\drivers\chromedriver\win64\142.0.7444.61]
+2025-11-07 08:33:51,662 [INFO] Driver has been saved in cache [C:\Users\hola\.wdm\drivers\chromedriver\win64\142.0.7444.61]
+2025-11-07 08:34:12,726 [INFO] [FACEBOOK] RPP Noticias: 4 publicaciones detectadas.
+2025-11-07 08:34:12,756 [INFO] [OK] Guardada noticia de Facebook: RPP Noticias Verified account 3m · Shared with Public PNP desarticula dos bandas
+2025-11-07 08:34:12,762 [INFO] [OK] Guardada noticia de Facebook: Mery de la Rosa Que agan bien su trabajo él poder judicial  ellos hacen mal trab
+2025-11-07 08:34:13,163 [INFO] [FACEBOOK] RPP Noticias: 4 publicaciones detectadas.
+2025-11-07 08:34:13,171 [INFO] [OK] Guardada noticia de Facebook: RPP Noticias Verified account 3m · Shared with Public PNP desarticula dos bandas
+2025-11-07 08:34:13,178 [INFO] [OK] Guardada noticia de Facebook: Mery de la Rosa Que agan bien su trabajo él poder judicial  ellos hacen mal trab
+2025-11-07 08:34:30,804 [INFO] [FACEBOOK] América Televisión: 3 publicaciones detectadas.
+2025-11-07 08:34:30,815 [INFO] [FACEBOOK] América Televisión: 3 publicaciones detectadas.
+2025-11-07 08:34:30,816 [INFO] [OK] Guardada noticia de Facebook: América Televisión Verified account 2m · Shared with Public [AVANCE] ¡NOOO! Alma
+2025-11-07 08:34:30,830 [INFO] [OK] Guardada noticia de Facebook: América Televisión Verified account 2m · Shared with Public [AVANCE] ¡NOOO! Alma
+2025-11-07 08:34:47,586 [INFO] [FACEBOOK] La República: 4 publicaciones detectadas.
+2025-11-07 08:34:47,600 [INFO] [OK] Guardada noticia de Facebook: La República Verified account 10m · Shared with Public La República Sur Verified
+2025-11-07 08:34:47,600 [INFO] [FACEBOOK] La República: 4 publicaciones detectadas.
+2025-11-07 08:34:47,610 [INFO] [OK] Guardada noticia de Facebook: Juan José Un gran profesional, futuro presidente, del Perú 1m 2...
+2025-11-07 08:34:47,614 [INFO] [OK] Guardada noticia de Facebook: La República Verified account 10m · Shared with Public La República Sur Verified
+2025-11-07 08:34:47,623 [INFO] [OK] Guardada noticia de Facebook: Juan José Un gran profesional, futuro presidente, del Perú 1m 2...
+2025-11-07 08:34:49,873 [INFO] \u2705 Total guardadas: 5
+2025-11-07 08:34:49,874 [INFO] [FACEBOOK] Extracción completada correctamente.
+2025-11-07 08:34:49,874 [INFO] \u2705 Scraping finalizado. 7/7 fuentes procesadas, 0 errores.
+2025-11-07 08:34:49,874 [INFO] === FIN DE SCRAPING ===
+
+2025-11-07 08:34:49,905 [INFO] \u2705 Total guardadas: 5
+2025-11-07 08:34:49,906 [INFO] [FACEBOOK] Extracción completada correctamente.
+2025-11-07 08:34:49,906 [INFO] \u2705 Scraping finalizado. 7/7 fuentes procesadas, 0 errores.
+2025-11-07 08:34:49,906 [INFO] === FIN DE SCRAPING ===
+
+2025-11-07 09:12:26,521 [INFO] 127.0.0.1 - - [07/Nov/2025 09:12:26] "GET / HTTP/1.1" 200 -
+2025-11-07 09:12:27,443 [INFO] 127.0.0.1 - - [07/Nov/2025 09:12:27] "GET /api/facebook?limit=5 HTTP/1.1" 200 -
+2025-11-07 09:12:34,550 [INFO] 127.0.0.1 - - [07/Nov/2025 09:12:34] "GET /api/noticias?fuente=&categoria=Espectáculos&page=1&per_page=10 HTTP/1.1" 200 -
+2025-11-07 09:12:35,915 [INFO] 127.0.0.1 - - [07/Nov/2025 09:12:35] "GET /api/noticias?fuente=&categoria=Actualidad&page=1&per_page=10 HTTP/1.1" 200 -
+2025-11-07 09:12:37,103 [INFO] 127.0.0.1 - - [07/Nov/2025 09:12:37] "GET /api/noticias?fuente=&categoria=Deportes&page=1&per_page=10 HTTP/1.1" 200 -
+2025-11-07 09:12:48,732 [INFO] 127.0.0.1 - - [07/Nov/2025 09:12:48] "GET /api/noticias?fuente=&categoria=Deportes&page=1&per_page=10 HTTP/1.1" 200 -
+2025-11-07 09:12:49,742 [INFO] 127.0.0.1 - - [07/Nov/2025 09:12:49] "GET /api/noticias?fuente=&categoria=Últimas%20Noticias&page=1&per_page=10 HTTP/1.1" 200 -
+2025-11-07 09:12:51,147 [INFO] 127.0.0.1 - - [07/Nov/2025 09:12:51] "GET /api/noticias?fuente=Andina&categoria=Últimas%20Noticias&page=1&per_page=10 HTTP/1.1" 200 -
+2025-11-07 09:12:52,534 [INFO] 127.0.0.1 - - [07/Nov/2025 09:12:52] "GET /api/noticias?fuente=America%20TV&categoria=Últimas%20Noticias&page=1&per_page=10 HTTP/1.1" 200 -
+2025-11-07 09:12:54,763 [INFO] 127.0.0.1 - - [07/Nov/2025 09:12:54] "GET /api/noticias?fuente=America%20TV&categoria=Actualidad&page=1&per_page=10 HTTP/1.1" 200 -
+2025-11-07 09:12:55,923 [INFO] 127.0.0.1 - - [07/Nov/2025 09:12:55] "GET /api/noticias?fuente=America%20TV&categoria=&page=1&per_page=10 HTTP/1.1" 200 -
+2025-11-07 09:13:22,343 [INFO] 127.0.0.1 - - [07/Nov/2025 09:13:22] "GET /exportar_csv HTTP/1.1" 200 -
+2025-11-07 09:35:26,532 [INFO]  * Detected change in 'D:\\2025-2\\Mineria de Datos\\PortalNoticias\\metricas-y-\\metricas_portal.py', reloading
+2025-11-07 09:35:27,652 [INFO]  * Restarting with stat
+2025-11-07 09:35:31,694 [INFO] \u2705 Pool de conexiones MySQL inicializado correctamente.
+2025-11-07 09:35:33,814 [WARNING]  * Debugger is active!
+2025-11-07 09:35:33,822 [INFO]  * Debugger PIN: 609-565-685

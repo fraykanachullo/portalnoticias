@@ -1,15 +1,38 @@
-CREATE DATABASE portal_noticias;
-
+-- 1️⃣ Crear la base de datos
+DROP DATABASE IF EXISTS portal_noticias;
+CREATE DATABASE portal_noticias CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 USE portal_noticias;
 
+-- 2️⃣ Crear tabla de fuentes
+CREATE TABLE fuentes (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL UNIQUE,
+    url VARCHAR(255) DEFAULT NULL,
+    fecha_registro DATETIME DEFAULT CURRENT_TIMESTAMP
+) ENGINE=InnoDB;
+
+-- Insertar fuentes iniciales
+INSERT INTO fuentes (nombre, url) VALUES
+('RPP', 'https://rpp.pe'),
+('America TV', 'https://www.americatv.com.pe');
+
+-- 3️⃣ Crear tabla de noticias
 CREATE TABLE noticias (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    titulo VARCHAR(255),
+    fuente_id INT NOT NULL,
+    titulo VARCHAR(255) NOT NULL,
+    categoria VARCHAR(100) NOT NULL,
     subtitulo VARCHAR(255),
     descripcion TEXT,
-    categoria VARCHAR(100),
-    fuente VARCHAR(50),
-    url_noticia VARCHAR(500),
+    url_noticia VARCHAR(500) NOT NULL UNIQUE,
     url_imagen VARCHAR(500),
-    fecha TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
+    fecha_publicacion DATETIME DEFAULT NULL,
+    fecha_registro DATETIME DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (fuente_id) REFERENCES fuentes(id)
+        ON DELETE CASCADE
+        ON UPDATE CASCADE
+) ENGINE=InnoDB;
+
+-- 🔹 Índices útiles
+CREATE INDEX idx_categoria ON noticias(categoria);
+CREATE INDEX idx_fecha ON noticias(fecha_registro DESC);

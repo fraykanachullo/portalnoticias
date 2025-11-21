@@ -1,0 +1,28 @@
+{% extends "user/user_layout.html" %}
+
+{% block title %}Configuración - Noticias 2025{% endblock %}
+
+{% block content %}
+<h2 class="fw-bold mb-4">
+    <i class="fa-solid fa-gear"></i> Configuración
+</h2>
+
+<div class="row">
+    <div class="col-md-6 mb-4">
+        <div class="card shadow-sm p-3">
+            <h5><i class="fa-solid fa-key"></i> Cambiar Contraseña</h5>
+            <form method="POST">
+                <div class="mb-3">
+                    <label for="password" class="form-label">Nueva Contraseña</label>
+                    <input type="password" class="form-control" id="password" name="password" required>
+                </div>
+                <div class="mb-3">
+                    <label for="confirm_password" class="form-label">Confirmar Contraseña</label>
+                    <input type="password" class="form-control" id="confirm_password" name="confirm_password" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}
