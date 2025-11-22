@@ -1,39 +1,24 @@
-{% extends "user/user_layout.html" %}
+from flask import Blueprint, render_template, redirect, session
+from backend.services.dashboard_service import (
+    obtener_estadisticas_generales,
+    obtener_ultimas_noticias,
+    obtener_sentimiento_general,
+)
 
-{% block title %}Dashboard - Noticias 2025{% endblock %}
+dashboard_bp = Blueprint("dashboard", __name__)
 
-{% block content %}
-<h2 class="fw-bold mb-4">
-    <i class="fa-solid fa-chart-line"></i> Panel de Usuario
-</h2>
+@dashboard_bp.route("/dashboard")
+def dashboard():
+    if "user_id" not in session:
+        return redirect("/auth/login")
 
-<div class="row">
-    <!-- Card de Noticias Totales -->
-    <div class="col-md-4 mb-4">
-        <div class="card shadow-sm p-3">
-            <h5><i class="fa-solid fa-newspaper text-danger"></i> Noticias Totales</h5>
-            <p id="stat-noticias">{{ stats.total_noticias }}</p>
-        </div>
-    </div>
+    stats = obtener_estadisticas_generales()
+    ultimas_noticias = obtener_ultimas_noticias(10)
+    sentimiento = obtener_sentimiento_general()
 
-    <!-- Card de Análisis de Sentimiento -->
-    <div class="col-md-4 mb-4">
-        <div class="card shadow-sm p-3">
-            <h5><i class="fa-solid fa-heart text-success"></i> Análisis de Sentimiento</h5>
-            <p id="stat-sentimiento">{{ 'Positivo' if sentimiento['positivos'] > sentimiento['negativos'] else 'Negativo' }}</p>
-        </div>
-    </div>
-
-    <!-- Card de Últimas Noticias -->
-    <div class="col-md-4 mb-4">
-        <div class="card shadow-sm p-3">
-            <h5><i class="fa-solid fa-newspaper"></i> Últimas Noticias</h5>
-            <ul>
-                {% for noticia in ultimas_noticias %}
-                    <li><a href="{{ noticia.url_noticia }}" target="_blank">{{ noticia.titulo }}</a></li>
-                {% endfor %}
-            </ul>
-        </div>
-    </div>
-</div>
-{% endblock %}
+    return render_template(
+        "user/dashboard.html",
+        stats=stats,
+        ultimas_noticias=ultimas_noticias,
+        sentimiento=sentimiento
+    )
